@@ -107,10 +107,6 @@
             </div>
             <div class="offcanvas__links">
               <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">contact</a></li>
-                <li><a href="career.html">Career</a></li>
-                <li><a href="blog.html">blog</a></li>
               </ul>
             </div>
           </div>
@@ -132,38 +128,40 @@
                           </li>
                         </ul>
                       </li>
-                      <li><a href="service-2.html">Applications</a>
+                      <li><a href="#">Applications</a>
                         <ul class="sub-dropdown">
-                          <li><a href="service-dark.html">Application Development</a></li>
-                          <li><a href="service-dark.html">ERP Application Management Services</a></li>
-                          <li><a href="service-dark.html">Application Management</a></li>
-                          <li><a href="service-dark.html">Application QA & Validation</a></li>
-                          <li><a href="service-dark.html">Devops Advisory</a></li>
+                          <li><a href="{{ route('application-development') }}">Application Development</a></li>
+                          <li><a href="{{ route('erp-application-development-services') }}">ERP Application Management Services</a></li>
+                          <li><a href="{{ route('application-management') }}">Application Management</a></li>
+                          <li><a href="{{ route('application-QA-&-validation') }}">Application QA & Validation</a></li>
+                          <li><a href="{{ route('devops-advisory') }}">Devops Advisory</a></li>
                         </ul>
                       </li>
-                      <li><a href="service-3.html">Staffing Solutions</a>
+                      <li><a href="#">Staffing Solutions</a>
                         <ul class="sub-dropdown">
-                          <li><a href="service-dark.html">Contigent Staffing</a></li>
-                          <li><a href="service-dark.html">MSP Partnerships</a></li>
-                          <li><a href="service-dark.html">Short term engagement</a></li>
-                          <li><a href="service-dark.html">Compliance</a></li>
+                          <li><a href="{{ route('contingent-staffing') }}">Contigent Staffing</a></li>
+                          <li><a href="{{ route('msp-parternship') }}">MSP Partnerships</a></li>
+                          <li><a href="{{ route('short-term-engagement') }}">Short term engagement</a></li>
+                          <li><a href="{{ route('talent-kloud') }}">Talent.Kloud</a></li>
+                          <li><a href="{{ route('compliance') }}">Compliance</a></li>
                         </ul>
                       </li>
-                      <li><a href="service-4.html">Platform & Infrastructure</a>
+                      <li><a href="#">Platform & Infrastructure</a>
                         <ul class="sub-dropdown">
-                          <li><a href="service-dark.html">IT & Infra Management</a></li>
-                          <li><a href="service-dark.html">Data Center Enablement</a></li>
-                          <li><a href="service-dark.html">Short term engagement</a></li>
-                          <li><a href="service-dark.html">Robotic Process Automation</a></li>
+                          <li><a href="{{ route('it-&-infra-management') }}">IT & Infra Management</a></li>
+                          <li><a href="{{ route('data-center-enablement') }}">Data Center Enablement</a></li>
+                          <li><a href="{{ route('robotic-process-automation') }}">Robotic Process Automation</a></li>
                         </ul>
                       </li>
-                      <li><a href="service-5.html">Information Management</a>
+                      <li><a href="#">Information Management</a>
                         <ul class="sub-dropdown">
-                          <li><a href="service-dark.html">Business Intelligence & Analytics Services</a></li>
-                          <li><a href="service-dark.html">Database & Storage Admin</a></li>
+                          <li><a href="{{ route('business-intelligence-analytical-services') }}">Business Intelligence & Analytics Services</a></li>
+                          <li><a href="{{ route('database-storage-admin') }}">Database & Storage Admin</a></li>
                         </ul>
                       </li>
-                      <li><a href="service-6.html">Learning Academy</a></li>
+                      <li><a href="{{ route('learning-academy') }}">Learning Academy</a></li>
+        
+
                     </ul>
                   </li>
                   <li><a href="{{ route('industries') }}">Industries</a></li>

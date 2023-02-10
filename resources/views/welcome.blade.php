@@ -167,7 +167,7 @@
                   </div>
                   <div class="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
                     <div class="service__list">
-                      <a href="service-details.html">
+                      <a href="{{ route('solutions') }}">
                         <div class="service__item animation_home1_service" data-service="1">
                           <div class="service__number"><span>01</span></div>
                           <div class="service__title-wrapper">
@@ -183,7 +183,7 @@
                         </div>
                       </a>
   
-                      <a href="service-details.html">
+                      <a href="{{ route('solutions') }}">
                         <div class="service__item  animation_home1_service" data-service="2">
                           <div class="service__number"><span>02</span></div>
                           <div class="service__title-wrapper">
@@ -200,7 +200,7 @@
                         </div>
                       </a>
   
-                      <a href="service-details.html">
+                      <a href="{{ route('solutions') }}">
                         <div class="service__item  animation_home1_service" data-service="3">
                           <div class="service__number"><span>03</span></div>
                           <div class="service__title-wrapper">
@@ -216,7 +216,7 @@
                         </div>
                       </a>
   
-                      <a href="service-details.html">
+                      <a href="{{ route('solutions') }}">
                         <div class="service__item  animation_home1_service" data-service="4">
                           <div class="service__number"><span>04</span></div>
                           <div class="service__title-wrapper">
@@ -521,7 +521,7 @@
                   </div>
                   <h4 class="blog__meta"><a href="{{ route('article', 'deep-rooted-msg-from-ceo') }}">UI Design</a> . 02 May 2019</h4>
                   <h5><a href="{{ route('article', 'deep-rooted-msg-from-ceo') }}" class="blog__title">How to bring fold to your startup company with Axtra</a></h5>
-                  <a href="blog-details.html" class="blog__btn">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                  <a href="{{ route('article', 'deep-rooted-msg-from-ceo') }}" class="blog__btn">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
                 </article>
               </div>
             </div>
