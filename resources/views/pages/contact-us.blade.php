@@ -1,40 +1,13 @@
 @extends('layouts.pages')
 
 @section('customcss')
-
-<link rel="stylesheet" href="https://unpkg.com/tippy.js@1.1.3/dist/tippy.css">
-
-<style type="text/css">
-.map-container{padding:3.2rem .8rem;position:relative;display:inline-block}.map-container img{width:100%}.map-container .point{cursor:pointer;position:absolute;width:0.9rem;height:0.9rem;background-color:orange;border-radius:50%;transition:.3s;will-change:transform,box-shadow;transform:translate(-50%,-50%);box-shadow:0 0 0 rgba(0,172,193,.4);animation:3s infinite pulse}.map-container .point:hover{animation:none;transform:translate(-50%,-50%) scale3D(1.35,1.35,1);box-shadow:0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23)}
-.map-container .Hubli{top:48%;left:68%}
-.map-container .Bengaluru{top:48%;left:69%}
-.map-container .Mumbai{top:45%;left:68%}
-.map-container .JammuKashmir{top:38%;left:69%}
-.map-container .Hyderabad{top:46%;left:69%}
-.map-container .Chennai{top:50%;left:70%}
-.map-container .DelhiNCR    {top:42%;left:69%}
-.map-container .UnitedStates{top:35%;left:15%}
-.map-container .SingaporeAPAC{top:55%;left:80%}
-.map-container .Dubai{top:48%;left:59%}
-.map-container .india{ top:58%;left:68% } @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(0,172,193,.5)}70%{box-shadow:0 0 0 25px rgba(0,172,193,0)}100%{box-shadow:0 0 0 0 rgba(0,172,193,0)}}
-</style>
 @endsection
 
 @section('content')
 
     <section class="mt-5">
-        <div class="container" style="display: flex; align-items: center; justify-content: center;">
-            <div class="map-container">
-              <img src="http://res.cloudinary.com/slzr/image/upload/v1500321012/world-map-1500_vvekl5.png">
-              @foreach ($locations as $singlelocation)
-              <a href="https://www.google.com/maps?q={{ $singlelocation['address'] }}" target="_blank">
-                <div class="point {{ str_replace(array('&', '/', '-'), '', str_replace(' ','-', $singlelocation['city']))  }} tippy" title="<b>{{ $singlelocation['company'] }}</b><br>{{ $singlelocation['address'] }}"></div>
-              </a>
-              @endforeach
-            </div>
-        </div>
+        <iframe src="{{ route('map') }}" frameborder="0" style="width: 100%; height: 850px;"></iframe>
     </section>
-
 
     <!-- Contact area start -->
     <section class="contact__area-6">
@@ -104,21 +77,4 @@
         </div>
     </section>
     <!-- Contact area end -->
-@endsection
-
-@section('script')
-
-<script src="https://unpkg.com/tippy.js@1.1.3/dist/tippy.min.js"></script>
-
-<script>
-    $(document).ready(function(){
-        tippy('.tippy', {
-        theme: 'light',
-        size: 'big',
-        arrow: true
-        })
-    });
-</script>
-
-
 @endsection

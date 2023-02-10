@@ -101,3 +101,5 @@ Route::post('store-data', [PageController::class, 'store-contactus'])->name('sto
 Route::get('free-demo', [PageController::class, 'free_demo'])->name('free-demo');
 
 Route::post('subscription', [PageController::class, 'subscription'])->name('subscription');
+
+Route::get('/map', function () { return view('pages.map'); })->name('map');
