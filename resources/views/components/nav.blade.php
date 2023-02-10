@@ -101,8 +101,8 @@
             <div class="offcanvas__social">
               <h3 class="social-title">Follow Us</h3>
               <ul>
-                <li><a href="#">Linkedin</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/company/fidelis-technology-services/mycompany/?viewAsMember=true">Linkedin</a></li>
+                <li><a target="_blank" href="https://www.facebook.com/FidelisGroup.Inc">Facebook</a></li>
               </ul>
             </div>
             <div class="offcanvas__links">
