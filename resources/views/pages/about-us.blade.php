@@ -94,13 +94,13 @@
                 <div class="col-xxl-12">
                   <div class="counter__wrapper-2 counter_animation">
                     <div class="counter__item-2 counter__anim">
-                      <h2 class="counter__number">2000+</h2>
-                      <p>Resources <br>Sourced</p>
+                      <h2 class="counter__number">20000+</h2>
+                      <p>Fidelis <br>Alumni</p>
                       <span class="counter__border"></span>
                     </div>
                     <div class="counter__item-2 counter__anim">
-                      <h2 class="counter__number">86+</h2>
-                      <p>Happy <br>customers</p>
+                      <h2 class="counter__number">12</h2>
+                      <p>Offices in the <br>world</p>
                       <span class="counter__border"></span>
                     </div>
                     <div class="counter__item-2 counter__anim">
@@ -109,8 +109,8 @@
                       <span class="counter__border"></span>
                     </div>
                     <div class="counter__item-2 counter__anim">
-                      <h2 class="counter__number">98</h2>
-                      <p>Awards <br>achievement</p>
+                      <h2 class="counter__number">160</h2>
+                      <p>Full time <br>Employees</p>
                       <span class="counter__border"></span>
                     </div>
                   </div>
