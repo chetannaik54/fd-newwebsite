@@ -59,9 +59,9 @@
                     <div class="contact__info">
                         <h3 class="sub-title-anim-top animation__word_come">Don't be afraid man ! <br>say hello</h3>
                         <ul>
-                            <li><a href="tel:+(2)578365379">+(2) 578 - 365 - 379</a></li>
-                            <li><a href="mailto:hello@example.com">hello@example.com</a></li>
-                            <li><span>230 Norman Street New York, <br> QC (USA) H8R 1A1</span></li>
+                            <li><a href="tel:08041502234">080 4150 2234</a></li>
+                            <li><a href="mailto:info@fidelisgroup.in">info@fidelisgroup.in</a></li>
+                            <li><span>No. 357, 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka 560034</span></li>
                         </ul>
                     </div>
                 </div>
