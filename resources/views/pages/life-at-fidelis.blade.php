@@ -244,5 +244,62 @@
  </section>
  <!-- Career benifit area end -->
  
-
+ <!-- Testimonial area start -->
+ <section class="testimonial__area-4 ">
+   <div class="container g-0 line_4">
+     <div class="line-col-4">
+       <div></div>
+       <div></div>
+       <div></div>
+       <div></div>
+     </div>
+ 
+     <div class="row">
+       <div class="col-xxl-12">
+         <div class="testimonial__sec-title text-anim">
+           <h2 class="sec-subtile-6">Testimonials</h2>
+           <h3 class="sec-title-6 title-anim">Clients feedback</h3>
+           <p>We are Trusted by 1,000+ global customers teams</p>
+         </div>
+       </div>
+       <div class="swiper testimonial__slider-4">
+         <div class="swiper-wrapper">
+           <div class="swiper-slide testimonial__slide-4">
+             <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=PM" alt="Testimonial Image">
+             <div class="testimonial__info-4">
+               <h4 class="testimonial__feedback-4">Good Atmosphere</h4>
+               <p>It as good work environment and work culture and a supportive team. i joined recently but it is really going well</p>
+               <h5 class="testimonial__name-4">Priyanka MR</h5>
+             </div>
+           </div>
+           <div class="swiper-slide testimonial__slide-4">
+             <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=ZF" alt="Testimonial Image">
+             <div class="testimonial__info-4">
+               <h4 class="testimonial__feedback-4">Clean Environment</h4>
+               <p>It is a company that's presently shaping up to scale up in future. The culture is friendly and vibrant, Though we work on targets it is healthy competition</p>
+               <h5 class="testimonial__name-4">Zainab Farheen</h5>
+             </div>
+           </div>
+           <div class="swiper-slide testimonial__slide-4">
+             <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=RS" alt="Testimonial Image">
+             <div class="testimonial__info-4">
+               <h4 class="testimonial__feedback-4">Instant Support</h4>
+               <p>I have enjoyed my time at Fidelis. It is a challenging role where no two days are the same. I always had a support from my manager and was able to grow with in span of 10months.The biggest reason i stayed for so long was the team culture and support-they are the absolute best.</p>
+               <h5 class="testimonial__name-4">Rakhi Singh</h5>
+             </div>
+           </div>
+         </div>
+         <div class="testimonial__btn-4">
+           <div class="next-button swipper-btn"><i class="fa-solid fa-arrow-left"></i></div>
+           <div class="prev-button swipper-btn"><i class="fa-solid fa-arrow-right"></i></div>
+           <div class="pagination testimonial__pagination-4">
+             <div class="pag"></div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- Testimonial area end -->
+ 
 @endsection
