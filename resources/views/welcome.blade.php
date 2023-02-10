@@ -254,11 +254,11 @@
                 <div class="about__content-wrapper">
                   <div class="about__img">
                     <div class="img-anim">
-                      <img src="assets/imgs/about/1/1.jpg" alt="About Image" data-speed="0.3">
+                      <img src="https://img.freepik.com/free-photo/pretty-young-smiling-african-man-formalwear-using-his-laptop-while-leaning-bar_496169-1830.jpg?w=1060&t=st=1676037634~exp=1676038234~hmac=1649b4a34c9a6adbabc8adee03813a2643584f7f65483e38e06a6b4099635c98" class="img-fluid" alt="About Image" data-speed="0.3">
                     </div>
 
                     <div class="about__img-right">
-                      <img src="assets/imgs/about/1/2.jpg" alt="About Image Right" data-speed="0.5">
+                      <img src="https://img.freepik.com/free-photo/two-indian-business-man-suits-sitting-office-cafe-looking-laptop_627829-1473.jpg?w=1380&t=st=1676037607~exp=1676038207~hmac=cf7ad338f1d09ebd6b4a9dba0e75b7eff103b9a565b7ed995cc16faa9b4d5682" class="img-fluid" alt="About Image Right" data-speed="0.5"  style="width: 360px;">
                       <div class="shape">
                         <div class="secondary" data-speed="0.9"></div>
                         <div class="primary"></div>
