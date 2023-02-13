@@ -1,4 +1,6 @@
-        <!-- CTA area start -->
+
+@if(Request::route()->getName() != "contact-us")
+    <!-- CTA area start -->
         <section class="cta__area">
             <div class="container line pb-110">
                 <div class="line-3"></div>
@@ -8,8 +10,7 @@
                             <p class="cta__sub-title">Work with us</p>
                             <h2 class="cta__title title-anim">We would love to hear more about your project</h2>
                             <div class="btn_wrapper">
-                                <a href="{{ route('free-demo') }}" class="wc-btn-primary btn-item btn-hover"><span></span>Let’s talk
-                                    us <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="{{ route('free-demo') }}" class="wc-btn-primary btn-item btn-hover"><span></span>Get in Touch <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -17,7 +18,7 @@
             </div>
         </section>
         <!-- CTA area end -->
-
+@endif
 
         <!-- Footer area start -->
         <footer class="footer__area" data-scroll-section>
@@ -80,8 +81,8 @@
                                         <a href="{{ route('contact-us') }}" class="wc-btn-primary btn-hover btn-item"><span></span>
                                             contact us <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
-                                    <h3 class="contact-time">09 : 30 AM - 6 : 30 PM</h3>
-                                    <h4 class="contact-day">Monday - Friday</h4>
+                                    {{-- <h3 class="contact-time">09 : 30 AM - 6 : 30 PM</h3> --}}
+                                    {{-- <h4 class="contact-day">Monday - Friday</h4> --}}
                                 </div>
 
                                 <div class="footer__copyright">

@@ -19,7 +19,6 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  @yield('customcss')
 
 </head>
 
@@ -130,6 +129,7 @@
   <link rel="stylesheet" href="{{ asset('assets/css/progressbar.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.min.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/master.min.css') }}">
+  @yield('customcss')
 
   <!-- All JS files -->
   <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
@@ -148,7 +148,6 @@
   <script src="{{ asset('assets/js/main.js') }}"></script>
 
   @yield('script')
-
   <script>(function(w, d) { w.CollectId = "63a30c509eed8935fca503b5"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
 </body>
 

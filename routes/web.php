@@ -27,40 +27,40 @@ Route::prefix('solutions')->group(function () {
     });
 
     Route::prefix('business-processes')->group(function () {
-        Route::get('/robotic-process-automation', [PageController::class, 'robotic_process_automation'])->name('robotic-process-automation');
-        Route::get('/business-process-management-&-automation', [PageController::class, 'business_process_management_automation'])->name('business-process-management-automation');
+        Route::get('/robotic-process-automation', [PageController::class, 'solution_processor'])->name('robotic-process-automation');
+        Route::get('/business-process-management-&-automation', [PageController::class, 'solution_processor'])->name('business-process-management-automation');
     });
 
     Route::prefix('information-management')->group(function () {
-        Route::get('/business-intelligence-&-analytical-services', [PageController::class, 'business_intelligence_analytical_services'])->name('business-intelligence-analytical-services');
-        Route::get('/database-&-storage-admin', [PageController::class, 'database_storage_admin'])->name('database-storage-admin');
+        Route::get('/business-intelligence-&-analytical-services', [PageController::class, 'solution_processor'])->name('business-intelligence-&-analytical-services');
+        Route::get('/database-&-storage-admin', [PageController::class, 'solution_processor'])->name('database-&-storage-admin');
     });
 
     Route::prefix('applications')->group(function () {
-        Route::get('/application-development', [PageController::class, 'application_development'])->name('application-development');
-        Route::get('/erp-application-development-services', [PageController::class, 'erp_application_development_services'])->name('erp-application-development-services');
-        Route::get('/application-management', [PageController::class, 'application_management'])->name('application-management');
-        Route::get('/application-QA-&-validation', [PageController::class, 'application_validation'])->name('application-QA-&-validation');
-        Route::get('/devops-advisory', [PageController::class, 'devops_advisory'])->name('devops-advisory');
+        Route::get('/application-development', [PageController::class, 'solution_processor'])->name('application-development');
+        Route::get('/erp-application-development-services', [PageController::class, 'solution_processor'])->name('erp-application-development-services');
+        Route::get('/application-management', [PageController::class, 'solution_processor'])->name('application-management');
+        Route::get('/application-QA-&-validation', [PageController::class, 'solution_processor'])->name('application-QA-&-validation');
+        Route::get('/devops-advisory', [PageController::class, 'solution_processor'])->name('devops-advisory');
     });
 
     Route::prefix('platform-&-Infrastructure')->group(function () {
-        Route::get('/cloud-computing', [PageController::class, 'cloud_computing'])->name('cloud-computing');
-        Route::get('/it-&-infra-management', [PageController::class, 'it_infra_management'])->name('it-&-infra-management');
-        Route::get('/data-center-enablement', [PageController::class, 'data_center_enablement'])->name('data-center-enablement');
+        Route::get('/cloud-computing', [PageController::class, 'solution_processor'])->name('cloud-computing');
+        Route::get('/it-&-infra-management', [PageController::class, 'solution_processor'])->name('it-&-infra-management');
+        Route::get('/data-center-enablement', [PageController::class, 'solution_processor'])->name('data-center-enablement');
     });
 
     Route::get('/managed-services', [PageController::class, 'managed_services'])->name('managed-services');
 
     Route::prefix('staffing-solutions')->group(function () {
-        Route::get('/contingent-staffing', [PageController::class, 'contingent_staffing'])->name('contingent-staffing');
-        Route::get('/msp-parternship', [PageController::class, 'msp_parternship'])->name('msp-parternship');
-        Route::get('/short-term-engagement', [PageController::class, 'short_term_engagement'])->name('short-term-engagement');
-        Route::get('/talent-kloud', [PageController::class, 'talent_kloud'])->name('talent-kloud');
-        Route::get('/compliance', [PageController::class, 'compliance'])->name('compliance');
+        Route::get('/contingent-staffing', [PageController::class, 'solution_processor'])->name('contingent-staffing');
+        Route::get('/msp-partnership', [PageController::class, 'solution_processor'])->name('msp-partnership');
+        Route::get('/short-term-engagement', [PageController::class, 'solution_processor'])->name('short-term-engagement');
+        Route::get('/talent-kloud', [PageController::class, 'solution_processor'])->name('talent.kloud');
+        Route::get('/compliance', [PageController::class, 'solution_processor'])->name('compliance');
     });
 
-    Route::get('/learning-academy', [PageController::class, 'learning_academy'])->name('learning-academy');
+    Route::get('/learning-academy', [PageController::class, 'solution_processor'])->name('learning-academy');
 });
 
 Route::get('industries', [PageController::class, 'industries'])->name('industries');

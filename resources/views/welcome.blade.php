@@ -58,10 +58,11 @@
                     <h1 class="hero__title">Affordable IT solutions <br> for innovators</h1>
                     <p class="hero__sub-title">At Fidelis Group, we converge highly customisable IT solutions, revolutionary opportunities,
                       value-based governance, the creation of business processes, and an interface to collective
-                      consulting for the customers. Leading the industry for more than a decade, we endeavoured
+                      consulting for the customers.  </p>
+                      {{-- Leading the industry for more than a decade, we endeavoured
                       creating improved innovative systems, executions, and sustainable development for our
                       customers augmented by expertise, knowledge, intelligence, seamless solutions, research,
-                      collaboration, talent, the industry, and stakeholders. </p>
+                      collaboration, talent, the industry, and stakeholders. --}}
                   </div>
                   <img src="assets/imgs/icon/arrow-down-big.png" alt="Arrow Down Icon">
                   {{-- <div class="experience">
@@ -171,7 +172,7 @@
                         <div class="service__item animation_home1_service" data-service="1">
                           <div class="service__number"><span>01</span></div>
                           <div class="service__title-wrapper">
-                            <h4 class="service__title">Security Solutions:</h4>
+                            <h4 class="service__title">Security Solutions</h4>
                           </div>
                           <div class="service__text">
                             <p>Fidelis Group security services includes real time risk management, secure process
@@ -223,7 +224,7 @@
                             <h4 class="service__title">Accuracy</h4>
                           </div>
                           <div class="service__text">
-                            <p>We create, products, brands, apps & websites for the companies all around the world class
+                            <p>we build products, brands, apps & websites for the companies all around the world class
                               digital
                               products</p>
                           </div>
@@ -298,7 +299,7 @@
               <div class="col-xxl-12">
                 <div class="counter__wrapper counter_animation">
                   <div class="counter__item counter__anim">
-                    <h2 class="counter__number">20000+</h2>
+                    <h2 class="counter__number">20k+</h2>
                     <p>FIdelis <br>Alumni</p>
                     <span class="counter__border"></span>
                   </div>
@@ -324,7 +325,6 @@
         </section>
         <!-- Counter area end -->
 
-
         <!-- Workflow area start -->
         <section class="workflow__area">
           <div class="container g-0 line pt-140 pb-140">
@@ -332,8 +332,8 @@
             <div class="row">
               <div class="col-xxl-12">
                 <div class="sec-title-wrapper">
-                  <h2 class="sec-sub-title title-anim">Workflow</h2>
-                  <h3 class="sec-title title-anim">How we work</h3>
+                  {{-- <h2 class="sec-sub-title title-anim"></h2> --}}
+                  <h3 class="sec-title title-anim">Workflow</h3>
                 </div>
               </div>
 
@@ -366,7 +366,7 @@
                     <div class="swiper-slide workflow__slide fade_left">
                       <h4 class="workflow__step">step 04</h4>
                       <h5 class="workflow__number">04</h5>
-                      <h6 class="workflow__title">User Testing</h6>
+                      <h6 class="workflow__title">Real World Testimony</h6>
                       <p>Real users in real situations implement and test our tailored strategy.</p>
                     </div>
 
@@ -385,7 +385,7 @@
             <div class="row">
               <div class="col-xxl-12">
                 <div class="sec-title-wrapper">
-                  <h2 class="sec-sub-title title-anim">Internation Brands</h2>
+                  <h2 class="sec-sub-title title-anim">International Brands</h2>
                   <h3 class="sec-title title-anim">We are delighted to have collaborated with <br> the world’s most prestigious brands.</h3>
                 </div>
               </div>
@@ -418,7 +418,7 @@
       <div class="col-xxl-12">
         <div class="testimonial__sec-title text-anim">
           <h2 class="sec-subtile-6">Testimonials</h2>
-          <h3 class="sec-title-6 title-anim">Clients feedback</h3>
+          <h3 class="sec-title-6 title-anim">What our customer speaks</h3>
           <p>We are Trusted by 1,000+ global customers teams</p>
         </div>
       </div>
@@ -561,6 +561,26 @@
   <script src="assets/js/vanilla-tilt.js"></script>
   <script src="assets/js/jquery.meanmenu.min.js"></script>
   <script src="assets/js/main.js"></script>
+
+<style>
+  
+  @media (min-width: 1200px)  and (max-width: 1366px) { 
+    .main-menu-3>li>a{
+        font-size: 12px !important;
+    }
+ }
+
+ .main-menu-3>li>a{
+    color: var(--white);
+ }
+
+ .header__area-3.sticky-3 .main-menu-3>li>a{
+    color: var(--black-2);
+ }
+
+ #open_offcanvas, .search-icon{ color:var(--white); }
+ .header__area-3.sticky-3  #open_offcanvas, .header__area-3.sticky-3  .search-icon{ color:var(--black-2); }
+</style>
 
 </body class="dir-rtl">
 

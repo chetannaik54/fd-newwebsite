@@ -38,7 +38,7 @@
                 <div class="row">
 
                     @foreach ($competencies as $item)
-                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 ">
                         <div class="showcase4 wc-tilt-2 fade_bottom_3">
                             <a href="#">
                                 <div class="showcase4__thumb">

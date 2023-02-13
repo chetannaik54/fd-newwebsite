@@ -94,7 +94,7 @@
                 <div class="col-xxl-12">
                   <div class="counter__wrapper-2 counter_animation">
                     <div class="counter__item-2 counter__anim">
-                      <h2 class="counter__number">20000+</h2>
+                      <h2 class="counter__number">20k+</h2>
                       <p>Fidelis <br>Alumni</p>
                       <span class="counter__border"></span>
                     </div>
@@ -131,7 +131,8 @@
             <div class="swiper team__slider">
               <div class="swiper-wrapper">
                 <div class="swiper-slide team__slide">
-                  <a href="{{ route('team-member', 'Subrahmanya') }}">
+                  {{-- <a href="{{ route('team-member', 'Subrahmanya') }}"> --}}
+                  <a>
                     <img src="assets/imgs/team/1.jpg" alt="Team Member">
                     <div class="team__info">
                       <h4 class="team__member-name">Subrahmanya. B.A</h4>
@@ -141,7 +142,7 @@
                 </div>
    
                 <div class="swiper-slide team__slide">
-                  <a href="{{ route('team-member', 'Subrahmanya') }}">
+                  <a>
                     <img src="assets/imgs/team/2.jpg" alt="Team Member">
                     <div class="team__info">
                       <h4 class="team__member-name">Nagashree .S</h4>
@@ -151,8 +152,8 @@
                 </div>
   
                 <div class="swiper-slide team__slide">
-                  <a href="{{ route('team-member', 'Subrahmanya') }}">
-                    <img src="assets/imgs/team/3.jpg" alt="Team Member">
+                  <a>
+                    <img src="assets/imgs/team/4.jpg" alt="Team Member">
                     <div class="team__info">
                       <h4 class="team__member-name">Raghavendra Mesta</h4>
                       <h5 class="team__member-role">Vice President - HR & Operations</h5>
@@ -161,8 +162,8 @@
                 </div>
   
                 <div class="swiper-slide team__slide">
-                  <a href="{{ route('team-member', 'Subrahmanya') }}">
-                    <img src="assets/imgs/team/4.jpg" alt="Team Member">
+                  <a>
+                    <img src="assets/imgs/team/3.jpg" alt="Team Member">
                     <div class="team__info">
                       <h4 class="team__member-name">Raghavendra Prasad</h4>
                       <h5 class="team__member-role">DIRECTOR - GLOBAL SALES</h5>
@@ -171,7 +172,7 @@
                 </div>
   
                 <div class="swiper-slide team__slide">
-                  <a href="{{ route('team-member', 'Subrahmanya') }}">
+                  <a>
                     <img src="assets/imgs/team/5.jpg" alt="Team Member">
                     <div class="team__info">
                       <h4 class="team__member-name">Sridhara Sundararaj</h4>
@@ -181,7 +182,7 @@
                 </div>
 
                 <div class="swiper-slide team__slide">
-                  <a href="{{ route('team-member', 'Subrahmanya') }}">
+                  <a>
                     <img src="assets/imgs/team/6.jpg" alt="Team Member">
                     <div class="team__info">
                       <h4 class="team__member-name">CHETAN VINOBHA SHETTY </h4>
@@ -384,6 +385,59 @@
           </section>
   
   
+        <!-- Service area start -->
+        <section class="service__area-1 pt-130 pb-110">
+          <div class="container">
+            <div class="row">
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                <div class="sec-text text-anim">
+                  <p>We are passionate to create connected brands and services, and campaigns to enable stable and
+                    successful relationships between businesses and customers.</p>
+                </div>
+              </div>
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                <div class="sec-title-wrapper">
+                  <h2 class="sec-title title-anim">We grow your brands through
+                    bold service
+                    we’re providing</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="row pt-140">
+              <div class="col-xxl-12">
+                <div class="service__list-2 animation__service-2">
+                  <div class="service__item-2">
+                    <div>
+                      <img src="assets/imgs/service/2/1.png" alt="Service Icon">
+                      <h3 class="service__title-2">Our<br>Mission</h3>
+                      <p>To facilitate a better and sustained “tomorrow” for people and organizations we work with. Not only at work </p>
+                      <p> But in life and to be recognized as the industry leader in all facets by nurturing customer engagement through accelerated solutions and processes, better return on investment and proven delivery models.</p>
+                    </div>
+                  </div>
+                  <div class="service__item-2">
+                    <div>
+                      <img src="assets/imgs/service/2/2.png" alt="Service Icon">
+                      <h3 class="service__title-2 ">Our <br>Vision</h3>
+                      <p>Transform Fidelis into the premiere performance organization by creating benchmarks in execution, leadership, and become an industry leader by running key - business processes for our clients.</p>
+                        <p>while they focus on their core operations.</p>
+                    </div>
+                  </div>
+                  <div class="service__item-2">
+                    <div>
+                      <img src="assets/imgs/service/2/3.png" alt="Service Icon">
+                      <h3 class="service__title-2">Our <br>Values</h3>
+                      <p>Our values are the guiding principles upon which Fidelis Group was founded and how we strive to conduct our business across all verticals.</p>
+                      <p>Our Values establish foundation as we shape a thriving future. They determine how we go about working towards our growth across verticals. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Service area end -->
+
           <!-- Brand area start -->
           <section class="brand__area">
             <div class="container g-0 line pt-140 pb-140">

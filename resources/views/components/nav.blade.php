@@ -33,9 +33,9 @@
               <li><a href="#">Staffing Solutions</a>
                 <ul class="sub-dropdown">
                   <li><a href="{{ route('contingent-staffing') }}">Contigent Staffing</a></li>
-                  <li><a href="{{ route('msp-parternship') }}">MSP Partnerships</a></li>
+                  <li><a href="{{ route('msp-partnership') }}">MSP Partnerships</a></li>
                   <li><a href="{{ route('short-term-engagement') }}">Short term engagement</a></li>
-                  <li><a href="{{ route('talent-kloud') }}">Talent.Kloud</a></li>
+                  <li><a href="{{ route('talent.kloud') }}">Talent.Kloud</a></li>
                   <li><a href="{{ route('compliance') }}">Compliance</a></li>
                 </ul>
               </li>
@@ -48,8 +48,8 @@
               </li>
               <li><a href="#">Information Management</a>
                 <ul class="sub-dropdown">
-                  <li><a href="{{ route('business-intelligence-analytical-services') }}">Business Intelligence & Analytics Services</a></li>
-                  <li><a href="{{ route('database-storage-admin') }}">Database & Storage Admin</a></li>
+                  <li><a href="{{ route('business-intelligence-&-analytical-services') }}">Business Intelligence & Analytics Services</a></li>
+                  <li><a href="{{ route('database-&-storage-admin') }}">Database & Storage Admin</a></li>
                 </ul>
               </li>
               <li><a href="{{ route('learning-academy') }}">Learning Academy</a></li>
@@ -62,8 +62,8 @@
           <li><a href="{{ route('life-fidelis') }}">Careers</a>
             <ul class="main-dropdown">
               <li><a href="{{ route('life-fidelis') }}">Life@Fidelis</a></li>
-              <li><a href="{{ route('life-fidelis') }}">Jobs@Fidelis</a></li>
-              <li><a href="{{ route('life-fidelis') }}">Refer</a></li>
+              <li><a href="{{ route('careers') }}">Jobs@Fidelis</a></li>
+              {{-- <li><a href="{{ route('life-fidelis') }}">Refer</a></li> --}}
             </ul>
           </li>
           <li><a href="{{ route('blogs') }}">Blogs</a></li>
@@ -77,9 +77,9 @@
         </ul>
       </div>
       <div class="header__nav-icon-3">
-        <button class="search-icon" id="search_icon"><i class="fa-solid fa-magnifying-glass"></i></button>
-        <button class="search-icon" id="search_close"><i class="fa-solid fa-xmark"></i></button>
-        <button id="open_offcanvas"><img src="{{ asset('assets/imgs/icon/menu-black.png') }}" alt="Menubar Icon"></button>
+        <button class="search-icon d-none" id="search_icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="search-icon d-none" id="search_close"><i class="fa-solid fa-xmark"></i></button>
+        <button id="open_offcanvas"><i class="fa-solid fa-bars"></i></button>
       </div>
     </div>
   </header>
@@ -140,9 +140,9 @@
                       <li><a href="#">Staffing Solutions</a>
                         <ul class="sub-dropdown">
                           <li><a href="{{ route('contingent-staffing') }}">Contigent Staffing</a></li>
-                          <li><a href="{{ route('msp-parternship') }}">MSP Partnerships</a></li>
+                          <li><a href="{{ route('msp-partnership') }}">MSP Partnerships</a></li>
                           <li><a href="{{ route('short-term-engagement') }}">Short term engagement</a></li>
-                          <li><a href="{{ route('talent-kloud') }}">Talent.Kloud</a></li>
+                          <li><a href="{{ route('talent.kloud') }}">Talent.Kloud</a></li>
                           <li><a href="{{ route('compliance') }}">Compliance</a></li>
                         </ul>
                       </li>
@@ -155,8 +155,8 @@
                       </li>
                       <li><a href="#">Information Management</a>
                         <ul class="sub-dropdown">
-                          <li><a href="{{ route('business-intelligence-analytical-services') }}">Business Intelligence & Analytics Services</a></li>
-                          <li><a href="{{ route('database-storage-admin') }}">Database & Storage Admin</a></li>
+                          <li><a href="{{ route('business-intelligence-&-analytical-services') }}">Business Intelligence & Analytics Services</a></li>
+                          <li><a href="{{ route('database-&-storage-admin') }}">Database & Storage Admin</a></li>
                         </ul>
                       </li>
                       <li><a href="{{ route('learning-academy') }}">Learning Academy</a></li>
@@ -171,8 +171,8 @@
                   <li><a href="{{ route('life-fidelis') }}">Careers</a>
                     <ul>
                       <li><a href="{{ route('life-fidelis') }}">Life@Fidelis</a></li>
-                      <li><a href="{{ route('life-fidelis') }}">Jobs@Fidelis</a></li>
-                      <li><a href="{{ route('life-fidelis') }}">Refer</a></li>
+                      <li><a href="{{ route('careers') }}">Jobs@Fidelis</a></li>
+                      {{-- <li><a href="{{ route('life-fidelis') }}">Refer</a></li> --}}
                     </ul>
                   </li>
                   <li><a href="{{ route('blogs') }}">Blogs</a></li>

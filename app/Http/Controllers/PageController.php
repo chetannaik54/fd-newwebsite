@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
+use App\Models\case_studie;
+use App\Models\soltions;
 
 class PageController extends Controller
 {
@@ -134,15 +136,18 @@ class PageController extends Controller
     }
 
     public function casestudies(){
-        return view('pages.case-studies');
+        $casestudy = case_studie::all();
+        return view('pages.case-studies', compact('casestudy'));
     }
 
     public function casestudiesv2(){
         return view('pages.case-studies-v2');
     }
 
-    public function casedetails(){
-        return view('pages.case-details');
+    public function casedetails($slug){
+        $slug = str_replace('-', ' ', $slug);
+        $detail = case_studie::where('name',$slug)->get();
+        return view('pages.case-details', compact('detail'));
     }
 
     public function clients_speak(){
@@ -465,5 +470,11 @@ class PageController extends Controller
 
     public function free_demo(){
         return view('pages.free-demo');
+    }
+
+    public function solution_processor(){
+        $url = str_replace('-', ' ', \Request::route()->getName());
+        $solutions = soltions::where('name', $url)->get();
+        return view('pages.solutions', compact('solutions'));
     }
 }

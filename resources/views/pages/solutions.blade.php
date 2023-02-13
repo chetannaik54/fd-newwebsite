@@ -1,6 +1,9 @@
 @extends('layouts.pages')
 
 @section('content')
+
+    @php $solutions = $solutions[0];  @endphp
+
     <!-- Development area start -->
     <section class="development__area">
         <div class="container g-0 line pt-130 pb-150">
@@ -8,34 +11,30 @@
             <div class="row">
                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                     <div class="sec-title-wrapper">
-                        <h2 class="sec-title animation__char_come">NOC</h2>
-                        <h2 style="">Network Operation Center</h2>
+                        <h2 class="sec-title animation__char_come">{{ $solutions->name }}</h2>
                     </div>
                 </div>
                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                     <div class="development__wrapper">
-                        <div class="development__content">
-                            <p>Fidelis Technology Services is a leading provider of NOC aka Network Operations Center
-                                solutions
-                                that help organizations monitor and manage their infrastructure support to ensure its
-                                stability and
-                                performance.</p>
-                            <p>Whether you need to optimize an existing NOC or want to establish a new NOC, Fidelis
-                                is ideally positioned to be your partner of choice.</p>
+                        <div class="development__contents">
+                            @php $intro = explode('<br />', str_replace('<br><br>', '<br>',  nl2br($solutions->introduction)) ); @endphp
+
+                            @foreach ($intro as $content)
+                                    <p>{{ $content }}</p>
+                                    <br>
+                            @endforeach
                         </div>
+                        @php $offer = explode('<br>', $solutions->offer); @endphp
                         <ul>
-                            <li>+ Proactive Monitoring:</li>
-                            <li>+ Customizable:</li>
-                            <li>+ Cloud Migration</li>
-                            <li>+ 24/7 Monitoring:</li>
-                            <li>+ Increased Uptime:</li>
-                            <li>+ Improved Support: & Cost Effective</li>
+                            @foreach ($offer as $item)
+                                <li>+ {{ $item }}</li>
+                            @endforeach
                         </ul>
                     </div>
                 </div>
                 <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
                     <div class="development__img">
-                        <img src="/assets/imgs/thumb/dev-1.jpg" alt="Development Image" data-speed="auto">
+                        <img src="{{ $solutions->img }}" alt="Development Image" data-speed="auto">
                     </div>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
@@ -104,8 +103,7 @@
             <div class="row">
                 <div class="col-xxl-12">
                     <div class="sec-title-wrapper">
-                        <h2 class="sec-title title-anim">Choosing Fidelis NOC solutions for unparalleled infrastructure
-                            support, maximizing uptime, and enhancing the quality of your IT operations.</h2>
+                        <h2 class="sec-title title-anim" style="max-width:100%;">Choosing Fidelis solutions for unparalleled infrastructure support, maximizing uptime, and enhancing the quality of your IT operations.</h2>
                     </div>
                 </div>
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
@@ -130,12 +128,6 @@
                             retailers
                             monitor and manage their infrastructure, ensuring that any issues are detected and resolved
                             quickly.</p>
-                        <p><strong>Manufacturing: </strong>In the manufacturing industry, NOC solutions are critical for
-                            ensuring that production
-                            equipment is functioning properly and that production processes are running smoothly. Fidelis
-                            NOC
-                            solutions can help manufacturing organizations monitor and manage their infrastructure, ensuring
-                            that any issues are detected and resolved quickly.</p>
                     </div>
                 </div>
             </div>
@@ -161,20 +153,10 @@
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                             IT Service Desk Management
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show"
-                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Our design services starts and ends with a best-in-class experience strategy
-                                                that
-                                                builds brands. Through a process of iteration and prototyping design
-                                                interfaces that
-                                                bring joy to people</p>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="accordion-item">
@@ -185,19 +167,6 @@
                                             Data Center Management
                                         </button>
                                     </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>This is the second item's accordion body. It is hidden by default, until the
-                                                collapse plugin adds the appropriate classes that we use to style each
-                                                element. These
-                                                classes
-                                                control the overall appearance, as well as the showing and hiding via CSS
-                                                transitions.
-                                                You can
-                                                modify any of this with custom CSS or overriding our default variables.</p>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="accordion-item">
@@ -208,16 +177,6 @@
                                             Cloud Migration
                                         </button>
                                     </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Our design services starts and ends with a best-in-class experience strategy
-                                                that
-                                                builds brands. Through a process of iteration and prototyping design
-                                                interfaces that
-                                                bring joy to people</p>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="accordion-item">
@@ -228,16 +187,6 @@
                                             Application Management
                                         </button>
                                     </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Our design services starts and ends with a best-in-class experience strategy
-                                                that
-                                                builds brands. Through a process of iteration and prototyping design
-                                                interfaces that
-                                                bring joy to people</p>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="accordion-item">
@@ -248,16 +197,6 @@
                                             Network Management
                                         </button>
                                     </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Our design services starts and ends with a best-in-class experience strategy
-                                                that
-                                                builds brands. Through a process of iteration and prototyping design
-                                                interfaces that
-                                                bring joy to people</p>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="accordion-item">
@@ -268,16 +207,6 @@
                                             End User Services
                                         </button>
                                     </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Our design services starts and ends with a best-in-class experience strategy
-                                                that
-                                                builds brands. Through a process of iteration and prototyping design
-                                                interfaces that
-                                                bring joy to people</p>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="accordion-item">
@@ -288,16 +217,6 @@
                                             Tools
                                         </button>
                                     </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Our design services starts and ends with a best-in-class experience strategy
-                                                that
-                                                builds brands. Through a process of iteration and prototyping design
-                                                interfaces that
-                                                bring joy to people</p>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="accordion-item">
@@ -306,11 +225,6 @@
                                             Support
                                         </button>
                                     </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people</p>
-                                        </div>
-                                    </div>
                                 </div>
 
                             </div>
@@ -410,7 +324,7 @@
                         <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                             <div class="counter__wrapper-3">
                                 <div class="counter__item-3">
-                                    <h2 class="counter__number">2000</h2>
+                                    <h2 class="counter__number">20k</h2>
                                     <p>Sourcing <br>completed</p>
                                 </div>
                                 <div class="counter__item-3">
@@ -467,7 +381,7 @@
         <div class="col-xxl-12">
           <div class="award__top-7">
             <div class="award__counter fade_bottom_2">
-              <h2 class="counter__number">2000+</h2>
+              <h2 class="counter__number">20K+</h2>
               <p>Resources Allocated</p>
             </div>
             <div class="award-video-7">
@@ -488,7 +402,7 @@
           </div>
           <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-8">
             <div class="award__mid-7 text-anim">
-              <p>Holisticly actualize magnetic testing procedures for high-quality initiatives for ompellingly
+              <p>Holisticly actualize new clients for high-quality initiatives for ompellingly
                 enhance users whereas.</p>
             </div>
           </div>
@@ -531,40 +445,33 @@
                 <div class="col-xxl-12">
                   <div class="testimonial__sec-title text-anim">
                     <h2 class="sec-subtile-6">Testimonials</h2>
-                    <h3 class="sec-title-6 title-anim">Clients feedback</h3>
-                    <p>We are Trusted by 10,000+ global customers teams like have projects with this template</p>
+                    <h3 class="sec-title-6 title-anim">What our customer speaks</h3>
+                    <p>We are Trusted by 10,000+ global customers.</p>
                   </div>
                 </div>
                 <div class="swiper testimonial__slider-4">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide testimonial__slide-4">
-                      <img class="testimonial__img-4" src="/assets/imgs/testimonial/4/1.jpg" alt="Testimonial Image">
+                      <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=Priyanka+MR" alt="Testimonial Image">
                       <div class="testimonial__info-4">
-                        <h4 class="testimonial__feedback-4">Design Quality</h4>
-                        <p>Our philosophy is built on people who are addicted on creating, learning, and growing
-                          together, which allows us to discover better others miss.</p>
-                        <h5 class="testimonial__name-4">Jessica Sherlock</h5>
-                        <h6 class="testimonial__role-4">Manager, Oitaka </h6>
+                        <p>Fidelis has been a wonderful company starting out. Several things worth pointing out are within the overall atmosphere. Since Fidelis is in it's growth phase, it allows the management team to easily help everyone get acquainted with the overall job feel. My fellow team members and HR have been wonderful</p>
+                        <h5 class="testimonial__name-4">Priyanka MR</h5>
                       </div>
                     </div>
                     <div class="swiper-slide testimonial__slide-4">
-                      <img class="testimonial__img-4" src="/assets/imgs/testimonial/4/2.jpg" alt="Testimonial Image">
+                      <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=Vasim+Sutar" alt="Testimonial Image">
                       <div class="testimonial__info-4">
-                        <h4 class="testimonial__feedback-4">Clean Code</h4>
-                        <p>I am very glod happy with this theme, the website loads much faster than any other theme I
-                          have used so far clean code and responsive layout.</p>
-                        <h5 class="testimonial__name-4">Sharoon Kavin</h5>
-                        <h6 class="testimonial__role-4">CEO, Sharoon</h6>
+                        <p>I must say you will get alot of opportunities to grow yourself here. Fidelis is a great organisation to work.
+                            A dedicated team of HR personnel to assist in recruitment to IT,Non-IT, Retail and other Sector.
+                            Awesome/Supportive Management and on Time salary.</p>
+                        <h5 class="testimonial__name-4">Vasim Sutar</h5>
                       </div>
                     </div>
                     <div class="swiper-slide testimonial__slide-4">
-                      <img class="testimonial__img-4" src="/assets/imgs/testimonial/4/3.jpg" alt="Testimonial Image">
+                      <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=Manikandan+ns" alt="Testimonial Image">
                       <div class="testimonial__info-4">
-                        <h4 class="testimonial__feedback-4">Instant Support</h4>
-                        <p>In the next time I hire Axtra as they helping innovators and brands through cultural insight,
-                          strategiccal vision, and innovation and look too beyond.</p>
-                        <h5 class="testimonial__name-4">Sharly Mehroon</h5>
-                        <h6 class="testimonial__role-4">Manager, Kavitan</h6>
+                        <p>Fidelis is good place to work and has huge potential to grow. Management gives you space and opportunity to build yourself. Happy with the team I'm working with. Want to see Fidelis Technology to grow to next level</p>
+                        <h5 class="testimonial__name-4">Manikandan ns</h5>
                       </div>
                     </div>
                   </div>
@@ -584,11 +491,11 @@
 @endsection
 
 @section('script')
-    <script>
+    {{-- <script>
         $(document).ready(function(){
             $( ".accordion-header" ).mouseover(function(){
             $( ".accordion-button" ).trigger( "click" );
             });
         });	
-    </script>
+    </script> --}}
 @endsection
