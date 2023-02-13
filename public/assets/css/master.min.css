@@ -4827,7 +4827,7 @@ p {
     }
 
     .hero__title {
-        font-size: 100px;
+        font-size: 65px;
         line-height: .9
     }
 
@@ -4841,7 +4841,7 @@ p {
     }
 
     .hero__sub-title {
-        bottom: -10px;
+        bottom: -120px;
         right: -30px
     }
 

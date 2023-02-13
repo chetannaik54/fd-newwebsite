@@ -130,7 +130,7 @@
               <div class="row">
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                   <div class="sec-title-wrapper wrap">
-                    <h2 class="sec-sub-title title-anim">service</h2>
+                    {{-- <h2 class="sec-sub-title title-anim">service</h2> --}}
                     <h3 class="sec-title title-anim">Solution we <br>provide</h3>
                   </div>
                 </div>

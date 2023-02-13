@@ -3,7 +3,8 @@
 @section('customcss')
 <style type="text/css">
    .service__area-7{
-      background-image: url('{{ asset('assets/imgs/career/portrait-young-indian.png') }}');
+      /* background-image: url('{{ asset('assets/imgs/career/portrait-young-indian.png') }}'); */
+      background-image: none !important; 
    }
    @media (max-width: 480px) { 
       .service__area-7{
