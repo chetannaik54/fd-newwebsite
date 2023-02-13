@@ -1,5 +1,18 @@
 @extends('layouts.pages')
 
+@section('customcss')
+<style type="text/css">
+   .service__area-7{
+      background-image: url('{{ asset('assets/imgs/career/portrait-young-indian.png') }}');
+   }
+   @media (max-width: 480px) { 
+      .service__area-7{
+         background-image:none !important;
+      }
+   }
+</style>
+@endsection
+
 @section('content')
 
 <!-- Career hero area start -->
@@ -14,7 +27,7 @@
              </div>
              <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-3">
                 <div class="btn_wrapper">
-                   <a href="#job_list" class="wc-btn-secondary btn-hover btn-item">
+                   <a href="{{ route('careers') }}" class="wc-btn-secondary btn-hover btn-item">
                       <span></span> Explore job <br />
                       vacancies <i class="fa-solid fa-arrow-right"></i>
                    </a>
@@ -79,7 +92,7 @@
  <!-- Career gallery end -->
 
         <!-- Service area start -->
-        <section class="service__area-7 pt-130" style="background-image: url('{{ asset('assets/imgs/career/portrait-young-indian.png') }}'); background-size: contain;background-repeat: no-repeat;background-position: right;">
+        <section class="service__area-7 pt-130" style="background-size: contain;background-repeat: no-repeat;background-position: right;">
          <div class="container">
            <div class="row">
              <div class="col-xxl-12">
