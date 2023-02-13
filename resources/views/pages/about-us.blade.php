@@ -1,6 +1,8 @@
 @extends('layouts.pages')
 
 @section('content')
+  <!-- Team Cursor -->
+  <div class="cursor" id="team_cursor">Drag</div>
 
         <!-- Hero area start -->
         <section class="hero__about">
@@ -13,7 +15,7 @@
                     <div class="hero__about-info">
                       <div class="hero__about-btn">
                         <div class="btn_wrapper">
-                          <a href="{{ route('solutions') }}" class="wc-btn-primary btn-hover btn-item"><span></span> Trends & <br> technology
+                          <a href="{{ route('solutions') }}" class="wc-btn-primary btn-hover btn-item"><span></span> Solutions & <br> Services
                             <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                       </div>
@@ -99,17 +101,17 @@
                       <span class="counter__border"></span>
                     </div>
                     <div class="counter__item-2 counter__anim">
-                      <h2 class="counter__number">12</h2>
+                      <h2 class="counter__number">8+</h2>
                       <p>Offices in the <br>world</p>
                       <span class="counter__border"></span>
                     </div>
                     <div class="counter__item-2 counter__anim">
-                      <h2 class="counter__number">16</h2>
+                      <h2 class="counter__number">16+</h2>
                       <p>Years <br>experiences</p>
                       <span class="counter__border"></span>
                     </div>
                     <div class="counter__item-2 counter__anim">
-                      <h2 class="counter__number">160</h2>
+                      <h2 class="counter__number">2500</h2>
                       <p>Full time <br>Employees</p>
                       <span class="counter__border"></span>
                     </div>
@@ -131,8 +133,7 @@
             <div class="swiper team__slider">
               <div class="swiper-wrapper">
                 <div class="swiper-slide team__slide">
-                  {{-- <a href="{{ route('team-member', 'Subrahmanya') }}"> --}}
-                  <a>
+                  <a href="{{ route('team-member', 'Subrahmanya') }}">
                     <img src="assets/imgs/team/1.jpg" alt="Team Member">
                     <div class="team__info">
                       <h4 class="team__member-name">Subrahmanya. B.A</h4>
@@ -196,7 +197,7 @@
           <!-- Team area end -->
           
         <!-- Team area start -->
-        <section class="team__area-7" style="display: none;">
+        {{-- <section class="team__area-7" style="display: none;">
           <div class="container">
             <div class="row">
               <div class="col-xxl-12">
@@ -279,7 +280,7 @@
                       </div>
                       <h4 class="tm-role">Backend <br> Developer</h4>
                       <div class="tm-link"><i class="fa-solid fa-arrow-right"></i></div>
-                      <div class="team__hover-7" style="background-image: url(assets/imgs/team/7.jpg);"></div>
+                      <div class="team__hover-7" style="background-image: url(assets/imgs/team/6.jpg);"></div>
                     </div>
                   </a>
                   <div class="team7__img-wrap">
@@ -289,7 +290,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> --}}
         <!-- Team area end -->
 
 
@@ -426,7 +427,7 @@
               <div class="row g-0">
                 <div class="col-xxl-12">
                   <div class="sec-title-wrapper">
-                    <h2 class="sec-sub-title title-anim">International Brands</h2>
+                    {{-- <h2 class="sec-sub-title title-anim">International Brands</h2> --}}
                     <h3 class="sec-title title-anim">We are happy to work with global <br> largest brands</h3>
                   </div>
                 </div>

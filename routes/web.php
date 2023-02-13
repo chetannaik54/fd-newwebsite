@@ -40,7 +40,7 @@ Route::prefix('solutions')->group(function () {
         Route::get('/application-development', [PageController::class, 'solution_processor'])->name('application-development');
         Route::get('/erp-application-development-services', [PageController::class, 'solution_processor'])->name('erp-application-development-services');
         Route::get('/application-management', [PageController::class, 'solution_processor'])->name('application-management');
-        Route::get('/application-QA-&-validation', [PageController::class, 'solution_processor'])->name('application-QA-&-validation');
+        Route::get('/application-QA-&-validation', [PageController::class, 'solution_processor'])->name('application-qa-&-validation');
         Route::get('/devops-advisory', [PageController::class, 'solution_processor'])->name('devops-advisory');
     });
 

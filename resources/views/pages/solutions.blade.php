@@ -1,7 +1,6 @@
 @extends('layouts.pages')
 
 @section('content')
-
     @php $solutions = $solutions[0];  @endphp
 
     <!-- Development area start -->
@@ -20,8 +19,8 @@
                             @php $intro = explode('<br />', str_replace('<br><br>', '<br>',  nl2br($solutions->introduction)) ); @endphp
 
                             @foreach ($intro as $content)
-                                    <p>{{ $content }}</p>
-                                    <br>
+                                <p>{{ $content }}</p>
+                                <br>
                             @endforeach
                         </div>
                         @php $offer = explode('<br>', $solutions->offer); @endphp
@@ -34,12 +33,12 @@
                 </div>
                 <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
                     <div class="development__img">
-                        <img src="{{ $solutions->img }}" alt="Development Image" data-speed="auto">
+                        <img src="{{ asset('assets/imgs/service/'.$solutions->img) }}" alt="Development Image" data-speed="auto">
                     </div>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                     <div class="development__img">
-                        <img src="/assets/imgs/thumb/dev-2.jpg" alt="Development Image">
+                        <img src="/assets/imgs/thumb/dev-2.jpg" alt="Development Image" data-speed="auto">
                     </div>
                 </div>
             </div>
@@ -103,7 +102,8 @@
             <div class="row">
                 <div class="col-xxl-12">
                     <div class="sec-title-wrapper">
-                        <h2 class="sec-title title-anim" style="max-width:100%;">Choosing Fidelis solutions for unparalleled infrastructure support, maximizing uptime, and enhancing the quality of your IT operations.</h2>
+                        <h2 class="sec-title title-anim" style="max-width:100%;">Choosing Fidelis solutions for unparalleled
+                            infrastructure support, maximizing uptime, and enhancing the quality of your IT operations.</h2>
                     </div>
                 </div>
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
@@ -117,7 +117,7 @@
                         <img src="/assets/imgs/icon/shape-6.png" alt="Service shape image" class="sd-shape">
                     </div>
                     <div class="service__detail-content">
-                        <p><strong>Healthcare:</strong> In the healthcare industry, NOC solutions are critical for ensuring
+                        {{-- <p><strong>Healthcare:</strong> In the healthcare industry, NOC solutions are critical for ensuring
                             that patient data is
                             protected and that medical equipment is functioning properly. Fidelis NOC solutions can help
                             healthcare organizations monitor and manage their infrastructure, ensuring that any issues are
@@ -127,7 +127,7 @@
                             are functioning properly and that customer data is protected. Fidelis NOC solutions can help
                             retailers
                             monitor and manage their infrastructure, ensuring that any issues are detected and resolved
-                            quickly.</p>
+                            quickly.</p> --}}
                     </div>
                 </div>
             </div>
@@ -153,7 +153,8 @@
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                             IT Service Desk Management
                                         </button>
                                     </h2>
@@ -161,9 +162,8 @@
 
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             Data Center Management
                                         </button>
                                     </h2>
@@ -171,9 +171,9 @@
 
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                            aria-expanded="false" aria-controls="collapseThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
                                             Cloud Migration
                                         </button>
                                     </h2>
@@ -221,7 +221,9 @@
 
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingFive">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
                                             Support
                                         </button>
                                     </h2>
@@ -258,9 +260,12 @@
                             <div class="sec-title-wrapper">
                                 <h2 class="sec-sub-title">why <br>choose us</h2>
                                 <h3 class="sec-title">Highly customisable IT solutions,</h3>
-                                <p>At Fidelis Group, we converge highly customisable IT solutions, revolutionary opportunities,
-                                    value-based governance, the creation of business processes, and an interface to collective
-                                    consulting for the customers. Leading the industry for more than a decade, we endeavoured
+                                <p>At Fidelis Group, we converge highly customisable IT solutions, revolutionary
+                                    opportunities,
+                                    value-based governance, the creation of business processes, and an interface to
+                                    collective
+                                    consulting for the customers. Leading the industry for more than a decade, we
+                                    endeavoured
                                     creating improved innovative systems, executions, and sustainable development for our
                                     customers augmented by expertise, knowledge, intelligence, seamless solutions, research,
                                     collaboration, talent, the industry, and stakeholders.
@@ -359,7 +364,8 @@
                                 <p class="cta__sub-title-2">Have you project in mind?</p>
                                 <h2 class="cta__title-2">Let’s make something great together!</h2>
                                 <div class="btn_wrapper">
-                                    <a href="{{ route('contact-us') }}" class="wc-btn-black btn-hover btn-item"><span></span>Contact
+                                    <a href="{{ route('contact-us') }}"
+                                        class="wc-btn-black btn-hover btn-item"><span></span>Contact
                                         <br>with
                                         us <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
@@ -374,120 +380,129 @@
     </section>
     <!-- Workflow area end -->
 
-<!-- Award area start -->
-<section class="award__area-7">
-    <div class="container">
-      <div class="row inherit_row">
-        <div class="col-xxl-12">
-          <div class="award__top-7">
-            <div class="award__counter fade_bottom_2">
-              <h2 class="counter__number">20K+</h2>
-              <p>Resources Allocated</p>
-            </div>
-            <div class="award-video-7">
-              <video loop muted autoplay playsinline style="width: 50%; left: 30%;">
-                <source src="/assets/video/video.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="award__btm-7">
-        <div class="row">
-          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4">
-            <div class="award__left-7">
-              <h2 class="sec-title title-anim">Projects <br> awards</h2>
-            </div>
-          </div>
-          <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-8">
-            <div class="award__mid-7 text-anim">
-              <p>Holisticly actualize new clients for high-quality initiatives for ompellingly
-                enhance users whereas.</p>
-            </div>
-          </div>
-          <div class="col-xxl-4 col-xl-4 col-lg-4">
-            <div class="award__right-7">
-              <div class="award__list-7">
-                <div class="award__item-7 zoom_in">
-                  <img src="{{ asset('assets/imgs/awards/award1.png') }}" alt="Image">
-                  <h3 class="title">INDIA SME 100</h3>
-                </div>
-                <div class="award__item-7 zoom_in">
-                    <img src="{{ asset('assets/imgs/awards/msp-alliance.png') }}" alt="Image">
-                  <h3 class="title">ISO Certified</h3>
-                </div>
-                <div class="award__item-7 zoom_in">
-                    <img src="{{ asset('assets/imgs/awards/award2.png') }}" alt="Image">
-                  <h3 class="title">MSP Alliance</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Award area end -->
-
-
-          <!-- Testimonial area start -->
-          <section class="testimonial__area-4  pt-110">
-            <div class="container g-0 line_4">
-              <div class="line-col-4">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-
-              <div class="row">
+    <!-- Award area start -->
+    <section class="award__area-7">
+        <div class="container">
+            <div class="row inherit_row">
                 <div class="col-xxl-12">
-                  <div class="testimonial__sec-title text-anim">
-                    <h2 class="sec-subtile-6">Testimonials</h2>
-                    <h3 class="sec-title-6 title-anim">What our customer speaks</h3>
-                    <p>We are Trusted by 10,000+ global customers.</p>
-                  </div>
+                    <div class="award__top-7">
+                        <div class="award__counter fade_bottom_2">
+                            <h2 class="counter__number">20K+</h2>
+                            <p>Resources Allocated</p>
+                        </div>
+                        <div class="award-video-7">
+                            <video loop muted autoplay playsinline style="width: 50%; left: 30%;">
+                                <source src="/assets/video/video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="award__btm-7">
+                <div class="row">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4">
+                        <div class="award__left-7">
+                            <h2 class="sec-title title-anim">Projects <br> awards</h2>
+                        </div>
+                    </div>
+                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-8">
+                        <div class="award__mid-7 text-anim">
+                            <p>Holisticly actualize new clients for high-quality initiatives for ompellingly
+                                enhance users whereas.</p>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4">
+                        <div class="award__right-7">
+                            <div class="award__list-7">
+                                <div class="award__item-7 zoom_in">
+                                    <img src="{{ asset('assets/imgs/awards/award1.png') }}" alt="Image">
+                                    <h3 class="title">INDIA SME 100</h3>
+                                </div>
+                                <div class="award__item-7 zoom_in">
+                                    <img src="{{ asset('assets/imgs/awards/msp-alliance.png') }}" alt="Image">
+                                    <h3 class="title">ISO Certified</h3>
+                                </div>
+                                <div class="award__item-7 zoom_in">
+                                    <img src="{{ asset('assets/imgs/awards/award2.png') }}" alt="Image">
+                                    <h3 class="title">MSP Alliance</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Award area end -->
+
+
+    <!-- Testimonial area start -->
+    <section class="testimonial__area-4  pt-110">
+        <div class="container g-0 line_4">
+            <div class="line-col-4">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="testimonial__sec-title text-anim">
+                        <h2 class="sec-subtile-6">Testimonials</h2>
+                        <h3 class="sec-title-6 title-anim">What our customer speaks</h3>
+                        <p>We are Trusted by 10,000+ global customers.</p>
+                    </div>
                 </div>
                 <div class="swiper testimonial__slider-4">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide testimonial__slide-4">
-                      <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=Priyanka+MR" alt="Testimonial Image">
-                      <div class="testimonial__info-4">
-                        <p>Fidelis has been a wonderful company starting out. Several things worth pointing out are within the overall atmosphere. Since Fidelis is in it's growth phase, it allows the management team to easily help everyone get acquainted with the overall job feel. My fellow team members and HR have been wonderful</p>
-                        <h5 class="testimonial__name-4">Priyanka MR</h5>
-                      </div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonial__slide-4">
+                            <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=Priyanka+MR"
+                                alt="Testimonial Image">
+                            <div class="testimonial__info-4">
+                                <p>Fidelis has been a wonderful company starting out. Several things worth pointing out are
+                                    within the overall atmosphere. Since Fidelis is in it's growth phase, it allows the
+                                    management team to easily help everyone get acquainted with the overall job feel. My
+                                    fellow team members and HR have been wonderful</p>
+                                <h5 class="testimonial__name-4">Priyanka MR</h5>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial__slide-4">
+                            <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=Vasim+Sutar"
+                                alt="Testimonial Image">
+                            <div class="testimonial__info-4">
+                                <p>I must say you will get alot of opportunities to grow yourself here. Fidelis is a great
+                                    organisation to work.
+                                    A dedicated team of HR personnel to assist in recruitment to IT,Non-IT, Retail and other
+                                    Sector.
+                                    Awesome/Supportive Management and on Time salary.</p>
+                                <h5 class="testimonial__name-4">Vasim Sutar</h5>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial__slide-4">
+                            <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=Manikandan+ns"
+                                alt="Testimonial Image">
+                            <div class="testimonial__info-4">
+                                <p>Fidelis is good place to work and has huge potential to grow. Management gives you space
+                                    and opportunity to build yourself. Happy with the team I'm working with. Want to see
+                                    Fidelis Technology to grow to next level</p>
+                                <h5 class="testimonial__name-4">Manikandan ns</h5>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-slide testimonial__slide-4">
-                      <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=Vasim+Sutar" alt="Testimonial Image">
-                      <div class="testimonial__info-4">
-                        <p>I must say you will get alot of opportunities to grow yourself here. Fidelis is a great organisation to work.
-                            A dedicated team of HR personnel to assist in recruitment to IT,Non-IT, Retail and other Sector.
-                            Awesome/Supportive Management and on Time salary.</p>
-                        <h5 class="testimonial__name-4">Vasim Sutar</h5>
-                      </div>
+                    <div class="testimonial__btn-4">
+                        <div class="next-button swipper-btn"><i class="fa-solid fa-arrow-left"></i></div>
+                        <div class="prev-button swipper-btn"><i class="fa-solid fa-arrow-right"></i></div>
+                        <div class="pagination testimonial__pagination-4">
+                            <div class="pag"></div>
+                        </div>
                     </div>
-                    <div class="swiper-slide testimonial__slide-4">
-                      <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=Manikandan+ns" alt="Testimonial Image">
-                      <div class="testimonial__info-4">
-                        <p>Fidelis is good place to work and has huge potential to grow. Management gives you space and opportunity to build yourself. Happy with the team I'm working with. Want to see Fidelis Technology to grow to next level</p>
-                        <h5 class="testimonial__name-4">Manikandan ns</h5>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="testimonial__btn-4">
-                    <div class="next-button swipper-btn"><i class="fa-solid fa-arrow-left"></i></div>
-                    <div class="prev-button swipper-btn"><i class="fa-solid fa-arrow-right"></i></div>
-                    <div class="pagination testimonial__pagination-4">
-                      <div class="pag"></div>
-                    </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </section>
-          <!-- Testimonial area end -->
-
+        </div>
+    </section>
+    <!-- Testimonial area end -->
 @endsection
 
 @section('script')

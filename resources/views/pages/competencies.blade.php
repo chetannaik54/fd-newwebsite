@@ -14,7 +14,7 @@
 @endsection
 
 @section('content')
-    <section class="service__area-2 service-v3 pt-130 pb-140">
+    <section class="service__area-1 service-v3 pt-130 pb-140">
 
         <!-- Service area start -->
         <div class="container">
@@ -40,15 +40,15 @@
                     @foreach ($competencies as $item)
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 ">
                         <div class="showcase4 wc-tilt-2 fade_bottom_3">
-                            <a href="#">
+                            <a href="{{ route( strtolower(str_replace(' ','-', $item->name))) }}">
                                 <div class="showcase4__thumb">
-                                    <img loading="lazy" width="850" height="500" src="https://wealcoder.com/wp-content/uploads/2023/01/portfolio-02-3-850x500.jpg" class="attachment-extra_850x500 size-extra_850x500 wp-post-image" alt="" decoding="async" />
+                                    <img loading="lazy" width="850" height="500" src="{{ asset('assets/imgs/service/'.$item->img) }}" class="attachment-extra_850x500 size-extra_850x500 wp-post-image" alt="" decoding="async" />
                                 </div>
-                                <img src="{{ $item['icon'] }}" alt="" class="small_logo">
+                                <img src="{{ $item->img }}" alt="" class="small_logo">
 
                                 <div class="showcase4__content">
                                     <div class="showcase4__content__left">
-                                        <h2>{{ $item['name'] }}</h2>
+                                        <h2>{{ $item->name }}</h2>
                                     </div>
                                 </div>
                             </a>

@@ -2,8 +2,8 @@
 <header class="header__area-3">
     <div class="header__inner-3">
       <div class="header__logo-2">
-        <a href="{{ route('welcome') }}" class="logo-dark"><img src="{{  asset('assets/imgs/logo/fidelis-logo.png') }}" class="w-75" alt="Site Logo"></a>
-        <a href="{{ route('welcome') }}" class="logo-light"><img src="{{ asset('assets/imgs/logo/fidelis-logo.jpeg') }}" class="w-75" alt="Site Logo"></a>
+        <a href="{{ route('welcome') }}" class="logo-dark"><img src="{{  asset('assets/imgs/logo/fidelis-logo.png') }}" class="img-fluid w-75" alt="Site Logo"></a>
+        <a href="{{ route('welcome') }}" class="logo-light"><img src="{{ asset('assets/imgs/logo/fidelis-logo.jpeg') }}" class="img-fluid w-75" alt="Site Logo"></a>
       </div>
       <div class="header__nav-2">
         <ul class="main-menu-3 menu-anim">
@@ -26,11 +26,11 @@
                   <li><a href="{{ route('application-development') }}">Application Development</a></li>
                   <li><a href="{{ route('erp-application-development-services') }}">ERP Application Management Services</a></li>
                   <li><a href="{{ route('application-management') }}">Application Management</a></li>
-                  <li><a href="{{ route('application-QA-&-validation') }}">Application QA & Validation</a></li>
+                  <li><a href="{{ route('application-qa-&-validation') }}">Application QA & Validation</a></li>
                   <li><a href="{{ route('devops-advisory') }}">Devops Advisory</a></li>
                 </ul>
               </li>
-              <li><a href="#">Staffing Solutions</a>
+              <li><a href="#">Staffing Services</a>
                 <ul class="sub-dropdown">
                   <li><a href="{{ route('contingent-staffing') }}">Contigent Staffing</a></li>
                   <li><a href="{{ route('msp-partnership') }}">MSP Partnerships</a></li>
@@ -133,11 +133,11 @@
                           <li><a href="{{ route('application-development') }}">Application Development</a></li>
                           <li><a href="{{ route('erp-application-development-services') }}">ERP Application Management Services</a></li>
                           <li><a href="{{ route('application-management') }}">Application Management</a></li>
-                          <li><a href="{{ route('application-QA-&-validation') }}">Application QA & Validation</a></li>
+                          <li><a href="{{ route('application-qa-&-validation') }}">Application QA & Validation</a></li>
                           <li><a href="{{ route('devops-advisory') }}">Devops Advisory</a></li>
                         </ul>
                       </li>
-                      <li><a href="#">Staffing Solutions</a>
+                      <li><a href="#">Staffing Services</a>
                         <ul class="sub-dropdown">
                           <li><a href="{{ route('contingent-staffing') }}">Contigent Staffing</a></li>
                           <li><a href="{{ route('msp-partnership') }}">MSP Partnerships</a></li>
