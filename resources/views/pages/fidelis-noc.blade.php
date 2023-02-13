@@ -467,7 +467,7 @@
         <div class="col-xxl-12">
           <div class="award__top-7">
             <div class="award__counter fade_bottom_2">
-              <h2 class="counter__number">2000+</h2>
+              <h2 class="counter__number">20000+</h2>
               <p>Resources Allocated</p>
             </div>
             <div class="award-video-7">
@@ -532,7 +532,7 @@
                   <div class="testimonial__sec-title text-anim">
                     <h2 class="sec-subtile-6">Testimonials</h2>
                     <h3 class="sec-title-6 title-anim">Clients feedback</h3>
-                    <p>We are Trusted by 10,000+ global customers teams like have projects with this template</p>
+                    <p>We are Trusted by 10,000+ global customers</p>
                   </div>
                 </div>
                 <div class="swiper testimonial__slider-4">

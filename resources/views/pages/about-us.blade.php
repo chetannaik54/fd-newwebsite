@@ -185,7 +185,7 @@
                   <a>
                     <img src="assets/imgs/team/6.jpg" alt="Team Member">
                     <div class="team__info">
-                      <h4 class="team__member-name">CHETAN VINOBHA SHETTY </h4>
+                      <h4 class="team__member-name">Chetan Vinobha Shetty</h4>
                       <h5 class="team__member-role">Head of Talent Acquisition</h5>
                     </div>
                   </a>
@@ -388,21 +388,6 @@
         <!-- Service area start -->
         <section class="service__area-1 pt-130 pb-110">
           <div class="container">
-            <div class="row">
-              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                <div class="sec-text text-anim">
-                  <p>We are passionate to create connected brands and services, and campaigns to enable stable and
-                    successful relationships between businesses and customers.</p>
-                </div>
-              </div>
-              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                <div class="sec-title-wrapper">
-                  <h2 class="sec-title title-anim">We grow your brands through
-                    bold service
-                    we’re providing</h2>
-                </div>
-              </div>
-            </div>
 
             <div class="row pt-140">
               <div class="col-xxl-12">
@@ -419,8 +404,8 @@
                     <div>
                       <img src="assets/imgs/service/2/2.png" alt="Service Icon">
                       <h3 class="service__title-2 ">Our <br>Vision</h3>
-                      <p>Transform Fidelis into the premiere performance organization by creating benchmarks in execution, leadership, and become an industry leader by running key - business processes for our clients.</p>
-                        <p>while they focus on their core operations.</p>
+                      <p>Transform Fidelis into the premiere performance organization by creating benchmarks in execution, leadership.</p>
+                        <p>Becoming an industry leader by running key - business processes for our clients.while they focus on their core operations.</p>
                     </div>
                   </div>
                   <div class="service__item-2">

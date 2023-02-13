@@ -38,26 +38,6 @@
                         </article>
                     </div>
 
-                    @for ($i = 0; $i < 11; $i++)
-
-                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                        <article class="blog__item">
-                            <div class="blog__img-wrapper">
-                                <a href="{{ route('article', 'deep-rooted-msg-from-ceo') }}">
-                                    <div class="img-box">
-                                        <img class="image-box__item" src="https://api.lorem.space/image?w=390&h=450&t={{ $i }}" alt="Blog Thumbnail">
-                                        <img class="image-box__item" src="https://api.lorem.space/image?w=390&h=450&t={{ $i }}" alt="BLog Thumbnail">
-                                    </div>
-                                </a>
-                            </div>
-                            <h4 class="blog__meta"><a href="category.html">UI Design</a> . 15 March 2019</h4>
-                            <h5><a href="{{ route('article', 'deep-rooted-msg-from-ceo') }}" class="blog__title">Ways of lying to yourself about your new relationship.</a></h5>
-                            <a href="{{ route('article', 'deep-rooted-msg-from-ceo') }}" class="blog__btn">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                        </article>
-                    </div>
-
-                    @endfor
-
                 </div>
             </div>
         </section>

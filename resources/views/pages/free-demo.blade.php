@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="assets/css/progressbar.css">
   <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-  <link rel="stylesheet" href="assets/css/master.css">
+  <link rel="stylesheet" href="assets/css/master.min.css">
   <style>    #myVideo {
     width: 100vw;
     height: 100vh;

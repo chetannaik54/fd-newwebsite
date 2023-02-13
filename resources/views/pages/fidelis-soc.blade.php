@@ -9,6 +9,7 @@
                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                     <div class="sec-title-wrapper">
                         <h2 class="sec-title animation__char_come">SOC</h2>
+                        <h2 style="">Security Operating Center</h2>
                     </div>
                 </div>
                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">

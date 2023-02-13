@@ -2,8 +2,8 @@
 <header class="header__area-3">
     <div class="header__inner-3">
       <div class="header__logo-2">
-        <a href="{{ route('welcome') }}" class="logo-dark"><img src="{{  asset('assets/imgs/logo/fidelis-logo.png') }}" class="w-75" alt="Site Logo"></a>
-        <a href="{{ route('welcome') }}" class="logo-light"><img src="{{ asset('assets/imgs/logo/fidelis-logo.jpeg') }}" class="w-75" alt="Site Logo"></a>
+        {{-- <a href="{{ route('welcome') }}" class="logo-dark"><img src="{{  asset('assets/imgs/logo/fidelis-logo.png') }}" class="w-75" alt="Site Logo"></a> --}}
+        {{-- <a href="{{ route('welcome') }}" class="logo-light"><img src="{{ asset('assets/imgs/logo/fidelis-logo.jpeg') }}" class="w-75" alt="Site Logo"></a> --}}
       </div>
       <div class="header__nav-2">
         <ul class="main-menu-3 menu-anim">
@@ -96,7 +96,7 @@
         <div class="offcanvas__body">
           <div class="offcanvas__left">
             <div class="offcanvas__logo">
-              <a href="{{ route('welcome') }}"><img src="{{ asset('assets/imgs/logo/fidelis-logo.png') }}" class="w-50" alt="Offcanvas Logo"></a>
+              {{-- <a href="{{ route('welcome') }}"><img src="{{ asset('assets/imgs/logo/fidelis-logo.png') }}" class="w-50" alt="Offcanvas Logo"></a> --}}
             </div>
             <div class="offcanvas__social">
               <h3 class="social-title">Follow Us</h3>

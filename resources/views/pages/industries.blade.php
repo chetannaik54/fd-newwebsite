@@ -73,22 +73,22 @@
 
                         <div class="mid-content">
                             <div class="service__image">
-                                <img src="{{ asset('assets/imgs/service/1.jpg') }}" alt="Service Image">
+                                <img src="{{ asset('assets/imgs/industries/banking.jpg') }}" alt="Service Image">
                             </div>
                             <div class="service__image">
-                                <img src="{{ asset('assets/imgs/service/2.jpg') }}" alt="Service Image">
+                                <img src="{{ asset('assets/imgs/industries/fintech.jpg') }}" alt="Service Image">
                             </div>
                             <div class="service__image">
-                                <img src="{{ asset('assets/imgs/service/3.jpg') }}" alt="Service Image">
+                                <img src="{{ asset('assets/imgs/industries/Healthcare.jpg') }}" alt="Service Image">
                             </div>
                             <div class="service__image">
-                                <img src="{{ asset('assets/imgs/service/4.jpg') }}" alt="Service Image">
+                                <img src="{{ asset('assets/imgs/industries/manufacturing.jpg') }}" alt="Service Image">
                             </div>
                             <div class="service__image">
-                                <img src="{{ asset('assets/imgs/service/5.jpg') }}" alt="Service Image">
+                                <img src="{{ asset('assets/imgs/industries/enterprise.jpg') }}" alt="Service Image">
                             </div>
                             <div class="service__image">
-                                <img src="{{ asset('assets/imgs/service/4.jpg') }}" alt="Service Image">
+                                <img src="{{ asset('assets/imgs/industries/retail-ecommerce.jpg') }}" alt="Service Image">
                             </div>
                         </div>
 

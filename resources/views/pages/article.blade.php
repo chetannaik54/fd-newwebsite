@@ -24,7 +24,7 @@
             </div>
             <div class="col-xxl-12">
                 <div class="blog__detail-thumb">
-                    <img src="{{ asset('assets/imgs/blog/detail/1.jpg') }}" alt="Blog Thumbnail" data-speed="0.5" />
+                    <img src="{{ asset('assets/imgs/blog/From-Fidelis-CEO.png') }}" alt="Blog Thumbnail" data-speed="0.5" />
                 </div>
             </div>
             <div class="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">
@@ -66,7 +66,7 @@
 <!-- Blog detail end -->
 
 <!-- Related blog start -->
-<section class="blog__related blog__animation">
+<section class="blog__related blog__animation d-none">
     <div class="container g-0 line pt-130 pb-140">
         <span class="line-3"></span>
         <div class="row">
