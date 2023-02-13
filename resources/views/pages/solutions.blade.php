@@ -272,8 +272,6 @@
                                 </p>
                             </div>
                             <ul class="research__tools">
-                                <li><a href="#">SOC</a></li>
-                                <li><a href="#">AMS</a></li>
                             </ul>
                         </div>
                         <div class="col-xxl-6 col-xl-6 col-lg-6">

@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 use App\Models\case_studie;
 use App\Models\soltions;
+use App\Models\team;
 
 class PageController extends Controller
 {
@@ -184,11 +185,13 @@ class PageController extends Controller
     }
 
     public function about_us(){
-        return view('pages.about-us');
+        $team = team::all();
+        return view('pages.about-us', compact('team'));
     }
 
-    public function team_member(){
-        return view('pages.teammember');
+    public function team_member($person){
+        $details = team::where('name', $person)->get();
+        return view('pages.teammember', compact('details'));
     }
 
     public function journal(){

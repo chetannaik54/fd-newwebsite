@@ -132,65 +132,17 @@
   
             <div class="swiper team__slider">
               <div class="swiper-wrapper">
-                <div class="swiper-slide team__slide">
-                  <a href="{{ route('team-member', 'Subrahmanya') }}">
-                    <img src="assets/imgs/team/1.jpg" alt="Team Member">
-                    <div class="team__info">
-                      <h4 class="team__member-name">Subrahmanya. B.A</h4>
-                      <h5 class="team__member-role">Founder & CEO</h5>
-                    </div>
-                  </a>
-                </div>
-   
-                <div class="swiper-slide team__slide">
-                  <a>
-                    <img src="assets/imgs/team/2.jpg" alt="Team Member">
-                    <div class="team__info">
-                      <h4 class="team__member-name">Nagashree .S</h4>
-                      <h5 class="team__member-role">Vice President – Finance & Accounts</h5>
-                    </div>
-                  </a>
-                </div>
-  
-                <div class="swiper-slide team__slide">
-                  <a>
-                    <img src="assets/imgs/team/4.jpg" alt="Team Member">
-                    <div class="team__info">
-                      <h4 class="team__member-name">Raghavendra Mesta</h4>
-                      <h5 class="team__member-role">Vice President - HR & Operations</h5>
-                    </div>
-                  </a>
-                </div>
-  
-                <div class="swiper-slide team__slide">
-                  <a>
-                    <img src="assets/imgs/team/3.jpg" alt="Team Member">
-                    <div class="team__info">
-                      <h4 class="team__member-name">Raghavendra Prasad</h4>
-                      <h5 class="team__member-role">DIRECTOR - GLOBAL SALES</h5>
-                    </div>
-                  </a>
-                </div>
-  
-                <div class="swiper-slide team__slide">
-                  <a>
-                    <img src="assets/imgs/team/5.jpg" alt="Team Member">
-                    <div class="team__info">
-                      <h4 class="team__member-name">Sridhara Sundararaj</h4>
-                      <h5 class="team__member-role">Senior Advisor - Technical Services</h5>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="swiper-slide team__slide">
-                  <a>
-                    <img src="assets/imgs/team/6.jpg" alt="Team Member">
-                    <div class="team__info">
-                      <h4 class="team__member-name">Chetan Vinobha Shetty</h4>
-                      <h5 class="team__member-role">Head of Talent Acquisition</h5>
-                    </div>
-                  </a>
-                </div>
+                  @foreach ($team as $item)
+                  <div class="swiper-slide team__slide">
+                    <a href="{{ route('team-member', $item->name) }}">
+                      <img src="{{ asset('assets/imgs/team/'.$item->img) }}" alt="Team Member">
+                      <div class="team__info">
+                        <h4 class="team__member-name">{{ $item->name }}</h4>
+                        <h5 class="team__member-role">{{ $item->designation }}</h5>
+                      </div>
+                    </a>
+                  </div>
+                  @endforeach
               </div>
             </div>
           </section>
