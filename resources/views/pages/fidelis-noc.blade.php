@@ -35,12 +35,12 @@
                 </div>
                 <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
                     <div class="development__img">
-                        <img src="/assets/imgs/thumb/dev-1.jpg" alt="Development Image" data-speed="auto">
+                        <img src="/assets/imgs/noc/brett-sayles.jpg" alt="Development Image" data-speed="auto">
                     </div>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                     <div class="development__img">
-                        <img src="/assets/imgs/thumb/dev-2.jpg" alt="Development Image">
+                        <img src="/assets/imgs/noc/ali-pazani.jpg" alt="Development Image" data-speed="auto">
                     </div>
                 </div>
             </div>
@@ -161,11 +161,11 @@
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                             IT Service Desk Management
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                    <div id="collapseOne" class="accordion-collapse collapse d-none"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>Our design services starts and ends with a best-in-class experience strategy
@@ -185,7 +185,7 @@
                                             Data Center Management
                                         </button>
                                     </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                    <div id="collapseTwo" class="accordion-collapse collapse d-none"
                                         aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>This is the second item's accordion body. It is hidden by default, until the
@@ -208,7 +208,7 @@
                                             Cloud Migration
                                         </button>
                                     </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                    <div id="collapseThree" class="accordion-collapse collapse d-none"
                                         aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>Our design services starts and ends with a best-in-class experience strategy
@@ -228,7 +228,7 @@
                                             Application Management
                                         </button>
                                     </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                    <div id="collapseFour" class="accordion-collapse collapse d-none"
                                         aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>Our design services starts and ends with a best-in-class experience strategy
@@ -248,7 +248,7 @@
                                             Network Management
                                         </button>
                                     </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                    <div id="collapseFive" class="accordion-collapse collapse d-none"
                                         aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>Our design services starts and ends with a best-in-class experience strategy
@@ -268,7 +268,7 @@
                                             End User Services
                                         </button>
                                     </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                    <div id="collapseFive" class="accordion-collapse collapse d-none"
                                         aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>Our design services starts and ends with a best-in-class experience strategy
@@ -288,7 +288,7 @@
                                             Tools
                                         </button>
                                     </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                    <div id="collapseFive" class="accordion-collapse collapse d-none"
                                         aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>Our design services starts and ends with a best-in-class experience strategy
@@ -306,7 +306,7 @@
                                             Support
                                         </button>
                                     </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div id="collapseFive" class="accordion-collapse collapse d-none" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people</p>
                                         </div>
@@ -585,10 +585,10 @@
 
 @section('script')
     <script>
-        $(document).ready(function(){
-            $( ".accordion-header" ).mouseover(function(){
-            $( ".accordion-button" ).trigger( "click" );
-            });
-        });	
+        // $(document).ready(function(){
+        //     $( ".accordion-header" ).mouseover(function(){
+        //     $( ".accordion-button" ).trigger( "click" );
+        //     });
+        // });	
     </script>
 @endsection

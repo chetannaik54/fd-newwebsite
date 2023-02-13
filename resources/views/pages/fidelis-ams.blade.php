@@ -35,12 +35,12 @@
                 </div>
                 <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
                     <div class="development__img">
-                        <img src="/assets/imgs/thumb/dev-1.jpg" alt="Development Image" data-speed="auto">
+                        <img src="/assets/imgs/ams/vojtech-okenka-392018.jpg" alt="Development Image" data-speed="auto">
                     </div>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                     <div class="development__img">
-                        <img src="/assets/imgs/thumb/dev-2.jpg" alt="Development Image">
+                        <img src="/assets/imgs/ams/drew-williams-2657669.jpg" alt="Development Image" data-speed="auto">
                     </div>
                 </div>
             </div>
@@ -150,18 +150,17 @@
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="faq__content">
-                        <h2 class="faq__title title-anim">Product making for friendly users</h2>
+                        <h2 class="faq__title title-anim">Across Managed Services</h2>
 
                         <div class="faq__list">
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Design should enrich our day
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            IT Service Desk Management
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                    <div id="collapseOne" class="accordion-collapse collapse d-none"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>Our design services starts and ends with a best-in-class experience strategy
@@ -175,13 +174,14 @@
 
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Bring their individual experience and creative
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            Data Center Management
                                         </button>
                                     </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                        data-bs-parent="#accordionExample">
+                                    <div id="collapseTwo" class="accordion-collapse collapse d-none"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>This is the second item's accordion body. It is hidden by default, until the
                                                 collapse plugin adds the appropriate classes that we use to style each
@@ -200,10 +200,10 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                             aria-expanded="false" aria-controls="collapseThree">
-                                            Human centred design to challenges
+                                            Cloud Migration
                                         </button>
                                     </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                    <div id="collapseThree" class="accordion-collapse collapse d-none"
                                         aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>Our design services starts and ends with a best-in-class experience strategy
@@ -220,10 +220,10 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                             aria-expanded="false" aria-controls="collapseFour">
-                                            Design should enrich our day
+                                            Application Management
                                         </button>
                                     </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                    <div id="collapseFour" class="accordion-collapse collapse d-none"
                                         aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>Our design services starts and ends with a best-in-class experience strategy
@@ -240,10 +240,10 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                             aria-expanded="false" aria-controls="collapseFive">
-                                            Developing core web applications
+                                            Network Management
                                         </button>
                                     </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                    <div id="collapseFive" class="accordion-collapse collapse d-none"
                                         aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>Our design services starts and ends with a best-in-class experience strategy
@@ -254,6 +254,60 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
+                                            End User Services
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse d-none"
+                                        aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Our design services starts and ends with a best-in-class experience strategy
+                                                that
+                                                builds brands. Through a process of iteration and prototyping design
+                                                interfaces that
+                                                bring joy to people</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
+                                            Tools
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse d-none"
+                                        aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Our design services starts and ends with a best-in-class experience strategy
+                                                that
+                                                builds brands. Through a process of iteration and prototyping design
+                                                interfaces that
+                                                bring joy to people</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            Support
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse d-none" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people</p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
