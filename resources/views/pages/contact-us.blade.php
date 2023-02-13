@@ -1,12 +1,18 @@
 @extends('layouts.pages')
 
 @section('customcss')
+<style>
+    iframe{ max-height: 850px; height: 100px; }
+    @media (max-width: 480px) { 
+        iframe{ max-height: 250px; height: 250px; }
+    }
+</style>
 @endsection
 
 @section('content')
 
     <section class="mt-5">
-        <iframe src="{{ route('map') }}" frameborder="0" style="width: 100%; height: 850px;"></iframe>
+        <iframe src="{{ route('map') }}" frameborder="0" style="width: 100%;"></iframe>
     </section>
 
     <!-- Contact area start -->

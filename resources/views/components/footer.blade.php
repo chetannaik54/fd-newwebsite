@@ -36,11 +36,11 @@
                             <div class="footer__inner">
 
                                 <div class="footer__widget">
-                                    <div>
+                                    {{-- <div>
                                         <div id='stars'>1</div>
                                         <div id='stars2'>2</div>
                                         <div id='stars3'>3</div>
-                                    </div>
+                                    </div> --}}
         
                                     <img class="footer__logo w-50" src="{{ asset('assets/imgs/logo/fidelis-logo.png') }}" alt="Footer Logo">
                                     <p>When do they work well, and when do they on us and finally, when do we actually
@@ -103,3 +103,11 @@
             </div>
         </footer>
         <!-- Footer area end -->
+
+        <div class="footer d-block d-sm-none" style="position: fixed;bottom: 0px;z-index: 99999999;width: 100%;">
+            <div class="btn-group w-100" role="group" aria-label="Basic example">
+                <a style="width: 33%;" class="btn btn-secondary" target="_blank" href="tel:+918041502234"><img src="{{ asset('assets/imgs/icon/phone-call.png') }}" alt="Phone"></a>
+                <a style="width: 33%;" class="btn btn-secondary" target="_blank" href="https://wa.me/+918041502234?text=� Hi, i wanted to know more about NOC. SOC software"><img src="{{ asset('assets/imgs/icon/whatsapp.png') }}" alt="whatsapp"></a>
+                <a style="width: 33%;" class="btn btn-secondary" target="_blank" href="mailto:info@fidelisgroup.in"><img src="{{ asset('assets/imgs/icon/email.png') }}" alt="Email"></a>
+              </div>
+        </div>

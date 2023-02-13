@@ -1,5 +1,13 @@
 @extends('layouts.pages')
 
+@section('customcss')
+    <style type="text/css">
+    @media (max-width: 480px) { 
+        .blog__detail-thumb img{ object-fit: contain; }
+    }
+    </style>
+@endsection
+
 @section('content')
 
 <!-- Blog detail start -->
