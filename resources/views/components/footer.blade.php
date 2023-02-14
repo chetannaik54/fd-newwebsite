@@ -50,10 +50,10 @@
                                         avoid
                                         them.</p>
                                     <ul class="footer__social">
-                                        <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
-                                        <li><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
-                                        <li><a href="#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
-                                        <li><a href="#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                                        <li><a target="_blank" href="https://www.facebook.com/FidelisGroup.Inc"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                                        <li><a target="_blank" href="https://twitter.com/fidelis_inc"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                                        <li><a target="_blank" href="https://www.instagram.com/fidelisinc/"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+                                        <li><a target="_blank" href="https://www.linkedin.com/company/fidelis-technology-services/?viewAsMember=true"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
                                     </ul>
                                 </div>
 
@@ -71,6 +71,7 @@
                                 <div class="footer__widget-3">
                                     <h2 class="footer__widget-title">Contact Us</h2>
                                     <ul class="footer__contact">
+                                        <li>Fidelis Technology Services Pvt. Ltd.</li>
                                         <li>No. 357, 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka 560034</li>
                                         <li><a href="tel:02574328301" class="phone">080 4150 2234 </a></li>
                                         <li><a href="mailto:info@fidelisgroup.in">info@fidelisgroup.in</a></li>

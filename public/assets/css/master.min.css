@@ -1395,7 +1395,8 @@ p {
     z-index: 9;
     background-color: var(--black-2);
     opacity: 0;
-    visibility: hidden
+    visibility: hidden;
+    display: none;
 }
 
 .section_title_wrapper .title_right__inner {
@@ -1777,9 +1778,10 @@ p {
 }
 
 .main-menu-3>li:hover .main-dropdown, .main-menu-3>li:hover .mega-menu, .main-menu-3>li:hover .mega-menu-2 {
-    top: 80px;
+    top: 60px;
     opacity: 1;
-    visibility: visible
+    visibility: visible;
+    display: block;
 }
 
 .main-menu-3>li>a {
@@ -2923,7 +2925,8 @@ p {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 9999
+    z-index: 9999;
+    background-color: white;
 }
 
 .header__area-3.sticky-3 {

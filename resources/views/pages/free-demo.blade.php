@@ -93,7 +93,8 @@
               <div class="row">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6" style="padding-top: 17rem;">
                     <div class="contact__form">
-                      <form action="https://wealcoder.com/dev/html/axtra/assets/mail.php" method="POST">
+                      <form method="POST" id="user-contact-form" data-action="{{ route('contactRequestPost') }}">
+                        @csrf
                         <div class="row g-3">
                           <div class="col-xxl-6 col-xl-6 col-12">
                             <input type="text" name="name" placeholder="Name *">
@@ -597,6 +598,39 @@
   <script src="assets/js/jquery.meanmenu.min.js"></script>
   <script src="assets/js/main.js"></script>
 
+
+  @section('script')
+  <script>
+      $(document).ready(function(){
+  
+      var form = '#user-contact-form';
+  
+      $(form).on('submit', function(event){
+          event.preventDefault();
+  
+          var url = $(this).attr('data-action');
+  
+          $.ajax({
+              url: url,   
+              method: 'POST',
+              data: new FormData(this),
+              dataType: 'JSON',
+              contentType: false,
+              cache: false,
+              processData: false,
+              success:function(response)
+              {
+                  $(form).trigger("reset");
+                  alert(response.success);
+              },
+              error: function(response) {
+                  $('#error').html(response);
+              }
+          });
+      });
+  });
+  
+  </script>
 
 </body>
 

@@ -140,7 +140,7 @@
                             </div>
                             <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                                 <div class="service__top-text text-anim">
-                                    <p>We bring improved and <span>absurdly affordable solutions</span> to build
+                                    <p>We bring improved and <span>affordable solutions</span> to build
                                         businesses future ready.</p>
                                 </div>
                             </div>
@@ -148,8 +148,7 @@
                                 <div class="service__top-btn">
                                     <div class="btn_wrapper">
                                         <a href="{{ route('solutions') }}"
-                                            class="btn-item wc-btn-secondary btn-hover"><span></span> View <br>all
-                                            services <i class="fa-solid fa-arrow-right"></i></a>
+                                            class="btn-item wc-btn-secondary btn-hover"><span></span> View <br>all services <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -222,9 +221,7 @@
                                                     <h4 class="service__title">Cost Reduction</h4>
                                                 </div>
                                                 <div class="service__text">
-                                                    <p>We strategically implement <strong>affordable customised
-                                                            consultancy</strong> and solutions to engage and
-                                                        align the right process and resources to meet specific demands.
+                                                    <p>We strategically implement <strong>affordable customised consultancy</strong> and solutions to engage and align the right process and resources to meet specific demands.
                                                     </p>
                                                 </div>
                                                 <div class="service__link">
@@ -240,10 +237,7 @@
                                                     <h4 class="service__title">Accuracy</h4>
                                                 </div>
                                                 <div class="service__text">
-                                                    <p>we build products, brands, apps & websites for the companies all
-                                                        around the world class
-                                                        digital
-                                                        products</p>
+                                                    <p>We build products, brands, apps & websites for the companies all around the world class digital products</p>
                                                 </div>
                                                 <div class="service__link">
                                                     <p><i class="fa-solid fa-arrow-right"></i></p>
@@ -277,9 +271,7 @@
                                         </div>
 
                                         <div class="about__img-right">
-                                            <img src="{{ asset('assets/imgs/home/modern-equipped-computer-lab.jpg') }}"
-                                                class="img-fluid" alt="About Image Right" data-speed="0.5"
-                                                style="width: 360px;">
+                                            <img src="{{ asset('assets/imgs/home/modern-equipped-computer-lab.jpg') }}" class="img-fluid" alt="About Image Right" data-speed="0.5" style="width: 240px;">
                                             <div class="shape">
                                                 <div class="secondary" data-speed="0.9"></div>
                                                 <div class="primary"></div>
@@ -324,11 +316,11 @@
                         <div class="row">
                             <div class="col-xxl-12">
                                 <div class="counter__wrapper counter_animation">
-                                    <div class="counter__item counter__anim">
+                                    {{-- <div class="counter__item counter__anim">
                                         <h2 class="counter__number">20k+</h2>
                                         <p>FIdelis <br>Alumni</p>
                                         <span class="counter__border"></span>
-                                    </div>
+                                    </div> --}}
                                     <div class="counter__item counter__anim">
                                         <h2 class="counter__number">8+</h2>
                                         <p>Offices in the <br>world</p>
@@ -340,8 +332,8 @@
                                         <span class="counter__border"></span>
                                     </div>
                                     <div class="counter__item counter__anim">
-                                        <h2 class="counter__number">2500</h2>
-                                        <p>Full time <br>Employees</p>
+                                        <h2 class="counter__number">100+</h2>
+                                        <p>Satisfied <br>Clients</p>
                                         <span class="counter__border"></span>
                                     </div>
                                 </div>
@@ -427,10 +419,12 @@
                     <div class="swiper" id="clientLogo">
                         <div class="swiper-wrapper">
                             @for ($i = 2; $i < 20; $i++)
+                            @if($i == 5 || $i == 13)@else 
                                 <div class="swiper-slide">
                                     <img src="https://fidelisgroup.in/wp-content/uploads/2020/10/Picture{{ $i }}.png"
                                         class="w-75" alt="Brand Logo" style="max-width: 200px;">
                                 </div>
+                                @endif
                             @endfor
                         </div>
                     </div>
@@ -451,7 +445,7 @@
                                 <div class="testimonial__sec-title text-anim">
                                     <h2 class="sec-subtile-6">Testimonials</h2>
                                     <h3 class="sec-title-6 title-anim">What our customer speaks</h3>
-                                    <p>We are Trusted by 1,000+ global customers teams</p>
+                                    <p>We are Trusted by 100+ global customers teams</p>
                                 </div>
                             </div>
                             <div class="swiper testimonial__slider-4">
@@ -613,7 +607,7 @@
     <script src="assets/js/main.js"></script>
 
     <style type="text/css">
-        @media (min-width:1200px) and (max-width:1366px){.main-menu-3>li>a{font-size:12px!important}}#open_offcanvas,.main-menu-3>li>a,.search-icon{color:var(--white)}.header__area-3.sticky-3 #open_offcanvas,.header__area-3.sticky-3 .main-menu-3>li>a,.header__area-3.sticky-3 .search-icon{color:var(--black-2)}#clientLogo .swiper{padding-bottom:60px!important;height:250px}#clientLogo .swiper .swiper-wrapper{align-items:center}#clientLogo .swiper .swiper-slide{border-radius:5px;height:180px!important;background-color:#000;border:1px solid #fff;transition:.2s}#clientLogo .swiper .swiper-slide.active{height:230px!important}#clientLogo .swiper .next,#clientLogo .swiper .prev{cursor:pointer;z-index:100;position:absolute;top:50%;transform:translateY(-50%);opacity:.65;transition:.2s}#clientLogo .swiper .next:hover,#clientLogo .swiper .prev:hover{opacity:1}#clientLogo .swiper .next svg,#clientLogo .swiper .prev svg{width:20px;height:20px}#clientLogo .swiper .next svg path,#clientLogo .swiper .prev svg path{fill:#fff}#clientLogo .swiper .prev{left:25px}#clientLogo .swiper .next{right:25px}#clientLogo .swiper .pagination{margin-left:8px!important;display:flex;align-items:center;justify-content:center;margin-top:40px;z-index:100}#clientLogo .swiper .pagination span{font-size:0;opacity:1;margin:0 6px!important;border:1px solid #fff}#clientLogo .swiper .pagination span.swiper-pagination-bullet-active{background-color:transparent;transform:scale(1.5)}
+        @media (min-width:1200px) and (max-width:1366px){.main-menu-3>li>a{font-size:12px!important}}#open_offcanvas,.search-icon{color:var(--white)}.header__area-3.sticky-3 #open_offcanvas,.header__area-3.sticky-3 .main-menu-3>li>a,.header__area-3.sticky-3 .search-icon{color:var(--black-2)}#clientLogo .swiper{padding-bottom:60px!important;height:250px}#clientLogo .swiper .swiper-wrapper{align-items:center}#clientLogo .swiper .swiper-slide{border-radius:5px;height:180px!important;background-color:#000;border:1px solid #fff;transition:.2s}#clientLogo .swiper .swiper-slide.active{height:230px!important}#clientLogo .swiper .next,#clientLogo .swiper .prev{cursor:pointer;z-index:100;position:absolute;top:50%;transform:translateY(-50%);opacity:.65;transition:.2s}#clientLogo .swiper .next:hover,#clientLogo .swiper .prev:hover{opacity:1}#clientLogo .swiper .next svg,#clientLogo .swiper .prev svg{width:20px;height:20px}#clientLogo .swiper .next svg path,#clientLogo .swiper .prev svg path{fill:#fff}#clientLogo .swiper .prev{left:25px}#clientLogo .swiper .next{right:25px}#clientLogo .swiper .pagination{margin-left:8px!important;display:flex;align-items:center;justify-content:center;margin-top:40px;z-index:100}#clientLogo .swiper .pagination span{font-size:0;opacity:1;margin:0 6px!important;border:1px solid #fff}#clientLogo .swiper .pagination span.swiper-pagination-bullet-active{background-color:transparent;transform:scale(1.5)}
     </style>
     <script>
         const swiper = new Swiper("#clientLogo", {

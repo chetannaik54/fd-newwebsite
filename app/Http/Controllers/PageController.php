@@ -39,7 +39,6 @@ class PageController extends Controller
                 $message->to('nilesh.g@fidelisgroup.in', 'Nilesh G')->subject('Contact Mail From Fidelis');
                 $message->from($email,$name);
                 $message->setBody($adminemail, 'text/html');
-
             });
     
             Mail::send('mail', $data, function($message) use ($name, $email) {
