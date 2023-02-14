@@ -7392,8 +7392,8 @@ p {
 }
 
 .counter__item {
-    width: 380px;
-    height: 380px;
+    width: 485px;
+    height: 440px;
     border: 1px solid var(--white-2);
     border-radius: 100%;
     margin-left: -67px;
@@ -8153,8 +8153,8 @@ p {
 
     .counter__item {
         margin-left: -60px;
-        width: 330px;
-        height: 330px
+        width: 337px;
+        height: 337px
     }
 
     .counter__item-3 {
@@ -8409,8 +8409,8 @@ p {
 
     .counter__item {
         margin-left: -25px;
-        width: 259px;
-        height: 259px
+        width: 337px;
+        height: 337px;
     }
 
     .counter__number {
@@ -8688,8 +8688,8 @@ p {
 
     .counter__item {
         margin-left: -27px;
-        width: 200px;
-        height: 200px
+        width: 258px;
+        height: 258px
     }
 
     .counter__item p {
