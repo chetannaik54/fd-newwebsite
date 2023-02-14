@@ -11,7 +11,9 @@
     <title>Home - Fidelisgroup</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/imgs/logo/favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/imgs/logo/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/imgs/logo/favicon.ico') }}" type="image/x-icon">  
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,13 +31,11 @@
 
     <!-- Preloader -->
     <div class="preloader">
-        <div class="loading">
-        </div>
+        <div class="loading"></div>
     </div>
 
     <!-- Scroll Smoother -->
     <div class="has-smooth" id="has_smooth"></div>
-
 
     <!-- Go Top Button -->
     <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
@@ -272,12 +272,12 @@
                                 <div class="about__content-wrapper">
                                     <div class="about__img">
                                         <div class="img-anim">
-                                            <img src="https://img.freepik.com/free-photo/pretty-young-smiling-african-man-formalwear-using-his-laptop-while-leaning-bar_496169-1830.jpg?w=1060&t=st=1676037634~exp=1676038234~hmac=1649b4a34c9a6adbabc8adee03813a2643584f7f65483e38e06a6b4099635c98"
+                                            <img src="{{ asset('assets/imgs/home/stylish-businessman-working-cafe-use-laptop.jpg') }}"
                                                 class="img-fluid" alt="About Image" data-speed="0.3">
                                         </div>
 
                                         <div class="about__img-right">
-                                            <img src="https://img.freepik.com/free-photo/two-indian-business-man-suits-sitting-office-cafe-looking-laptop_627829-1473.jpg?w=1380&t=st=1676037607~exp=1676038207~hmac=cf7ad338f1d09ebd6b4a9dba0e75b7eff103b9a565b7ed995cc16faa9b4d5682"
+                                            <img src="{{ asset('assets/imgs/home/modern-equipped-computer-lab.jpg') }}"
                                                 class="img-fluid" alt="About Image Right" data-speed="0.5"
                                                 style="width: 360px;">
                                             <div class="shape">
@@ -409,7 +409,7 @@
 
                 <!-- Brand area start -->
                 <section class="brand__area">
-                    <div class="container g-0 line pt-140 pb-130">
+                    <div class="container g-0 line pt-140 pb-40">
                         <span class="line-3"></span>
                         <div class="row">
                             <div class="col-xxl-12">
@@ -419,21 +419,22 @@
                                         the world’s most prestigious brands.</h3>
                                 </div>
                             </div>
-
-                            <div class="col-xxl-12">
-                                <div class="brand__list">
-                                    @for ($i = 2; $i < 20; $i++)
-                                        <div class="brand__item fade_bottom">
-                                            <img src="https://fidelisgroup.in/wp-content/uploads/2020/10/Picture{{ $i }}.png"
-                                                class="w-75" alt="Brand Logo">
-                                        </div>
-                                    @endfor
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </section>
                 <!-- Brand area end -->
+                <section class="pb-130">
+                    <div class="swiper" id="clientLogo">
+                        <div class="swiper-wrapper">
+                            @for ($i = 2; $i < 20; $i++)
+                                <div class="swiper-slide">
+                                    <img src="https://fidelisgroup.in/wp-content/uploads/2020/10/Picture{{ $i }}.png"
+                                        class="w-75" alt="Brand Logo" style="max-width: 200px;">
+                                </div>
+                            @endfor
+                        </div>
+                    </div>
+                </section>
 
                 <!-- Testimonial area start -->
                 <section class="testimonial__area-4 ">
@@ -594,7 +595,6 @@
     <link rel="stylesheet" href="assets/css/progressbar.css">
     <link rel="stylesheet" href="assets/css/meanmenu.min.css">
     <link rel="stylesheet" href="assets/css/master.min.css">
-    <link rel="stylesheet" href="style.css">
 
     <!-- All JS files -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -612,31 +612,36 @@
     <script src="assets/js/jquery.meanmenu.min.js"></script>
     <script src="assets/js/main.js"></script>
 
-    <style>
-        @media (min-width: 1200px) and (max-width: 1366px) {
-            .main-menu-3>li>a {
-                font-size: 12px !important;
-            }
-        }
-
-        .main-menu-3>li>a {
-            color: var(--white);
-        }
-
-        .header__area-3.sticky-3 .main-menu-3>li>a {
-            color: var(--black-2);
-        }
-
-        #open_offcanvas,
-        .search-icon {
-            color: var(--white);
-        }
-
-        .header__area-3.sticky-3 #open_offcanvas,
-        .header__area-3.sticky-3 .search-icon {
-            color: var(--black-2);
-        }
+    <style type="text/css">
+        @media (min-width:1200px) and (max-width:1366px){.main-menu-3>li>a{font-size:12px!important}}#open_offcanvas,.main-menu-3>li>a,.search-icon{color:var(--white)}.header__area-3.sticky-3 #open_offcanvas,.header__area-3.sticky-3 .main-menu-3>li>a,.header__area-3.sticky-3 .search-icon{color:var(--black-2)}#clientLogo .swiper{padding-bottom:60px!important;height:250px}#clientLogo .swiper .swiper-wrapper{align-items:center}#clientLogo .swiper .swiper-slide{border-radius:5px;height:180px!important;background-color:#000;border:1px solid #fff;transition:.2s}#clientLogo .swiper .swiper-slide.active{height:230px!important}#clientLogo .swiper .next,#clientLogo .swiper .prev{cursor:pointer;z-index:100;position:absolute;top:50%;transform:translateY(-50%);opacity:.65;transition:.2s}#clientLogo .swiper .next:hover,#clientLogo .swiper .prev:hover{opacity:1}#clientLogo .swiper .next svg,#clientLogo .swiper .prev svg{width:20px;height:20px}#clientLogo .swiper .next svg path,#clientLogo .swiper .prev svg path{fill:#fff}#clientLogo .swiper .prev{left:25px}#clientLogo .swiper .next{right:25px}#clientLogo .swiper .pagination{margin-left:8px!important;display:flex;align-items:center;justify-content:center;margin-top:40px;z-index:100}#clientLogo .swiper .pagination span{font-size:0;opacity:1;margin:0 6px!important;border:1px solid #fff}#clientLogo .swiper .pagination span.swiper-pagination-bullet-active{background-color:transparent;transform:scale(1.5)}
     </style>
+    <script>
+        const swiper = new Swiper("#clientLogo", {
+            slidesPerView: 8,
+            spaceBetween: 70,
+            loop: true,
+            grabCursor: true,
+            centeredSlides: true,
+            slideActiveClass: "active",
+            autoplay: {
+                enabled: true,
+                delay: 5000
+            },
+            // Media
+            // breakpoints: {
+            //   // when window width is >= 320px
+            //   320: {
+            //     slidesPerView: 2,
+            //     spaceBetween: 20
+            //   },
+            //   // when window width is >= 480px
+            //   480: {
+            //     slidesPerView: 4,
+            //     spaceBetween: 30
+            //   },
+            // }
+        });
+    </script>
 
 </body class="dir-rtl">
 
