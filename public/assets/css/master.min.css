@@ -26316,3 +26316,13 @@ p {
 .logo-dark img , .logo-light img { max-width: 75%; }
 @media (max-width: 480px) { .logo-dark img , .logo-light img { max-width: 25%; } }
 @media (min-width: 480px) and ( max-width: 1200px) { .logo-dark img , .logo-light img { max-width: 25%; }  }
+
+#chat-bot-launcher-container.chat-bot-avatar-launcher, #chat-bot-launcher-container.chat-bot-launcher-notext{
+    bottom: 55px !important;
+}
+
+@media (max-width: 480px) { 
+    footer{
+        padding-bottom: 30px;
+    }
+}

@@ -10,6 +10,7 @@
             width: 200px;
           }
       }
+      .custom-accordion,.custom-accordion>.item:nth-of-type(6){padding-bottom:2rem}.custom-accordion{background:var(--black-2);color:#fff;font-family:Sunflower,sans-serif}.custom-accordion>.item{padding:1rem 2rem;margin:0 auto;max-width:30rem}.custom-accordion>.item:last-of-type{background:#12121200;text-align:center;border-radius:.5rem}.custom-accordion>.item:last-of-type>.icon{color:#fff}.custom-accordion>.item>.icon{color:#462521;font-size:2rem}.custom-accordion>.item>.title{font-size:1.5rem}@media screen and (min-width:800px) and (min-height:270px){.custom-accordion{display:table;width:100%;margin:0 auto;height:50vh;max-height:1000px;overflow:hidden;padding-bottom:0}.custom-accordion>.item{display:table-cell;position:relative;height:100%;padding:2rem 1rem;text-align:center;transform-origin:0 50%;transition:.3s cubic-bezier(.8, .16, .42, .89)}.custom-accordion>.item:hover:not(:last-of-type){transform:scaleX(2) translateX(-1px);box-shadow:0 0 3rem #301916;background:#2e5a7d;border-color:transparent}.custom-accordion>.item:hover+.item{opacity:.1}.custom-accordion>.item:hover+.item:last-of-type{opacity:.1;background:#2e5a7d}.custom-accordion>.item:not(:last-of-type){border-right:1px solid #462521}.custom-accordion>.item:last-of-type{background:#12121200;width:25%;border-radius:0}.custom-accordion>.item>.content,.custom-accordion>.item>.title{position:absolute;left:50%;width:200%;transition:.3s cubic-bezier(.8, .16, .42, .89)}.custom-accordion>.item:last-of-type .heart-icon{font-size:6rem}.custom-accordion>.item:hover:last-of-type .heart-icon{transform:scale(2)}.custom-accordion>.item:last-of-type>.title{transform:rotate(0) translateX(-50%) translateY(-2.5rem);padding:0;text-align:center}.custom-accordion>.item:last-of-type>.content{opacity:1;transform:translateX(-50%) translateY(-50%)}.custom-accordion>.item:hover:not(:last-of-type)>.icon{transform:scaleX(.5)}.custom-accordion>.item:hover:not(:last-of-type)>.title{transform:scaleX(.5) translateX(-50%);background:#ca2e55;text-align:center;padding:0}.custom-accordion>.item:hover:not(:last-of-type)>.title>.text{transform:translateX(-50%);left:50%}.custom-accordion>.item:hover:not(:last-of-type)>.content{opacity:1}.custom-accordion>.item>.icon{position: absolute; font-weight:700;font-size:2rem;transition:.3s cubic-bezier(.8, .16, .42, .89);color:#fff}.custom-accordion>.item>.title{bottom:0;height:1.5rem;text-align:left;transform-origin:0 50%;transform:rotate(-90deg);font-size:1.2rem}.custom-accordion>.item>.title>.text{position:absolute;left:2rem;bottom:0;white-space:nowrap;transition:.3s cubic-bezier(.8, .16, .42, .89)}.custom-accordion>.item>.content{top:50%;height:auto;transform:translateX(-50%) translateY(-50%) scaleX(.5);opacity:0;padding:1rem;pointer-events:none}}.heart-icon{color:#ca2e55;font-size:3rem;transition:.3s cubic-bezier(.8, .16, .42, .89)}
     </style>
 @endsection
 
@@ -156,6 +157,11 @@
                     </a>
                   </div>
                   @endforeach
+                  {{-- navigation: {
+                    nextEl: '.swiper-button-next-unique',
+                    prevEl: '.swiper-button-prev-unique'
+                  } --}}
+                
               </div>
             </div>
           </section>
@@ -261,7 +267,7 @@
 
           <section style="background: var(--black-2);">
 
-            <div class="custom-accordion">
+            <div class="custom-accordion" style="position: relative;">
               <div class="item">
                 <div class="icon">2007</div>
                 <div class="title">
@@ -348,8 +354,29 @@
   
   
         <!-- Service area start -->
-        <section class="service__area-1 pt-130 pb-110">
+        <section class="service__area-1 py-5">
           <div class="container">
+            <h2 class="text-center py-5">Core Values</h2>
+            <div class="row">
+                <div class="col-md-12">
+                  <div class="col-md-3 col-sm-12 py-3 float-start">
+                    <h4>Commitment</h4>
+                    <p>Be accountable, work together as a team, and communicate clearly. </p>
+                  </div>
+                  <div class="col-md-3 py-3 float-start">
+                    <h3>Innovation</h3>
+                    <p> Think outside the box, challenge constructively</p>
+                  </div>
+                  <div class="col-md-3 py-3 float-start">
+                    <h3>Excellence</h3>
+                    <p>Always deliver exceptional value, <br> accomplish goals </p>
+                  </div>
+                  <div class="col-md-3 py-3 float-start">
+                    <h3>Community</h3>
+                    <p> Creating a positive place to work and supportin </p>
+                  </div>
+                </div>
+            </div>
 
             <div class="row pt-140">
               <div class="col-xxl-12">
@@ -473,15 +500,5 @@
           </section>
           <!-- Testimonial area end -->
   
-
-@endsection
-
-@section('customcss')
-<style>
-  .custom-accordion,.custom-accordion>.item:nth-of-type(6){padding-bottom:2rem}.custom-accordion{background:var(--black-2);color:#fff;font-family:Sunflower,sans-serif}.custom-accordion>.item{padding:1rem 2rem;margin:0 auto;max-width:30rem}.custom-accordion>.item:last-of-type{background:#12121200;text-align:center;border-radius:.5rem}.custom-accordion>.item:last-of-type>.icon{color:#fff}.custom-accordion>.item>.icon{color:#462521;font-size:2rem}.custom-accordion>.item>.title{font-size:1.5rem}@media screen and (min-width:800px) and (min-height:270px){.custom-accordion{display:table;width:100%;margin:0 auto;height:50vh;max-height:1000px;overflow:hidden;padding-bottom:0}.custom-accordion>.item{display:table-cell;position:relative;height:100%;padding:2rem 1rem;text-align:center;transform-origin:0 50%;transition:.3s cubic-bezier(.8, .16, .42, .89)}.custom-accordion>.item:hover:not(:last-of-type){transform:scaleX(2) translateX(-1px);box-shadow:0 0 3rem #301916;background:#2e5a7d;border-color:transparent}.custom-accordion>.item:hover+.item{opacity:.1}.custom-accordion>.item:hover+.item:last-of-type{opacity:.1;background:#2e5a7d}.custom-accordion>.item:not(:last-of-type){border-right:1px solid #462521}.custom-accordion>.item:last-of-type{background:#12121200;width:25%;border-radius:0}.custom-accordion>.item>.content,.custom-accordion>.item>.title{position:absolute;left:50%;width:200%;transition:.3s cubic-bezier(.8, .16, .42, .89)}.custom-accordion>.item:last-of-type .heart-icon{font-size:6rem}.custom-accordion>.item:hover:last-of-type .heart-icon{transform:scale(2)}.custom-accordion>.item:last-of-type>.title{transform:rotate(0) translateX(-50%) translateY(-2.5rem);padding:0;text-align:center}.custom-accordion>.item:last-of-type>.content{opacity:1;transform:translateX(-50%) translateY(-50%)}.custom-accordion>.item:hover:not(:last-of-type)>.icon{transform:scaleX(.5)}.custom-accordion>.item:hover:not(:last-of-type)>.title{transform:scaleX(.5) translateX(-50%);background:#ca2e55;text-align:center;padding:0}.custom-accordion>.item:hover:not(:last-of-type)>.title>.text{transform:translateX(-50%);left:50%}.custom-accordion>.item:hover:not(:last-of-type)>.content{opacity:1}.custom-accordion>.item>.icon{position: absolute; font-weight:700;font-size:2rem;transition:.3s cubic-bezier(.8, .16, .42, .89);color:#fff}.custom-accordion>.item>.title{bottom:0;height:1.5rem;text-align:left;transform-origin:0 50%;transform:rotate(-90deg);font-size:1.2rem}.custom-accordion>.item>.title>.text{position:absolute;left:2rem;bottom:0;white-space:nowrap;transition:.3s cubic-bezier(.8, .16, .42, .89)}.custom-accordion>.item>.content{top:50%;height:auto;transform:translateX(-50%) translateY(-50%) scaleX(.5);opacity:0;padding:1rem;pointer-events:none}}.heart-icon{color:#ca2e55;font-size:3rem;transition:.3s cubic-bezier(.8, .16, .42, .89)}
-</style>
-@endsection
-
-@section('script')
 
 @endsection
