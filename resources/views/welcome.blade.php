@@ -78,8 +78,7 @@
                     </div>
 
                     {{-- <img src="assets/imgs/hero/1/1-bg.png" alt="image" > --}}
-                    <video src="videos/earth-video.mp4" class="hero1_bg" autoplay muted playsinline
-                        preload="auto"></video>
+                    <video src="videos/earth-video.mp4" class="hero1_bg" autoplay muted playsinline preload="auto"></video>
                 </section>
                 <!-- Hero area end -->
 
@@ -419,7 +418,7 @@
                     <div class="swiper" id="clientLogo">
                         <div class="swiper-wrapper">
                             @for ($i = 2; $i < 20; $i++)
-                            @if($i == 5 || $i == 13)@else 
+                            @if($i == 5 || $i == 13|| $i == 16)@else 
                                 <div class="swiper-slide">
                                     <img src="https://fidelisgroup.in/wp-content/uploads/2020/10/Picture{{ $i }}.png"
                                         class="w-75" alt="Brand Logo" style="max-width: 200px;">
@@ -632,6 +631,10 @@
               480: {
                 slidesPerView: 4,
                 spaceBetween: 30
+              },
+              997: {
+                slidesPerView: 8,
+                spaceBetween: 60
               },
             }
         });
