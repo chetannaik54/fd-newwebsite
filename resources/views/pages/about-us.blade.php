@@ -1,5 +1,18 @@
 @extends('layouts.pages')
 
+@section('customcss')
+    <style>
+      .bestaward{
+        width: 75%;
+      }
+      @media (max-width: 480px) { 
+          .bestaward{
+            width: 200px;
+          }
+      }
+    </style>
+@endsection
+
 @section('content')
   <!-- Team Cursor -->
   <div class="cursor" id="team_cursor">Drag</div>
@@ -23,7 +36,7 @@
                         <p>we have experienced and understood the growing part that solving real world problems plays in everyday life as we are spontaneously building on our heritage and business culture and reinventing ourselves just as the legendary phoenix bird always takes a new birth from its ashes to assume a new life.</p>
                       </div>
                       <div class="hero__about-award">
-                        <img src="assets/imgs/awards/msp-alliance.png" alt="Best Studio Award" class="w-75">
+                        <img src="/assets/imgs/awards/msp-alliance.png" alt="Best Studio Award" class="bestaward">
                       </div>
                     </div>
                   </div>

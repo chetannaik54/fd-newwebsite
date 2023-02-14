@@ -11,6 +11,30 @@
          background-image:none !important;
       }
    }
+
+        @media (min-width: 1200px) and (max-width: 1366px) {
+            .main-menu-3>li>a {
+                font-size: 12px !important;
+            }
+        }
+
+        .main-menu-3>li>a {
+            color: var(--white);
+        }
+
+        .header__area-3.sticky-3 .main-menu-3>li>a {
+            color: var(--black-2);
+        }
+
+        #open_offcanvas,
+        .search-icon {
+            color: var(--white);
+        }
+
+        .header__area-3.sticky-3 #open_offcanvas,
+        .header__area-3.sticky-3 .search-icon {
+            color: var(--black-2);
+        }
 </style>
 @endsection
 

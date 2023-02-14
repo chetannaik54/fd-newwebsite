@@ -49,7 +49,7 @@
 
                 <!-- Hero area start -->
                 <section class="hero__area ">
-                    <div class="container">
+                    <div class="container mt-5">
                         <div class="row">
                             <div class="col-xxl-12">
                                 <div class="hero__content animation__hero_one">

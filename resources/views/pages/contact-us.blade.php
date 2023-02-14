@@ -2,7 +2,7 @@
 
 @section('customcss')
 <style>
-    iframe{ max-height: 850px; height: 100px; }
+    iframe{ max-height: 850px; height: 850px; }
     @media (max-width: 480px) { 
         iframe{ max-height: 250px; height: 250px; }
     }
