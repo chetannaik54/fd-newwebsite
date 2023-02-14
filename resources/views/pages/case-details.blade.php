@@ -93,8 +93,8 @@
               {{-- <div class="row">
                   <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
                       <div class="portfolio__detail-btns pt-150 pb-150">
-                          <a href="portfolio-details.html" class="wc-btn-primary btn-hover"><span></span> Prev Work</a>
-                          <a href="portfolio-details.html" class="wc-btn-primary btn-hover"><span></span> Next Work</a>
+                          <a href="#" class="wc-btn-primary btn-hover"><span></span> Prev Work</a>
+                          <a href="#" class="wc-btn-primary btn-hover"><span></span> Next Work</a>
                       </div>
                   </div>
               </div> --}}

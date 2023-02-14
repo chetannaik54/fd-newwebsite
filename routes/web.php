@@ -103,3 +103,5 @@ Route::get('free-demo', [PageController::class, 'free_demo'])->name('free-demo')
 Route::post('subscription', [PageController::class, 'subscription'])->name('subscription');
 
 Route::get('/map', function () { return view('pages.map'); })->name('map');
+
+Route::post('contactRequest', [PageController::class, 'contactRequestPost'])->name('contactRequestPost');

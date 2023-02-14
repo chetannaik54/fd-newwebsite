@@ -123,37 +123,37 @@
              <div class="col-xxl-12">
                <div class="service__items-7 animation_service_7">
                  <div class="service__item-7">
-                   <a href="service-details.html">
+                   <a href="#">
                      <h3 class="service__title-7">Gratuity <span>& Health Insurance</span></h3>
                    </a>
                    <p>The only thing we are more passionate about after technology is our people! As an OG at Fidelis who has stayed with us for 5 (hi-five) years, we reward you with the Gratuity benefit.</p>
                  </div>
                  <div class="service__item-7">
-                   <a href="service-details.html">
+                   <a href="#">
                      <h3 class="service__title-7">Work From <span>Home Options</span> </h3>
                    </a>
                    <p>In #workfromhome, we trust! The pandemic has brought us to the reality that working from home can be an option to be productive. At Fidelis, we provide flexible work hours and a hybrid mode.</p>
                  </div>
                  <div class="service__item-7">
-                   <a href="service-details.html">
+                   <a href="#">
                      <h3 class="service__title-7">Personal Accident <span>Policy</span> </h3>
                    </a>
                    <p>You are our safety net, and we give you a hassle-free, frictionless Personal Accident Policy to cover sudden mishaps and medical expenses. With us, your health and growth are in safe hands.</p>
                  </div>
                  <div class="service__item-7">
-                   <a href="service-details.html">
+                   <a href="#">
                      <h3 class="service__title-7">Paid <span> Maternity Leave</span> </h3>
                    </a>
                    <p>Mothers are true multitaskers, and we are always game for them. Being a newborn mother isn’t easy, and we understand its hassles. Hence, Fidelers provides you with leave of 26 weeks. We wish you a pleasant time</p>
                  </div>
                  <div class="service__item-7">
-                   <a href="service-details.html">
+                   <a href="#">
                      <h3 class="service__title-7">Global <span>Work Space</span></h3>
                    </a>
                    <p>We are a global workspace that provides you with complete freedom to work in any setting, including cabins and bean bags. You get to decide. Get unlimited food, enjoy gaming in your spare time, and work in a welcoming environment.</p>
                  </div>
                  <div class="service__item-7">
-                   <a href="service-details.html">
+                   <a href="#">
                      <h3 class="service__title-7">Paid <span>Paternity Leave</span> </h3>
                    </a>
                    <p>Parenting together in the first days of your child’s birth is instrumental. We are aware of how crucial it is to determine family relations. We always stand by you and want you to be a fantastic dad in addition to being a super employee.</p>
@@ -201,7 +201,7 @@
           </div>
           <div class="col-xxl-5 col-xl-5 col-lg-5">
              <div class="sec-title-wrapper">
-                <h2 class="sec-title title-anim">Global Perks & Benefits</h2>
+                <h2 class="sec-title title-anim">Perks & Benefits</h2>
                 <p>Making an impact is foundational to who we are at Fidelis. People, Performance, Perks. These are the foundational stones of Life At Fidelis. An inside look at our space, work, and camaraderie shows we are as cool a gig as it sounds. Over the years, we have tried to deconstruct the environment into a more work-life-positive, creativity-centered force for our employees. With around 1600+ Fidelis minds under our umbrella, we have implemented a structure and standard that ensures to help shape your professionalism, aspirations, and way of life.</p>
              </div>
           </div>

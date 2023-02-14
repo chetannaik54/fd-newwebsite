@@ -6,9 +6,53 @@ use Illuminate\Http\Request;
 use App\Models\case_studie;
 use App\Models\soltions;
 use App\Models\team;
+use Illuminate\Support\Facades\Log;
 
 class PageController extends Controller
 {
+    public function contactRequestPost(Request $request){
+        $validated = $request->validate([
+            'name' => 'required',
+            'email' => 'required',
+            'phone' => 'required',
+            'subject' => 'required',
+            'message' => 'required'
+        ]);
+    
+        Log::info($request->all());
+
+        $data = array(
+            'name'=> $request->name,
+            'email'=>$request->email,
+            'phone'=>$request->phone,
+            'subject' => $request->subject,
+            'message' => $request->message
+        );
+
+        $name = $data['name'];
+        $email = $data['email'];
+
+        $adminemail = 'Name : '. $data['name'].' Email '.$data['email'].' Phone '.$data['phone'].' Subject '.$data['subject'].' Message '.$data['message'];
+
+        try {
+            Mail::send( $adminemail, [], function($message) use ($name, $email, $adminemail) {
+                $message->to('nilesh.g@fidelisgroup.in', 'Nilesh G')->subject('Contact Mail From Fidelis');
+                $message->from($email,$name);
+                $message->setBody($adminemail, 'text/html');
+
+            });
+    
+            Mail::send('mail', $data, function($message) use ($name, $email) {
+                $message->to($email, $name)->subject('Thank you for contacting - FidelisGroup');
+                $message->from('support@fidelisgroup.in','Support');
+            });
+
+            return response()->json(['success'=>'Thank you for contacting.']);
+        } catch (\Throwable $th) {
+            Log::emergency($th->getMessage());
+        }
+    }
+
     public function subscription(Request $request){
         $data = array('email' => $request->email);
 

@@ -17,13 +17,13 @@
         <div class="row">
             <div class="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">
                 <div class="blog__detail-top">
-                    <h2 class="blog__detail-date animation__word_come">Design, Marketing <span>25 Jan 2019</span></h2>
-                    <h3 class="blog__detail-title animation__word_come">Donate your design for newest designers to try better</h3>
+                    <h2 class="blog__detail-date animation__word_come"><span>July 2021</span></h2>
+                    <h3 class="blog__detail-title animation__word_come">Deep Rooted Thoughts from the CEO of Fidelis Group</h3>
                     <div class="blog__detail-metalist">
-                        <div class="blog__detail-meta">
+                        {{-- <div class="blog__detail-meta">
                             <img src="{{ asset('assets/imgs/blog/detail/author.png') }}" alt="Author Picture" />
-                            <p>Writen by <span>Codexpand</span></p>
-                        </div>
+                            <p>Writen by <span></span></p>
+                        </div> --}}
                         <div class="blog__detail-meta">
                             <p>Viewed <span>3 min read</span></p>
                         </div>
@@ -63,8 +63,8 @@
                 </div>
                 <div class="blog__detail-tags">
                     <p class="sub-title-anim d-none">
-                        tags: <a href="tag.html">design</a>, <a href="tag.html">figma</a>,
-                        <a href="tag.html">update</a>
+                        tags: <a href="#">design</a>, <a href="#">figma</a>,
+                        <a href="#">update</a>
                     </p>
                 </div>
             </div>
@@ -89,16 +89,16 @@
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <article class="blog__item">
                     <div class="blog__img-wrapper">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <div class="img-box">
                                 <img class="image-box__item" src="{{ asset('assets/imgs/blog/1.jpg') }}" alt="Blog Thumbnail" />
                                 <img class="image-box__item" src="{{ asset('assets/imgs/blog/1.jpg') }}" alt="BLog Thumbnail" />
                             </div>
                         </a>
                     </div>
-                    <h4 class="blog__meta sub-title-anim"><a href="category.html">UI Design</a> . 02 May 2019</h4>
-                    <h5><a href="blog-details.html" class="blog__title sub-title-anim">Ways of lying to yourself about your new relationship.</a></h5>
-                    <a href="blog-details.html" class="blog__btn">Read More <span><i class="fa-solid fa-arrow-right"></i></span>
+                    <h4 class="blog__meta sub-title-anim"><a href="#">UI Design</a> . 02 May 2019</h4>
+                    <h5><a href="#" class="blog__title sub-title-anim">Ways of lying to yourself about your new relationship.</a></h5>
+                    <a href="#" class="blog__btn">Read More <span><i class="fa-solid fa-arrow-right"></i></span>
                     </a>
                 </article>
             </div>
@@ -106,16 +106,16 @@
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <article class="blog__item" data-speed="auto">
                     <div class="blog__img-wrapper">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <div class="img-box">
                                 <img class="image-box__item" src="{{ asset('assets/imgs/blog/2.jpg') }}" alt="Blog Thumbnail" />
                                 <img class="image-box__item" src="{{ asset('assets/imgs/blog/2.jpg') }}" alt="BLog Thumbnail" />
                             </div>
                         </a>
                     </div>
-                    <h4 class="blog__meta sub-title-anim"><a href="category.html">UI Design</a> . 02 May 2019</h4>
-                    <h5><a href="blog-details.html" class="blog__title sub-title-anim">How to manage a talented and successful de sign team</a></h5>
-                    <a href="blog-details.html" class="blog__btn">
+                    <h4 class="blog__meta sub-title-anim"><a href="#">UI Design</a> . 02 May 2019</h4>
+                    <h5><a href="#" class="blog__title sub-title-anim">How to manage a talented and successful de sign team</a></h5>
+                    <a href="#" class="blog__btn">
                         Read More <span><i class="fa-solid fa-arrow-right"></i></span>
                     </a>
                 </article>
@@ -124,16 +124,16 @@
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <article class="blog__item" data-speed="auto">
                     <div class="blog__img-wrapper">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <div class="img-box">
                                 <img class="image-box__item" src="{{ asset('assets/imgs/blog/3.jpg') }}" alt="Blog Thumbnail" />
                                 <img class="image-box__item" src="{{ asset('assets/imgs/blog/3.jpg') }}" alt="BLog Thumbnail" />
                             </div>
                         </a>
                     </div>
-                    <h4 class="blog__meta sub-title-anim"><a href="category.html">UI Design</a> . 02 May 2019</h4>
-                    <h5><a href="blog-details.html" class="blog__title sub-title-anim">How to bring fold to your startup company with Axtra</a></h5>
-                    <a href="blog-details.html" class="blog__btn">
+                    <h4 class="blog__meta sub-title-anim"><a href="#">UI Design</a> . 02 May 2019</h4>
+                    <h5><a href="#" class="blog__title sub-title-anim">How to bring fold to your startup company with Axtra</a></h5>
+                    <a href="#" class="blog__btn">
                         Read More <span><i class="fa-solid fa-arrow-right"></i></span>
                     </a>
                 </article>

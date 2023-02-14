@@ -46,7 +46,8 @@
                 </div>
                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                     <div class="contact__form">
-                        <form action="https://wealcoder.com/dev/html/axtra/assets/mail.php" method="POST">
+                        <form action="" method="POST" id="user-contact-form" data-action="{{ route('contactRequestPost') }}">
+                            @csrf
                             <div class="row g-3">
                                 <div class="col-xxl-6 col-xl-6 col-12">
                                     <input type="text" name="name" placeholder="Name *">
@@ -68,6 +69,9 @@
                                     <textarea name="message" placeholder="Messages *"></textarea>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div id="error" style="color: red;"></div>
+                            </div>
                             <div class="row g-3">
                                 <div class="col-12">
                                     <div class="btn_wrapper">
@@ -83,4 +87,38 @@
         </div>
     </section>
     <!-- Contact area end -->
+@endsection
+
+@section('script')
+<script>
+    $(document).ready(function(){
+
+    var form = '#user-contact-form';
+
+    $(form).on('submit', function(event){
+        event.preventDefault();
+
+        var url = $(this).attr('data-action');
+
+        $.ajax({
+            url: url,   
+            method: 'POST',
+            data: new FormData(this),
+            dataType: 'JSON',
+            contentType: false,
+            cache: false,
+            processData: false,
+            success:function(response)
+            {
+                $(form).trigger("reset");
+                alert(response.success);
+            },
+            error: function(response) {
+                $('#error').html(response);
+            }
+        });
+    });
+});
+
+</script>
 @endsection

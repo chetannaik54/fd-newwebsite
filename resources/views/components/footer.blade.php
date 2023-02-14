@@ -1,5 +1,7 @@
 
-@if(Request::route()->getName() != "contact-us")
+@if(Request::route()->getName() == "contact-us" || Request::route()->getName() == "free-demo")
+
+@else
     <!-- CTA area start -->
         <section class="cta__area">
             <div class="container line pb-110">

@@ -41,7 +41,7 @@
         <div class="row row_bottom">
             <div class="col-xxl-12">
                 {{-- <div class="portfolio__btn btn_wrapper" data-speed="1" data-lag="0.2">
-                    <a class="wc-btn-secondary btn-hover btn-item" href="portfolio.html"><span></span>Load More</a>
+                    <a class="wc-btn-secondary btn-hover btn-item" href=""><span></span>Load More</a>
                 </div> --}}
             </div>
         </div>

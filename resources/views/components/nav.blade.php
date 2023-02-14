@@ -115,7 +115,7 @@
               <nav class="offcanvas__menu">
                 <ul class="menu-anim">
                   <li><a href="{{ route('about-us') }}">about</a></li>
-                  <li><a href="portfolio.html">Solutions</a>
+                  <li><a href="{{ route('solutions') }}">Solutions</a>
                     <ul>
                       <li><a href="#">Managed Services</a>
                         <ul class="sub-dropdown">
