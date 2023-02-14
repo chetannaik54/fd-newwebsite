@@ -32,12 +32,7 @@
         <div class="container pb-130">
             <div class="row">
                 <div class="col-xxl-12">
-                    <div class="solution__btm">
-                        <ul>
-                            <li>Approch</li>
-                            <li>Creativity</li>
-                            <li>Experienced</li>
-                        </ul>
+                    <div class="solution__btm"> 
                     </div>
                 </div>
             </div>
@@ -52,7 +47,6 @@
         </div>
     </section>
     <!-- Hero area end -->
-
 
     <!-- Service area start -->
     <section class="service__area-6">

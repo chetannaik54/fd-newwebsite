@@ -45,10 +45,7 @@
                                     </div> --}}
         
                                     <img class="footer__logo w-50" src="{{ asset('assets/imgs/logo/fidelis-logo.png') }}" alt="Footer Logo">
-                                    <p>When do they work well, and when do they on us and finally, when do we actually
-                                        need how can we
-                                        avoid
-                                        them.</p>
+                                    <p></p>
                                     <ul class="footer__social">
                                         <li><a target="_blank" href="https://www.facebook.com/FidelisGroup.Inc"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
                                         <li><a target="_blank" href="https://twitter.com/fidelis_inc"><span><i class="fa-brands fa-twitter"></i></span></a></li>

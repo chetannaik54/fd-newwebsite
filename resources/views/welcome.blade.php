@@ -457,11 +457,7 @@
                                             <p>Fidelis has been a wonderful company starting out. Several things worth
                                                 pointing out are within the overall atmosphere. Since Fidelis is in it's
                                                 growth phase, it allows the management team to easily help everyone get
-                                                acquainted with the overall job feel. My fellow team members and HR have
-                                                been wonderful. Fidelis is fun place to work at, we don't miss
-                                                celebration's and festivals. The hiring process is easily streamlined.
-                                                All expectations were made clear throughout the entire process. Looking
-                                                forward to many more years with this company</p>
+                                                acquainted with the overall job feel. </p>
                                             <h5 class="testimonial__name-4">Priyanka MR</h5>
                                         </div>
                                     </div>

@@ -1847,7 +1847,8 @@ p {
 
 .contact_wrap:hover .link, .main-dropdown li:hover .sub-dropdown {
     opacity: 1;
-    visibility: visible
+    visibility: visible;
+    display: block;
 }
 
 .main-dropdown li a {

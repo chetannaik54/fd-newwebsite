@@ -99,6 +99,7 @@
         event.preventDefault();
 
         var url = $(this).attr('data-action');
+        $('.wc-btn-primary').html("Sending... <i class='fa fa-spinner fa-spin' style='font-size:24px'></i>");
 
         $.ajax({
             url: url,   
@@ -111,9 +112,10 @@
             success:function(response)
             {
                 $(form).trigger("reset");
-                alert(response.success);
+                $('.wc-btn-primary').html("Thank You... <i class='fa fa-thumbs-o-up' aria-hidden='true'></i>");
             },
             error: function(response) {
+                $('.wc-btn-primary').html("Oops... <i class='fa fa-thumbs-o-down' aria-hidden='true'></i>");
                 $('#error').html(response);
             }
         });

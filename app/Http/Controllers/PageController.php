@@ -35,10 +35,9 @@ class PageController extends Controller
         $adminemail = 'Name : '. $data['name'].' Email '.$data['email'].' Phone '.$data['phone'].' Subject '.$data['subject'].' Message '.$data['message'];
 
         try {
-            Mail::send( $adminemail, [], function($message) use ($name, $email, $adminemail) {
+            Mail::raw( $adminemail,  function($message) use ($name, $email, $adminemail) {
                 $message->to('nilesh.g@fidelisgroup.in', 'Nilesh G')->subject('Contact Mail From Fidelis');
                 $message->from($email,$name);
-                $message->setBody($adminemail, 'text/html');
             });
     
             Mail::send('mail', $data, function($message) use ($name, $email) {

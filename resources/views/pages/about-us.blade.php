@@ -361,7 +361,7 @@
                         <div class="swiper-slide testimonial__slide">
                           <div class="testimonial__inner-2">
                             <h2 class="testimonial__title-2">Awesome Atmosphere</h2>
-                            <p class="testimonial__text-2">Fidelis has been a wonderful company starting out. Several things worth pointing out are within the overall atmosphere. Since Fidelis is in it's growth phase, it allows the management team to easily help everyone get acquainted with the overall job feel. My fellow team members and HR have been wonderful. Fidelis is fun place to work at, we don't miss celebration's and festivals. The hiring process is easily streamlined. All expectations were made clear throughout the entire process. Looking forward to many more years with this company</p>
+                            <p class="testimonial__text-2">Fidelis has been a wonderful company starting out. Several things worth pointing out are within the overall atmosphere. Since Fidelis is in it's growth phase, it allows the management team to easily help everyone get acquainted with the overall job feel.</p>
                             <h3 class="testimonial__author">Priyanka MR</h3>
                           </div>
                         </div>

@@ -37,7 +37,9 @@
     top: 0;
     bottom: 0;
     z-index: -1;
-}</style>
+}
+#clientLogo .swiper{padding-bottom:60px!important;height:250px}#clientLogo .swiper .swiper-wrapper{align-items:center}#clientLogo .swiper .swiper-slide{border-radius:5px;height:180px!important;background-color:#000;border:1px solid #fff;transition:.2s}#clientLogo .swiper .swiper-slide.active{height:230px!important}#clientLogo .swiper .next,#clientLogo .swiper .prev{cursor:pointer;z-index:100;position:absolute;top:50%;transform:translateY(-50%);opacity:.65;transition:.2s}#clientLogo .swiper .next:hover,#clientLogo .swiper .prev:hover{opacity:1}#clientLogo .swiper .next svg,#clientLogo .swiper .prev svg{width:20px;height:20px}#clientLogo .swiper .next svg path,#clientLogo .swiper .prev svg path{fill:#fff}#clientLogo .swiper .prev{left:25px}#clientLogo .swiper .next{right:25px}#clientLogo .swiper .pagination{margin-left:8px!important;display:flex;align-items:center;justify-content:center;margin-top:40px;z-index:100}#clientLogo .swiper .pagination span{font-size:0;opacity:1;margin:0 6px!important;border:1px solid #fff}#clientLogo .swiper .pagination span.swiper-pagination-bullet-active{background-color:transparent;transform:scale(1.5)}
+</style>
 
 </head>
 
@@ -119,8 +121,7 @@
                         <div class="row g-3">
                           <div class="col-12">
                             <div class="btn_wrapper">
-                              <button class="wc-btn-primary btn-hover btn-item"><span></span> Send <br>Messages <i
-                                  class="fa-solid fa-arrow-right"></i></button>
+                              <button class="wc-btn-primary btn-hover btn-item"><span></span> Send <br>Messages <i class="fa-solid fa-arrow-right"></i></button>
                             </div>
                           </div>
                         </div>
@@ -155,9 +156,8 @@
               <div class="row animation_workflow_6">
                 <div class="col-xxl-12">
                   <div class="title-wrapper-6 text-anim">
-                    <h2 class="sec-subtile-6">Processing</h2>
                     <h3 class="sec-title-6 title-anim">Our Products</h3>
-                    <p>Adjust your design through a wide range of theme options in the <br> development and instantly.
+                    <p>Give directions to your needs through a wide range of Highly Customisable & affordable IT Solutions <br>
                     </p>
                   </div>
                 </div>
@@ -165,24 +165,21 @@
                   <div class="workflow__item-4">
                     <img src="assets/imgs/thumb/1.png" alt="Work Image">
                     <h4 class="workflow__title-4">NOC</h4>
-                    <p>Modern and unique design practically point of view, it risks not meeting the huge expectations
-                    </p>
+                    <p>NOC aka Network Operations Center solutions that help organizations monitor and manage their infrastructure support to ensure its stability and performance. </p>
                   </div>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                   <div class="workflow__item-4">
                     <img src="assets/imgs/thumb/2.png" alt="Work Image">
                     <h4 class="workflow__title-4">AMS</h4>
-                    <p>Using year-over-year design and latest techs, we will ensure that your new website will be
-                      visible
-                    </p>
+                    <p>Fidelis Asset Management (FidelisAM) is a comprehensive solution designed to help organizations manage, control, and track their assets</p>
                   </div>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                   <div class="workflow__item-4">
                     <img src="assets/imgs/thumb/3.png" alt="Work Image">
                     <h4 class="workflow__title-4">SOC</h4>
-                    <p>Brand strategy tools are made size for marketing teams taken possession of global strategy</p>
+                    <p>SOC aka Security Operating Center solution provides a comprehensive approach to securing your IT environment</p>
                   </div>
                 </div>
               </div>
@@ -204,18 +201,21 @@
               <div class="row">
                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6">
                   <div class="feature__content-left">
-                    <h2 class="sec-subtile-6">Features</h2>
-                    <h3 class="sec-title-6 title-anim">We handle visual <br> design challenges <br> our way.</h3>
+                    <h2 class="sec-subtile-6">NOC</h2>
+                    <h3 class="sec-title-6 title-anim">Network Operation Center</h3>
                   </div>
                 </div>
                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6">
                   <div class="feature__content-right">
-                    <h4 class="feature__title-6">Creativity</h4>
-                    <p>We are constantly rethinking the future by creating the next generation of products, <span>brands
-                        and design features</span> from a
-                      hybrid perspective.</p>
-                    <p>Regulatory oneven an enterprises such she and the got the did attributing and pushed.</p>
-                    <img class="feature__img-1" src="assets/imgs/feature/4/1.png" alt="Icon">
+                    <h4 class="feature__title-6">Features of Fidelis NOC Solutions include</h4>
+                    <p> Proactive monitoring for quick issue detection and resolution.</p>
+                    <div class="row grid">
+                      <div class="col-md-6 float-start"><p class="p-0">+ Customizable solutions that meet the unique needs of each organization.</p></div>
+                      <div class="col-md-6 float-start"><p class="p-0">+ 24/7 monitoring to ensure issues are addressed quickly regardless of the time of day.</p></div>
+                      <div class="col-md-6 float-start pt-3"><p class="p-0">+ Increased uptime and high-quality support to improve customer satisfaction.</p></div>
+                      <div class="col-md-6 float-start pt-3"><p class="p-0">+ Cost-effective solutions that provide necessary support without exceeding budget.</p></div>
+                    </div>
+
                     <img class="feature__img-2" src="assets/imgs/feature/4/2.png" alt="Icon">
                     <img class="feature__img-3" src="assets/imgs/feature/4/3.png" alt="Icon">
                   </div>
@@ -228,14 +228,14 @@
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                   <div class="feature__content-btm">
                     <div class="feature__content-item fade_bottom_4">
-                      <img src="assets/imgs/feature/4/icon-1.png" alt="Features Image">
-                      <h5>Unique Header & <br> Sidebar</h5>
-                      <p>Unique digital header widget metaverse wearables</p>
-                    </div>
-                    <div class="feature__content-item fade_bottom_4">
-                      <img src="assets/imgs/feature/4/icon-2.png" alt="Features Image">
-                      <h5>5+ Navigation <br> Bars</h5>
-                      <p>Content focused grid designs unique social element</p>
+                      <h3>SOC <br>Benefits of Fidelis SOC Solutions are</h3>
+                      <div class="row pt-3">
+                        <div class="col-md-6"><p class="p-2">+ AI Threat Detection for Early Prevention</p></div>
+                        <div class="col-md-6"><p class="p-2">+ Real-Time Monitoring & Automated Response</p></div>
+                        <div class="col-md-6"><p class="p-2">+ Integrated Security Tools for Consolidation</p></div>
+                        <div class="col-md-6"><p class="p-2">+ Enhanced Visibility for Proactive Measures</p></div>
+                        <div class="col-md-6"><p class="p-2">+ 24/7 IT Environment Monitoring for Security</p></div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -244,333 +244,140 @@
           </section>
           <!-- Feature area end -->
 
-
-          <!-- Service area end -->
-          <section class="service__area-4">
-            <div class="container g-0 line_4 pt-150 pb-140">
-              <div class="line-col-4">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-
+          <section class="development__area">
+            <div class="container g-0 line pt-130">
+              <div class="line-3"></div>
               <div class="row">
-                <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-6">
-                  <div class="service__left-6">
-                    <h2 class="sec-subtile-6">Services</h2>
-                    <h3 class="sec-title-6 title-anim">Our full <br> creative services <br> for you</h3>
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                  <div class="sec-title-wrapper">
+                    <h2 class="sec-title animation__char_come">AMS</h2>
+                    <h3>Asset Management Solutions</h3>
                   </div>
                 </div>
-                <div class="col-xxl-7 col-xl-7 col-lg-6 col-md-6">
-                  <div class="service__right-4">
-                    <p>We are constantly rethinking the future by creating the next generation of products, <span>brands
-                        and services from a hybrid perspective.</span></p>
-                    <a class="btn-view" href="service.html">View All Service <i class="fa-solid fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="service__inner-4">
-                <div class="row">
-                  <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-6">
-                    <div class="service__img-left">
-                      <img src="assets/imgs/service/4/service-1.png" alt="Service">
+                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+                  <div class="development__wrapper">
+                    <div class="development__contents w-100 pb-4 border-bottom">
+                      <p>Fidelis Asset Management (FidelisAM) is a comprehensive solution designed to help organizations manage, control, and track their assets</p>
                     </div>
-                  </div>
-                  <div class="col-xxl-7 col-xl-7 col-lg-6 col-md-6">
-                    <div class="service__list-4">
-                      <div class="service__item-4 fade_bottom_2">
-                        <div class="service__item-number">
-                          <span>01</span>
-                        </div>
-                        <div class="service__title-wrapper-4">
-                          <h4><a class="service__item-title" href="#">Brand Strategy</a></h4>
-                        </div>
-                        <div class="service__item-icon">
-                          <a href="service-details.html"><i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                      </div>
-                      <div class="service__item-4 fade_bottom_2">
-                        <div class="service__item-number">
-                          <span>02</span>
-                        </div>
-                        <div class="service__title-wrapper-4">
-                          <h4><a class="service__item-title" href="#">Development</a></h4>
-                        </div>
-                        <div class="service__item-icon">
-                          <a href="service-details.html"><i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                      </div>
-                      <div class="service__item-4 fade_bottom_2">
-                        <div class="service__item-number">
-                          <span>03</span>
-                        </div>
-                        <div class="service__title-wrapper-4">
-                          <h4><a class="service__item-title" href="#">UI/UX Design</a></h4>
-                        </div>
-                        <div class="service__item-icon">
-                          <a href="service-details.html"><i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                      </div>
-                      <div class="service__item-4 fade_bottom_2">
-                        <div class="service__item-number">
-                          <span>04</span>
-                        </div>
-                        <div class="service__title-wrapper-4">
-                          <h4><a class="service__item-title" href="#">Digital marketing</a></h4>
-                        </div>
-                        <div class="service__item-icon">
-                          <a href="service-details.html"><i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
+                    <ul class="pt-3">
+                      <li><p> + Asset Tracking: Real-time info and lifecycle management</p></li>
+                      <li><p> +Cost Optimization: Informed decision-making, maximizing utilization</p></li>
+                      <li><p>+Vendor Performance: Measuring and improving service delivery</p></li>
+                      <li><p>+IT Asset Management: Secure and effective operations</p></li>
+                      <li><p>+Data Security: Best-in-class security, performance, and availability</p></li>
+                      <li><p>+Real-time Monitoring: Quick response and mobile-friendly asset tracking</p></li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-          <!-- Service area end -->
+          <!-- Development area end -->
 
+                          <!-- Brand area start -->
+                          <section class="brand__area">
+                            <div class="container g-0 line pt-140 pb-40">
+                                <span class="line-3"></span>
+                                <div class="row">
+                                    <div class="col-xxl-12">
+                                        <div class="sec-title-wrapper">
+                                            {{-- <h2 class="sec-sub-title title-anim">International Brands</h2> --}}
+                                            <h3 class="sec-title title-anim">We are delighted to have collaborated with <br>
+                                                the world’s most prestigious brands.</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Brand area end -->
+                        <section class="pb-130">
+                            <div class="swiper" id="clientLogo">
+                                <div class="swiper-wrapper">
+                                    @for ($i = 2; $i < 20; $i++)
+                                    @if($i == 5 || $i == 13|| $i == 16)@else 
+                                        <div class="swiper-slide">
+                                            <img src="https://fidelisgroup.in/wp-content/uploads/2020/10/Picture{{ $i }}.png"
+                                                class="w-75" alt="Brand Logo" style="max-width: 200px;">
+                                        </div>
+                                        @endif
+                                    @endfor
+                                </div>
+                            </div>
+                        </section>
 
-          <!-- faq area start -->
-          <section class="faq__area-4 pt-150 pb-150">
-            <div class="container g-0">
-              <div class="row">
-                <div class="col-xxl-8 col-xl-8 col-lg-7 col-md-6">
-                  <div class="faq__sec-title text-anim">
-                    <h2 class="sec-subtile-6">Expertise</h2>
-                    <h3 class="sec-title-6 title-anim">With more than 16+ years of experience, our team has become a
-                      leader in
-                      digital innovations.</h3>
-                    <p>Grow brands through bold, strategic creative</p>
-                    <a class="btn-view" href="about.html">Know More <i class="fa-solid fa-arrow-right"></i></a>
-                  </div>
-                </div>
+                <!-- Testimonial area start -->
+                <section class="testimonial__area-4 ">
+                  <div class="container g-0 line_4">
+                      <div class="line-col-4">
+                          <div></div>
+                          <div></div>
+                          <div></div>
+                          <div></div>
+                      </div>
 
-                <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6">
-                  <div class="faq__list-4">
-                    <div class="accordion" id="accordionExample">
-                      <div class="accordion-item fade_bottom_3">
-                        <h2 class="accordion-header" id="headingOne">
-                          <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Design should enrich our day
-                          </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <p>Using year-over-year design approaches and latest techs, we will ensure that your new
-                              website will be <span>accessible, and treads lightly</span>.</p>
+                      <div class="row">
+                          <div class="col-xxl-12">
+                              <div class="testimonial__sec-title text-anim">
+                                  <h2 class="sec-subtile-6">Testimonials</h2>
+                                  <h3 class="sec-title-6 title-anim">What our customer speaks</h3>
+                                  <p>We are Trusted by 100+ global customers teams</p>
+                              </div>
                           </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item fade_bottom_3">
-                        <h2 class="accordion-header" id="headingTwo">
-                          <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Bring their individual experience and creative
-                          </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <p>This is the second item's accordion body. It is hidden by default, until the
-                              collapse plugin adds the appropriate classes that we use to style each element. These
-                              classes</p>
+                          <div class="swiper testimonial__slider-4">
+                              <div class="swiper-wrapper">
+                                  <div class="swiper-slide testimonial__slide-4">
+                                      <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=PM"
+                                          alt="Testimonial Image">
+                                      <div class="testimonial__info-4">
+                                          <h4 class="testimonial__feedback-4">Good Atmosphere</h4>
+                                          <p>Fidelis has been a wonderful company starting out. Several things worth
+                                              pointing out are within the overall atmosphere. Since Fidelis is in it's
+                                              growth phase, it allows the management team to easily help everyone get
+                                              acquainted with the overall job feel. </p>
+                                          <h5 class="testimonial__name-4">Priyanka MR</h5>
+                                      </div>
+                                  </div>
+                                  <div class="swiper-slide testimonial__slide-4">
+                                      <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=ZF"
+                                          alt="Testimonial Image">
+                                      <div class="testimonial__info-4">
+                                          <h4 class="testimonial__feedback-4">Clean Environment</h4>
+                                          <p>Joined Fidelis a year back. Was working in a different background the
+                                              management gave me an opportunity to start & learn something new. The
+                                              management here follows an open door policy hence they are easily
+                                              accessible.
+                                              A very supportive manager and a team who is always there to help you
+                                              out.</p>
+                                          <h5 class="testimonial__name-4">Zainab Farheen</h5>
+                                      </div>
+                                  </div>
+                                  <div class="swiper-slide testimonial__slide-4">
+                                      <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=RS"
+                                          alt="Testimonial Image">
+                                      <div class="testimonial__info-4">
+                                          <h4 class="testimonial__feedback-4">Instant Support</h4>
+                                          <p>Working in Fidelis Technology services pvt ltd more than one year .Very
+                                              good management and on Time salary.They do employees engagement
+                                              activities for WFH Employees as well . always feel connected with
+                                              company.
+                                              Flexible timings ,Good Work Life Balance and No work Pressure.happy to
+                                              work with fidelis</p>
+                                          <h5 class="testimonial__name-4">Rakhi Singh</h5>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="testimonial__btn-4">
+                                  <div class="next-button swipper-btn"><i class="fa-solid fa-arrow-left"></i></div>
+                                  <div class="prev-button swipper-btn"><i class="fa-solid fa-arrow-right"></i></div>
+                                  <div class="pagination testimonial__pagination-4">
+                                      <div class="pag"></div>
+                                  </div>
+                              </div>
                           </div>
-                        </div>
                       </div>
-
-                      <div class="accordion-item fade_bottom_3">
-                        <h2 class="accordion-header" id="headingThree">
-                          <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Human centred design to challenges
-                          </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <p>Our design services starts and ends with a best-in-class experience strategy that builds
-                              brands. Through a process of iteration and prototyping design interfaces that bring joy to
-                              people</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item fade_bottom_3">
-                        <h2 class="accordion-header" id="headingFour">
-                          <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Design should enrich our day
-                          </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            <p>Our design services starts and ends with a best-in-class experience strategy that builds
-                              brands. Through a process of iteration and prototyping design interfaces that bring joy to
-                              people</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
-                </div>
-              </div>
-              <img class="faq__img6-1" src="assets/imgs/bg/4/1.png" alt="Shape">
-              <img class="faq__img6-2" src="assets/imgs/bg/4/2.png" alt="Shape">
-            </div>
-          </section>
-          <!-- faq area end -->
-
-          <!-- Brand area start -->
-          <section class="brand__area-4">
-            <div class="container g-0 line_4 pt-130 pb-150">
-              <div class="line-col-4">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-
-              <div class="row">
-                <div class="col-xxl-12">
-                  <h2 class="brand__title-3 title-anim" data-speed="1">We worked with global largest
-                    brands
-                  </h2>
-                  <div class="brand__list-3">
-                    @for($i = 2; $i < 20; $i++)
-                    <div class="brand__item fade_bottom">
-                      <img src="https://fidelisgroup.in/wp-content/uploads/2020/10/Picture{{ $i }}.png" class="w-75" alt="Brand Logo">
-                    </div>
-                    @endfor
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- Brand area end -->
-
-          <!-- Testimonial area start -->
-          <section class="testimonial__area-4 ">
-            <div class="container g-0 line_4">
-              <div class="line-col-4">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-
-              <div class="row">
-                <div class="col-xxl-12">
-                  <div class="testimonial__sec-title text-anim">
-                    <h2 class="sec-subtile-6">Testimonials</h2>
-                    <h3 class="sec-title-6 title-anim">Clients feedback</h3>
-                    <p>We are Trusted by 1000+ global customers teams like have projects with this template</p>
-                  </div>
-                </div>
-                <div class="swiper testimonial__slider-4" style="padding: 0">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide testimonial__slide-4">
-                      <img class="testimonial__img-4" src="assets/imgs/testimonial/4/1.jpg" alt="Testimonial Image">
-                      <div class="testimonial__info-4">
-                        <h4 class="testimonial__feedback-4">Design Quality</h4>
-                        <p>Our philosophy is built on people who are addicted on creating, learning, and growing
-                          together, which allows us to discover better others miss.</p>
-                        <h5 class="testimonial__name-4">Jessica Sherlock</h5>
-                        <h6 class="testimonial__role-4">Manager, Oitaka </h6>
-                      </div>
-                    </div>
-                    <div class="swiper-slide testimonial__slide-4">
-                      <img class="testimonial__img-4" src="assets/imgs/testimonial/4/2.jpg" alt="Testimonial Image">
-                      <div class="testimonial__info-4">
-                        <h4 class="testimonial__feedback-4">Clean Code</h4>
-                        <p>I am very glod happy with this theme, the website loads much faster than any other theme I
-                          have used so far clean code and responsive layout.</p>
-                        <h5 class="testimonial__name-4">Sharoon Kavin</h5>
-                        <h6 class="testimonial__role-4">CEO, Sharoon</h6>
-                      </div>
-                    </div>
-                    <div class="swiper-slide testimonial__slide-4">
-                      <img class="testimonial__img-4" src="assets/imgs/testimonial/4/3.jpg" alt="Testimonial Image">
-                      <div class="testimonial__info-4">
-                        <h4 class="testimonial__feedback-4">Instant Support</h4>
-                        <p>In the next time I hire Axtra as they helping innovators and brands through cultural insight,
-                          strategiccal vision, and innovation and look too beyond.</p>
-                        <h5 class="testimonial__name-4">Sharly Mehroon</h5>
-                        <h6 class="testimonial__role-4">Manager, Kavitan</h6>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="testimonial__btn-4">
-                    <div class="next-button swipper-btn"><i class="fa-solid fa-arrow-left"></i></div>
-                    <div class="prev-button swipper-btn"><i class="fa-solid fa-arrow-right"></i></div>
-                    <div class="pagination testimonial__pagination-4">
-                      <div class="pag"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- Testimonial area end -->
-
-          <!-- Blog area start -->
-          <section class="blog__area-4 blog__animation">
-            <div class="container g-0 line_4 pt-150 pb-150">
-              <div class="line-col-4">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-
-              <div class="row">
-                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                  <div class="sec-title-wrapper text-anim">
-                    <h2 class="sec-subtile-6">Recent Blog</h2>
-                    <h3 class="sec-title-6 title-anim">Updated <br> Journal</h3>
-                    <p>We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.</p>
-                    <a class="btn-started" href="#">All Articles <span><i
-                          class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                  <article class="blog__item-4">
-                    <div class="blog__img-4">
-                      <a href="blog-details.html">
-                        <img src="assets/imgs/blog/4/1.jpg" alt="Blog Image">
-                      </a>
-                    </div>
-                    <h4 class="blog__meta-4"><a href="category.html">UI Design</a> <span>02 May 2019</span></h4>
-                    <h5><a href="blog-details.html" class="blog__title-4">Ways of lying to yourself about your new
-                        relationship.</a></h5>
-                    <a href="blog-details.html" class="blog__btn-4">Read More <span><i
-                          class="fa-solid fa-arrow-right"></i></span></a>
-                  </article>
-                </div>
-
-                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                  <article class="blog__item-4">
-                    <div class="blog__img-4">
-                      <a href="blog-details.html">
-                        <img src="assets/imgs/blog/4/2.jpg" alt="Blog Image">
-                      </a>
-                    </div>
-                    <h4 class="blog__meta-4"><a href="category.html">UX Design</a> <span>02 May 2019</span></h4>
-                    <h5><a href="blog-details.html" class="blog__title-4">Ways of lying to yourself about your new
-                        relationship.</a></h5>
-                    <a href="blog-details.html" class="blog__btn-4">Read More <span><i
-                          class="fa-solid fa-arrow-right"></i></span></a>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- Blog area end -->
+              </section>
+              <!-- Testimonial area end -->
 
         </div>
       </main>
@@ -609,7 +416,9 @@
           event.preventDefault();
   
           var url = $(this).attr('data-action');
-  
+
+          $('.wc-btn-primary').html("Sending... <i class='fa fa-spinner fa-spin' style='font-size:24px'></i>");
+
           $.ajax({
               url: url,   
               method: 'POST',
@@ -621,17 +430,47 @@
               success:function(response)
               {
                   $(form).trigger("reset");
-                  alert(response.success);
+                  $('.wc-btn-primary').html("Thank You... <i class='fa fa-thumbs-o-up' aria-hidden='true'></i>");
               },
               error: function(response) {
+                  $('.wc-btn-primary').html("Oops... <i class='fa fa-thumbs-o-down' aria-hidden='true'></i>");
                   $('#error').html(response);
               }
           });
       });
-  });
-  
+  });  
   </script>
-
+    <script>
+      const swiper = new Swiper("#clientLogo", {
+          slidesPerView: 8,
+          spaceBetween: 70,
+          loop: true,
+          grabCursor: true,
+          centeredSlides: true,
+          slideActiveClass: "active",
+          autoplay: {
+              enabled: true,
+              delay: 5000
+          },
+          // Media
+          breakpoints: {
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 2,
+              spaceBetween: 20
+            },
+            // when window width is >= 480px
+            480: {
+              slidesPerView: 4,
+              spaceBetween: 30
+            },
+            997: {
+              slidesPerView: 8,
+              spaceBetween: 60
+            },
+          }
+      });
+  </script>
 </body>
 
 
