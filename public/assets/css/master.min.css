@@ -12978,7 +12978,7 @@ p {
 
 .solution__title {
     font-weight: 600;
-    font-size: 110px;
+    font-size: 80px;
     line-height: 1;
     color: var(--black-2);
     padding-top: 280px;
@@ -26304,7 +26304,7 @@ p {
     color: var(--black-2)
 }
 
-#open_offcanvas, .search-icon {
+.search-icon {
     color: var(--white)
 }
 

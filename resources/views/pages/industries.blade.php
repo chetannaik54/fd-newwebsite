@@ -8,10 +8,10 @@
         <div class="solution__wrapper">
             <div class="solution__left">
                 <div class="solution__img-1">
-                    <img src="{{ asset('assets/imgs/thumb/solution.png') }}" alt="Solution Image">
+                    <img src="{{ asset('assets/imgs/industries/pixabay-257700.jpg') }}" alt="Solution Image" style="border-bottom-left-radius: 205px; border-bottom-right-radius: 200px;">
                 </div>
                 <div class="solution__img-2">
-                    <img src="{{ asset('assets/imgs/thumb/solution-2.png') }}" alt="Solution Image">
+                    <img src="{{ asset('assets/imgs/industries/chanaka-906494.jpg') }}" alt="Solution Image" style="border-radius: 48%; max-width:300px;">
                 </div>
             </div>
 
@@ -24,7 +24,7 @@
 
             <div class="solution__right">
                 <div class="solution__img-3">
-                    <img src="{{ asset('assets/imgs/thumb/solution-3.png') }}" alt="Solution Image">
+                    <img src="{{ asset('assets/imgs/industries/anamul-rezwan-1216589.jpg') }}" alt="Solution Image" style="border-bottom-left-radius: 200px; border-top-left-radius: 200px;">
                 </div>
             </div>
         </div>
