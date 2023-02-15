@@ -55,7 +55,7 @@
                     <div class="sec-title-wrapper">
                         @php $sourcing = array('contingent-staffing', 'msp-partnership', 'short-term-engagement', 'talent.kloud'); @endphp
                         @if(in_array(Request::route()->getName(), $sourcing))
-                            <h2 class="sec-title title-anim" style="max-width:100%;">How we add value as Partner</h2>
+                            <h2 class="sec-title title-anim" style="max-width:100%;">How we add value to our partners</h2>
                         @else
                             <h2 class="sec-title title-anim" style="max-width:100%;">Choosing Fidelis solutions for unparalleled infrastructure support, maximizing uptime, and enhancing the quality of your IT operations.</h2>
                         @endif

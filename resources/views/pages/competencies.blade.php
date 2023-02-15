@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="sec-text text-anim">
-                        <p>We are passionate to create connected Solution and cost cost-effective services, and efforts to derive stable and
+                        <p>We are passionate to create cost-effective Solution, and efforts to derive stable and
                             successful relationships between businesses and customers.</p>
                     </div>
                 </div>

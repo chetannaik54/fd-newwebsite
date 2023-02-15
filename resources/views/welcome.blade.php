@@ -140,7 +140,7 @@
                             <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                                 <div class="service__top-text text-anim">
                                     <p>We bring improved and <span>affordable solutions</span> to build
-                                        businesses future ready.</p>
+                                        businessses which are future ready.</p>
                                 </div>
                             </div>
                             <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
@@ -185,7 +185,7 @@
                                                 </div>
                                                 <div class="service__text">
                                                     <p>Fidelis Group security services includes real time risk
-                                                        management, secure process
+                                                        management, Security process
                                                         implementations, brand reputation management, threat mapping and
                                                         mitigation.</p>
                                                 </div>
@@ -280,17 +280,12 @@
 
                                     <div class="about__content text-anim">
                                         <p>At Fidelis Group, our IT Infrastructure Management Services are designed to
-                                            reinvent and
-                                            change enterprises by using transformational and digital-ready IT
-                                            infrastructure and
-                                            proactively leveraging next-generation technology, information, and data. We
-                                            offer systems</p>
+                                            reinvent and change enterprises by using transformational and digital-ready IT
+                                            infrastructure and proactively leveraging next-generation technology, information, and data.</p>
 
-                                        <p>management, virtual and remote assets management, maintenance and upgrades,
-                                            data
-                                            center solutions, native cloud solutions, security, integrations and
-                                            management,
-                                            applications and network solutions.</p>
+                                        <p>We offer systems management, virtual and remote assets management, maintenance and upgrades,
+                                            data center solutions, native cloud solutions, security, integrations and
+                                            management, applications and network solutions.</p>
 
                                         <div class="cursor-btn btn_wrapper">
                                             <a class="btn-item wc-btn-primary btn-hover"
