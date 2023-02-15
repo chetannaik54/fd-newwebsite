@@ -17,9 +17,7 @@
 
             <div class="solution__mid">
                 <h1 class="solution__title animation__char_come">Industries</h1>
-                <p>Fidelis aims at delivering a comprehensive and accurate suite of tools that
-                    enables organisations to converge all of their IT operations efficiently under a single pane of
-                    glass utilising genuine workflow integrations all over the world.</p>
+                <p>Fidelis aims at delivering a comprehensive and accurate suite of tools that                    enables organisations to converge all of their IT operations efficiently under a single pane of utilising genuine workflow integrations all over the world.</p>
             </div>
 
             <div class="solution__right">

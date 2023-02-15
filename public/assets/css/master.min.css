@@ -14906,8 +14906,10 @@ p {
     }
 
     .solution__mid p {
-        padding-left: 80px;
-        padding-bottom: 50px
+        padding-left: 0px;
+        padding-bottom: 50px;
+        padding-top: 22px;
+        max-width: 90%;
     }
 
     .solution__mid p::before {
