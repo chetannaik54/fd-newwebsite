@@ -53,8 +53,12 @@
             <div class="row">
                 <div class="col-xxl-12">
                     <div class="sec-title-wrapper">
-                        <h2 class="sec-title title-anim" style="max-width:100%;">Choosing Fidelis solutions for unparalleled
-                            infrastructure support, maximizing uptime, and enhancing the quality of your IT operations.</h2>
+                        @php $sourcing = array('contingent-staffing', 'msp-partnership', 'short-term-engagement'); @endphp
+                        @if(in_array(Request::route()->getName(), $sourcing))
+                            <h2 class="sec-title title-anim" style="max-width:100%;">How we add value as Partner</h2>
+                        @else
+                            <h2 class="sec-title title-anim" style="max-width:100%;">Choosing Fidelis solutions for unparalleled infrastructure support, maximizing uptime, and enhancing the quality of your IT operations.</h2>
+                        @endif
                     </div>
                 </div>
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
@@ -85,109 +89,6 @@
         </div>
     </section>
     <!-- Service detail area end -->
-
-    <!-- FAQ area start -->
-    <section class="faq__area">
-        <div class="container g-0 line pb-140">
-            <div class="line-3"></div>
-            <div class="row">
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                    <div class="faq__img">
-                        <img src="/assets/imgs/thumb/faq.jpg" alt="FAQ Image" data-speed="auto">
-                    </div>
-                </div>
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                    <div class="faq__content">
-                        <h2 class="faq__title title-anim">Across Managed Services</h2>
-
-                        <div class="faq__list">
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                            IT Service Desk Management
-                                        </button>
-                                    </h2>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Data Center Management
-                                        </button>
-                                    </h2>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                            Cloud Migration
-                                        </button>
-                                    </h2>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFour">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                            aria-expanded="false" aria-controls="collapseFour">
-                                            Application Management
-                                        </button>
-                                    </h2>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFive">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                            aria-expanded="false" aria-controls="collapseFive">
-                                            Network Management
-                                        </button>
-                                    </h2>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFive">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                            aria-expanded="false" aria-controls="collapseFive">
-                                            End User Services
-                                        </button>
-                                    </h2>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFive">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                            aria-expanded="false" aria-controls="collapseFive">
-                                            Tools
-                                        </button>
-                                    </h2>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFive">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                            aria-expanded="false" aria-controls="collapseFive">
-                                            Support
-                                        </button>
-                                    </h2>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- FAQ area end -->
 
     @include('components.why-chooseus')
     @php $exclude = array('contingent-staffing', 'msp-partnership', 'short-term-engagement'); @endphp

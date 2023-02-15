@@ -134,7 +134,7 @@
                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                 <div class="sec-title-wrapper wrap">
                                     {{-- <h2 class="sec-sub-title title-anim">service</h2> --}}
-                                    <h3 class="sec-title title-anim">Solution we <br>provide</h3>
+                                    <h3 class="sec-title title-anim">Services we <br>provide</h3>
                                 </div>
                             </div>
                             <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
@@ -414,8 +414,8 @@
                             <div class="col-xxl-12">
                                 <div class="testimonial__sec-title text-anim">
                                     <h2 class="sec-subtile-6">Testimonials</h2>
-                                    <h3 class="sec-title-6 title-anim">What our customer speaks</h3>
-                                    <p>We are Trusted by 100+ global customers teams</p>
+                                    <h3 class="sec-title-6 title-anim">What our clients speaks</h3>
+                                    <p>We are Trusted by 100+ global clients</p>
                                 </div>
                             </div>
                             <div class="swiper testimonial__slider-4">

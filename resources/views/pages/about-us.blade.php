@@ -32,7 +32,7 @@
                             <div class="hero__about-btn">
                                 <div class="btn_wrapper">
                                     <a href="{{ route('solutions') }}"
-                                        class="wc-btn-primary btn-hover btn-item"><span></span> Solutions & <br> Services
+                                        class="wc-btn-primary btn-hover btn-item"><span></span> Our <br> Services
                                         <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>

@@ -8,7 +8,7 @@
       <div class="header__nav-2">
         <ul class="main-menu-3 menu-anim">
           <li><a href="{{ route('about-us') }}">about</a></li>
-          <li><a href="{{ route('solutions') }}">Solutions</a>
+          <li><a href="{{ route('solutions') }}">Services</a>
             <ul class="main-dropdown">
               <li><a href="#">Managed Services</a>
                 <ul class="sub-dropdown">
@@ -117,7 +117,7 @@
               <nav class="offcanvas__menu">
                 <ul class="menu-anim">
                   <li><a href="{{ route('about-us') }}">about</a></li>
-                  <li><a href="{{ route('solutions') }}">Solutions</a>
+                  <li><a href="{{ route('solutions') }}">Services</a>
                     <ul>
                       <li><a href="#">Managed Services</a>
                         <ul class="sub-dropdown">
