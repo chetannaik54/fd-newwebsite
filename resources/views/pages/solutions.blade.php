@@ -56,6 +56,13 @@
                         @php $sourcing = array('contingent-staffing', 'msp-partnership', 'short-term-engagement', 'talent.kloud'); @endphp
                         @if(in_array(Request::route()->getName(), $sourcing))
                             <h2 class="sec-title title-anim" style="max-width:100%;">How we add value to our partners</h2>
+                        @elseif(Request::route()->getName() == "learning-academy")
+                        <ul style="font-size: 20px;">
+                            <li>+ <strong>Security Solutions</strong> – PAM, IAM, MFA, SIEM, SAST & DAST, EDR.</li>
+                            <li>+ <strong>Cloud Technologies</strong>  – Amazon AWS, Microsoft Azure.</li>
+                            <li>+ <strong>RPA Solutions </strong>– UiPath, Service Desk Analyst program.</li>
+                            <li>+ <strong>Customized technical trainings </strong>– based on client needs.</li>
+                        </ul>
                         @else
                             <h2 class="sec-title title-anim" style="max-width:100%;">Choosing Fidelis solutions for unparalleled infrastructure support, maximizing uptime, and enhancing the quality of your IT operations.</h2>
                         @endif

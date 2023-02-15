@@ -4,14 +4,14 @@
 
 @php $team = $details[0]; @endphp
 
-<div class="team__detail-page">
+<div class="team__detail-page pt-5">
     <!-- <span class="line-1"></span>
     <span class="line-2"></span>
     <span class="line-3"></span> -->
 
 
     <!-- Team area start -->
-    <section class="team__detail">
+    <section class="team__detail mt-5">
       <div class="container line mt-130 pb-140">
         <div class="line-3"></div>
         <div class="row">
