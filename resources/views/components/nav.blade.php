@@ -185,12 +185,12 @@
             </div>
           </div>
           <div class="offcanvas__right">
-            {{-- <div class="offcanvas__search">
-              <form action="#">
+            <div class="offcanvas__search">
+              {{-- <form action="#">
                 <input type="text" name="search" placeholder="Search keyword">
                 <button><i class="fa-solid fa-magnifying-glass"></i></button>
-              </form>
-            </div> --}}
+              </form> --}}
+            </div>
             <div class="offcanvas__contact">
               <h3>Get in touch</h3>
               <ul>

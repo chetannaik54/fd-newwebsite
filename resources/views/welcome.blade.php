@@ -493,7 +493,7 @@
     <script src="assets/js/main.js"></script>
 
     <style type="text/css">
-        @media (min-width:1200px) and (max-width:1366px){.main-menu-3>li>a{font-size:12px!important}}#open_offcanvas,.search-icon{color:var(--white)}.header__area-3.sticky-3 #open_offcanvas,.header__area-3.sticky-3 .main-menu-3>li>a,.header__area-3.sticky-3 .search-icon{color:var(--black-2)}
+        @media (min-width:1200px) and (max-width:1366px){.main-menu-3>li>a{font-size:12px!important}}.header__area-3.sticky-3 #open_offcanvas,.header__area-3.sticky-3 .main-menu-3>li>a,.header__area-3.sticky-3 .search-icon{color:var(--black-2)}
     </style>
 </body class="dir-rtl">
 
