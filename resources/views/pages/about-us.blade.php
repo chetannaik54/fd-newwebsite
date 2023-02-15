@@ -166,7 +166,7 @@
     <!-- Team area end -->
 
 <!--offer section area-->
-<section class="offer-area section">
+<section class="offer-area section d-none">
   <div class="offer-tabs tab-content">
       <div class="offerslide tab-pane fade active show" id="SOLUTIONS">
 
