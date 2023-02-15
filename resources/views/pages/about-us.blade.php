@@ -117,19 +117,19 @@
             <div class="row">
                 <div class="col-xxl-12">
                     <div class="counter__wrapper-2 counter_animation">
-                        <div class="counter__item-2 counter__anim">
-                            <h2 class="counter__number">8+</h2>
-                            <p>Offices in the <br>world</p>
+                        <div class="counter__item counter__anim">
+                            <h2 class="counter__number">10+</h2>
+                            <p>Global <br>Offices</p>
                             <span class="counter__border"></span>
                         </div>
-                        <div class="counter__item-2 counter__anim">
+                        <div class="counter__item counter__anim">
                             <h2 class="counter__number">15+</h2>
                             <p>Years <br>experiences</p>
                             <span class="counter__border"></span>
                         </div>
-                        <div class="counter__item-2 counter__anim">
-                            <h2 class="counter__number">20k+</h2>
-                            <p>Fidelis <br>Alumni</p>
+                        <div class="counter__item counter__anim">
+                            <h2 class="counter__number">100+</h2>
+                            <p>Satisfied <br>Clients</p>
                             <span class="counter__border"></span>
                         </div>
                     </div>
@@ -143,8 +143,7 @@
     <!-- Team area start -->
     <section class="team__area pt-140 pb-140">
         <div class="sec-title-wrapper">
-            <h2 class="sec-sub-title title-anim">Our Team</h2>
-            <h3 class="sec-title title-anim">How we work</h3>
+            <h3 class="sec-title title-anim">Our Team</h3>
         </div>
 
         <div class="swiper team__slider">
@@ -263,7 +262,7 @@
                         </div>
                         <div class="service__item-2">
                             <div>
-                                <img src="{{ asset('assets/imgs/about/values.png') }}" alt="Service Icon" class="w-50">
+                                <img src="{{ asset('assets/imgs/about/values.png') }}" alt="Service Icon" class="w-50 pt-3">
                                 <h3 class="service__title-2">Our <br>Values</h3>
                                 <p>Our values are the guiding principles upon which Fidelis Group was founded and how we
                                     strive to conduct our business across all verticals.</p>

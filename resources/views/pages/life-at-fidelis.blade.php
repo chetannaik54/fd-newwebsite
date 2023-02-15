@@ -80,34 +80,41 @@
        <span class="line-3"></span>
        <div class="row">
           <div class="col-xxl-12">
-             <ul>
-                <li>Future</li>
-                <li>Community</li>
-                <li>Honor</li>
-             </ul>
-             <p>Enjoy the various benefits in both your life and job environment. At Fidelis, we work as a flexible team who prioritizes both personal and professional space of our employees. Delve into the wide range of perks and benefits provided by us. #LifeAtFidelis.</p>
-             <p>Employees are the most prominent capital in every company. At Fidelis, we show how and why it is so. So listen, read, and get inspired by our very own Fidelers as they share their thoughts on an extraordinary journey.</p>
+             <div class="row">
+               <div class="col-md-6">
+                  <ul style="text-align: left">
+                     <li>Future</li>
+                     <li>Community</li>
+                     <li>Honor</li>
+                  </ul>     
+                  <p class="mt-5">Enjoy the various benefits in both your life and job environment. At Fidelis, we work as a flexible team who prioritizes both personal and professional space of our employees. Delve into the wide range of perks and benefits provided by us. #LifeAtFidelis.</p>
+                  <p class="mt-5">Employees are the most prominent capital in every company. At Fidelis, we show how and why it is so. So listen, read, and get inspired by our very own Fidelers as they share their thoughts on an extraordinary journey.</p>     
+               </div>
+               <div class="col-md-6">
+                  <div class="row">
+                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                        <div class="career__gallery-img">
+                           <img src="{{ asset('assets/imgs/career/2.jpg') }}" alt="Image" />
+                        </div>
+                     </div>
+                     <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                        <div class="career__gallery-img img-anim">
+                           <img src="{{ asset('assets/imgs/career/3.jpg') }}" alt="Image" data-speed="auto" />
+                        </div>
+                     </div>
+                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                        <div class="career__gallery-img">
+                           <img src="{{ asset('assets/imgs/career/4.jpg') }}" alt="Image" />
+                           <img src="{{ asset('assets/imgs/career/5.jpg') }}" alt="Image" />
+                        </div>
+                     </div>
+                  </div>
+           
+               </div>
+             </div>
           </div>
        </div>
  
-       <div class="row">
-          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-             <div class="career__gallery-img">
-                <img src="{{ asset('assets/imgs/career/2.jpg') }}" alt="Image" />
-             </div>
-          </div>
-          <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-             <div class="career__gallery-img img-anim">
-                <img src="{{ asset('assets/imgs/career/3.jpg') }}" alt="Image" data-speed="auto" />
-             </div>
-          </div>
-          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-             <div class="career__gallery-img">
-                <img src="{{ asset('assets/imgs/career/4.jpg') }}" alt="Image" />
-                <img src="{{ asset('assets/imgs/career/5.jpg') }}" alt="Image" />
-             </div>
-          </div>
-       </div>
     </div>
  </section>
  <!-- Career gallery end -->
@@ -206,81 +213,35 @@
  </section>
  <!-- Career benifit area end -->
  
- <!-- Testimonial area start -->
- <section class="testimonial__area-4 ">
-   <div class="container g-0 line_4">
-     <div class="line-col-4">
-       <div></div>
-       <div></div>
-       <div></div>
-       <div></div>
-     </div>
- 
-     <div class="row">
-       <div class="col-xxl-12">
-         <div class="testimonial__sec-title text-anim">
-           <h2 class="sec-subtile-6">Testimonials</h2>
-           <h3 class="sec-title-6 title-anim">Employees feedback</h3>
-           <p>We are Trusted by 300+ global employees</p>
-         </div>
-       </div>
-       <div class="swiper testimonial__slider-4">
-         <div class="swiper-wrapper">
-           <div class="swiper-slide testimonial__slide-4">
-             <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=PM" alt="Testimonial Image">
-             <div class="testimonial__info-4">
-               <h4 class="testimonial__feedback-4">Good Atmosphere</h4>
-               <p>It as good work environment and work culture and a supportive team. i joined recently but it is really going well</p>
-               <h5 class="testimonial__name-4">Priyanka MR</h5>
-             </div>
-           </div>
-           <div class="swiper-slide testimonial__slide-4">
-             <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=ZF" alt="Testimonial Image">
-             <div class="testimonial__info-4">
-               <h4 class="testimonial__feedback-4">Clean Environment</h4>
-               <p>It is a company that's presently shaping up to scale up in future. The culture is friendly and vibrant, Though we work on targets it is healthy competition</p>
-               <h5 class="testimonial__name-4">Zainab Farheen</h5>
-             </div>
-           </div>
-           <div class="swiper-slide testimonial__slide-4">
-             <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=RS" alt="Testimonial Image">
-             <div class="testimonial__info-4">
-               <h4 class="testimonial__feedback-4">Instant Support</h4>
-               <p>I have enjoyed my time at Fidelis. It is a challenging role where no two days are the same. I always had a support from my manager and was able to grow with in span of 10months.The biggest reason i stayed for so long was the team culture and support-they are the absolute best.</p>
-               <h5 class="testimonial__name-4">Rakhi Singh</h5>
-             </div>
-           </div>
-         </div>
-         <div class="testimonial__btn-4">
-           <div class="next-button swipper-btn"><i class="fa-solid fa-arrow-left"></i></div>
-           <div class="prev-button swipper-btn"><i class="fa-solid fa-arrow-right"></i></div>
-           <div class="pagination testimonial__pagination-4">
-             <div class="pag"></div>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
- <!-- Testimonial area end -->
- 
-    <!-- CTA area start -->
-    <section class="cta__area">
-      <div class="container line pb-110">
-          <div class="line-3"></div>
-          <div class="row">
-              <div class="col-xxl-12">
-                  <div class="cta__content">
-                      <p class="cta__sub-title">Work with us</p>
-                      <h2 class="cta__title title-anim">We are growing, Grow with us</h2>
-                      <div class="btn_wrapper">
-                          <a href="{{ route('careers') }}" class="wc-btn-primary btn-item btn-hover"><span></span>Explore job openings <i class="fa-solid fa-arrow-right"></i></a>
-                      </div>
+<section class="pb-110">
+   <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+         <div class="col-md-6 float-start">
+            <a href="https://www.glassdoor.co.in/Reviews/Fidelis-Technology-Services-Reviews-E1591085.htm" target="_blank">
+               <div class="card" style="width: 20rem;">
+                  <img class="card-img-top p-3" src="{{ asset('assets/imgs/career/glassdoor-logo.png') }}" alt="Card image cap">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">4.4 Ratings</h5>
                   </div>
-              </div>
-          </div>
+                </div>
+            </a>
+         </div>
+         <div class="col-md-6 float-start">
+            <a href="https://www.ambitionbox.com/reviews/fidelis-corporate-solutions-reviews" target="_blank">
+               <div class="card" style="width: 20rem;">
+                  <img class="card-img-top p-4" src="{{ asset('assets/imgs/career/ambision-form.png') }}" alt="Card image cap">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">4.0 Ratings</h5>
+                  </div>
+                </div>
+            </a>
+         </div>
       </div>
-  </section>
-  <!-- CTA area end -->
+      <div class="col-md-3"></div>      
+   </div>
+</section>
+
+@include('components.sourcing')
 
 @endsection

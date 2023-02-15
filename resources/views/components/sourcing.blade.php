@@ -12,7 +12,7 @@
             <div class="col-xxl-12">
                 <div class="testimonial__sec-title text-anim">
                     <h3 class="sec-title-6 title-anim">Employee feedback</h3>
-                    <p>We are Trusted by 300+ employees worldwide</p>
+                    <p>With over 300+ reviews from our employees</p>
                 </div>
             </div>
             <div class="swiper testimonial__slider-4">

@@ -315,18 +315,13 @@
                         <div class="row">
                             <div class="col-xxl-12">
                                 <div class="counter__wrapper counter_animation">
-                                    {{-- <div class="counter__item counter__anim">
-                                        <h2 class="counter__number">20k+</h2>
-                                        <p>FIdelis <br>Alumni</p>
-                                        <span class="counter__border"></span>
-                                    </div> --}}
                                     <div class="counter__item counter__anim">
-                                        <h2 class="counter__number">8+</h2>
-                                        <p>Offices in the <br>world</p>
+                                        <h2 class="counter__number">10+</h2>
+                                        <p>Global <br>Offices</p>
                                         <span class="counter__border"></span>
                                     </div>
                                     <div class="counter__item counter__anim">
-                                        <h2 class="counter__number">15</h2>
+                                        <h2 class="counter__number">15+</h2>
                                         <p>Years <br>experiences</p>
                                         <span class="counter__border"></span>
                                     </div>
@@ -401,77 +396,7 @@
                 @include('components.clients-slider')
 
                 <!-- Testimonial area start -->
-                <section class="testimonial__area-4 ">
-                    <div class="container g-0 line_4">
-                        <div class="line-col-4">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xxl-12">
-                                <div class="testimonial__sec-title text-anim">
-                                    <h2 class="sec-subtile-6">Testimonials</h2>
-                                    <h3 class="sec-title-6 title-anim">What our clients speaks</h3>
-                                    <p>We are Trusted by 100+ global clients</p>
-                                </div>
-                            </div>
-                            <div class="swiper testimonial__slider-4">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide testimonial__slide-4">
-                                        <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=PM"
-                                            alt="Testimonial Image">
-                                        <div class="testimonial__info-4">
-                                            <h4 class="testimonial__feedback-4">Good Atmosphere</h4>
-                                            <p>Fidelis has been a wonderful company starting out. Several things worth
-                                                pointing out are within the overall atmosphere. Since Fidelis is in it's
-                                                growth phase, it allows the management team to easily help everyone get
-                                                acquainted with the overall job feel. </p>
-                                            <h5 class="testimonial__name-4">Priyanka MR</h5>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide testimonial__slide-4">
-                                        <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=ZF"
-                                            alt="Testimonial Image">
-                                        <div class="testimonial__info-4">
-                                            <h4 class="testimonial__feedback-4">Clean Environment</h4>
-                                            <p>Joined Fidelis a year back. Was working in a different background the
-                                                management gave me an opportunity to start & learn something new. The
-                                                management here follows an open door policy hence they are easily
-                                                accessible.
-                                                A very supportive manager and a team who is always there to help you
-                                                out.</p>
-                                            <h5 class="testimonial__name-4">Zainab Farheen</h5>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide testimonial__slide-4">
-                                        <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=RS"
-                                            alt="Testimonial Image">
-                                        <div class="testimonial__info-4">
-                                            <h4 class="testimonial__feedback-4">Instant Support</h4>
-                                            <p>Working in Fidelis Technology services pvt ltd more than one year .Very
-                                                good management and on Time salary.They do employees engagement
-                                                activities for WFH Employees as well . always feel connected with
-                                                company.
-                                                Flexible timings ,Good Work Life Balance and No work Pressure.happy to
-                                                work with fidelis</p>
-                                            <h5 class="testimonial__name-4">Rakhi Singh</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="testimonial__btn-4">
-                                    <div class="next-button swipper-btn"><i class="fa-solid fa-arrow-left"></i></div>
-                                    <div class="prev-button swipper-btn"><i class="fa-solid fa-arrow-right"></i></div>
-                                    <div class="pagination testimonial__pagination-4">
-                                        <div class="pag"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                @include('components.testimonial')
                 <!-- Testimonial area end -->
 
                 <!-- Blog area start -->

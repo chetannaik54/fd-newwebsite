@@ -13,7 +13,7 @@
                     </div>
                     <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-6">
                         <div class="blog__text">
-                            <p>We use an agile approach to solve issues and connect with the needs of your audience early and often. </p>
+                            {{-- <p>We use an agile approach to solve issues and connect with the needs of your audience early and often. </p> --}}
                         </div>
                     </div>
                 </div>

@@ -53,14 +53,6 @@
   <!-- Preloader -->
   <div class="preloader">
     <div class="loading">
-      <div class="bar bar1"></div>
-      <div class="bar bar2"></div>
-      <div class="bar bar3"></div>
-      <div class="bar bar4"></div>
-      <div class="bar bar5"></div>
-      <div class="bar bar6"></div>
-      <div class="bar bar7"></div>
-      <div class="bar bar8"></div>
     </div>
   </div>
 
@@ -110,7 +102,13 @@
                             <input type="tel" name="phone" placeholder="Phone">
                           </div>
                           <div class="col-xxl-6 col-xl-6 col-12">
-                            <input type="text" name="subject" placeholder="Subject *">
+                            <label for="">Select</label>
+                            <select name="subject" id="Subject" class="form-control">
+                              <option value="NOC">NOC</option>
+                              <option value="SOC">SOC</option>
+                              <option value="AMS">AMS</option>
+                              <option value="Staffing">Staffing</option>
+                            </select>
                           </div>
                         </div>
                         <div class="row g-3">
@@ -272,110 +270,9 @@
           </section>
           <!-- Feature area end -->
 
-                          <!-- Brand area start -->
-                          <section class="brand__area">
-                            <div class="container g-0 line pt-140 pb-40">
-                                <span class="line-3"></span>
-                                <div class="row">
-                                    <div class="col-xxl-12">
-                                        <div class="sec-title-wrapper">
-                                            {{-- <h2 class="sec-sub-title title-anim">International Brands</h2> --}}
-                                            <h3 class="sec-title title-anim">We are delighted to have collaborated with <br>
-                                                the world’s most prestigious brands.</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <!-- Brand area end -->
-                        <section class="pb-130">
-                            <div class="swiper" id="clientLogo">
-                                <div class="swiper-wrapper">
-                                    @for ($i = 2; $i < 20; $i++)
-                                    @if($i == 5 || $i == 13|| $i == 16)@else 
-                                        <div class="swiper-slide">
-                                            <img src="https://fidelisgroup.in/wp-content/uploads/2020/10/Picture{{ $i }}.png"
-                                                class="w-75" alt="Brand Logo" style="max-width: 200px;">
-                                        </div>
-                                        @endif
-                                    @endfor
-                                </div>
-                            </div>
-                        </section>
+          @include('components.clients-slider');
 
-                <!-- Testimonial area start -->
-                <section class="testimonial__area-4 ">
-                  <div class="container g-0 line_4">
-                      <div class="line-col-4">
-                          <div></div>
-                          <div></div>
-                          <div></div>
-                          <div></div>
-                      </div>
-
-                      <div class="row">
-                          <div class="col-xxl-12">
-                              <div class="testimonial__sec-title text-anim">
-                                  <h2 class="sec-subtile-6">Testimonials</h2>
-                                  <h3 class="sec-title-6 title-anim">Client feedback</h3>
-                                  <p>We are Trusted by 100+ global customers</p>
-                              </div>
-                          </div>
-                          <div class="swiper testimonial__slider-4">
-                              <div class="swiper-wrapper">
-                                  <div class="swiper-slide testimonial__slide-4">
-                                      <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=PM"
-                                          alt="Testimonial Image">
-                                      <div class="testimonial__info-4">
-                                          <h4 class="testimonial__feedback-4">Good Atmosphere</h4>
-                                          <p>Fidelis has been a wonderful company starting out. Several things worth
-                                              pointing out are within the overall atmosphere. Since Fidelis is in it's
-                                              growth phase, it allows the management team to easily help everyone get
-                                              acquainted with the overall job feel. </p>
-                                          <h5 class="testimonial__name-4">Priyanka MR</h5>
-                                      </div>
-                                  </div>
-                                  <div class="swiper-slide testimonial__slide-4">
-                                      <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=ZF"
-                                          alt="Testimonial Image">
-                                      <div class="testimonial__info-4">
-                                          <h4 class="testimonial__feedback-4">Clean Environment</h4>
-                                          <p>Joined Fidelis a year back. Was working in a different background the
-                                              management gave me an opportunity to start & learn something new. The
-                                              management here follows an open door policy hence they are easily
-                                              accessible.
-                                              A very supportive manager and a team who is always there to help you
-                                              out.</p>
-                                          <h5 class="testimonial__name-4">Zainab Farheen</h5>
-                                      </div>
-                                  </div>
-                                  <div class="swiper-slide testimonial__slide-4">
-                                      <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=RS"
-                                          alt="Testimonial Image">
-                                      <div class="testimonial__info-4">
-                                          <h4 class="testimonial__feedback-4">Instant Support</h4>
-                                          <p>Working in Fidelis Technology services pvt ltd more than one year .Very
-                                              good management and on Time salary.They do employees engagement
-                                              activities for WFH Employees as well . always feel connected with
-                                              company.
-                                              Flexible timings ,Good Work Life Balance and No work Pressure.happy to
-                                              work with fidelis</p>
-                                          <h5 class="testimonial__name-4">Rakhi Singh</h5>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="testimonial__btn-4">
-                                  <div class="next-button swipper-btn"><i class="fa-solid fa-arrow-left"></i></div>
-                                  <div class="prev-button swipper-btn"><i class="fa-solid fa-arrow-right"></i></div>
-                                  <div class="pagination testimonial__pagination-4">
-                                      <div class="pag"></div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </section>
-              <!-- Testimonial area end -->
+          @include('components.testimonial')
 
         </div>
       </main>

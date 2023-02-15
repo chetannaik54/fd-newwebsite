@@ -24,7 +24,6 @@
 
 <body>
   <!-- Cursor Animation -->
-  <div class="cursor" id="team_cursor">Drag</div>
   <div class="cursor1"></div>
   <div class="cursor2"></div>
 
