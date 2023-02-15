@@ -107,7 +107,6 @@
                               <option value="NOC">NOC</option>
                               <option value="SOC">SOC</option>
                               <option value="AMS">AMS</option>
-                              <option value="Staffing">Staffing</option>
                             </select>
                           </div>
                         </div>
