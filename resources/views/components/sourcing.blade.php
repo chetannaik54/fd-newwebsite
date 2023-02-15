@@ -20,7 +20,6 @@
                     <div class="swiper-slide testimonial__slide-4">
                         <img class="testimonial__img-4" src="/assets/imgs/testimonial/4/1.jpg" alt="Testimonial Image">
                         <div class="testimonial__info-4">
-                            <h4 class="testimonial__feedback-4">Design Quality</h4>
                             <p>Our philosophy is built on people who are addicted on creating, learning, and growing
                                 together, which allows us to discover better others miss.</p>
                             <h5 class="testimonial__name-4">Jessica Sherlock</h5>

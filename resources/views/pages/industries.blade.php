@@ -258,28 +258,8 @@
     </section>
     <!-- Service area end -->
 
-    
-
-
     <!-- Brand area start -->
-    <section class="brand__area">
-        <div class="container line pt-140 pb-100">
-            <span class="line-3"></span>
-            <div class="row">
-                <div class="col-xxl-12">
-                    <h2 class="brand__title-3 title-anim">We are happy to work with global
-                        largest brands</h2>
-                    <div class="brand__list brand-gap">
-                        @for($i = 2; $i < 20; $i++)
-                        <div class="brand__item fade_bottom">
-                          <img src="https://fidelisgroup.in/wp-content/uploads/2020/10/Picture{{ $i }}.png" class="w-75" alt="Brand Logo">
-                        </div>
-                        @endfor
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('components.clients-slider');
     <!-- Brand area end -->
 
     @endsection
