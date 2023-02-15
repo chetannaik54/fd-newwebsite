@@ -161,10 +161,6 @@
                    Time Off
                 </li>
                 <li>
-                   Work-life <br />
-                   Integration
-                </li>
-                <li>
                    Maternity/Paternity <br />
                    Benefits
                 </li>

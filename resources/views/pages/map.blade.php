@@ -118,7 +118,7 @@
             <a href="https://www.google.com/maps?q=IBMR, Co-working &amp; Startups, 3rd floor, Akshay Plaza, Akshay colony, Vidyanagar, Hubli - 580021"
                 target="_blank">
                 <div class="point Hubli tippy"
-                    title="<b>Fidelis Technologies.</b><br>IBMR, Co-working &amp; Startups, 3rd floor, Akshay Plaza, Akshay colony, Vidyanagar, Hubli - 580021">
+                    title="<b>Fidelis Technologies Services Pvt. Ltd.</b><br>IBMR, Co-working &amp; Startups, 3rd floor, Akshay Plaza, Akshay colony, Vidyanagar, Hubli - 580021">
                 </div>
             </a>
             <a href="https://www.google.com/maps?q=No. 357, 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka 560034, INDIA"
