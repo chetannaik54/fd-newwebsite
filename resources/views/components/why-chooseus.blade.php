@@ -19,7 +19,7 @@
                     <div class="col-xxl-12 col-xl-12 col-lg-12">
                         <div class="sec-title-wrapper">
                             <h2 class="sec-sub-title">why <br>choose fidelis</h2>
-                            <h3 class="sec-title">Highly customisable IT solutions,</h3>
+                            <h3 class="sec-title">Highly customisable IT solutions</h3>
                             <p class="mw-100">At Fidelis Group, we converge highly customisable IT solutions,
                                 revolutionary opportunities,
                                 value-based governance, the creation of business processes, and an interface to
@@ -80,7 +80,7 @@
                 <div class="row">
                     <div class="col-xxl-12">
                         <div class="cta__content-3">
-                            <p class="cta__sub-title-2">Let’s build together.</p>
+                            {{-- <p class="cta__sub-title-2">Let’s build together.</p> --}}
                             <h2 class="cta__title-2">Let’s make something great together!</h2>
                             <div class="btn_wrapper">
                                 <a href="{{ route('contact-us') }}"
@@ -121,7 +121,7 @@
             <div class="row">
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4">
                     <div class="award__left-7">
-                        <h2 class="sec-title title-anim">Awards &<br> recognition</h2>
+                        <h2 class="sec-title title-anim">Awards &<br> Recognition</h2>
                     </div>
                 </div>
                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-8">

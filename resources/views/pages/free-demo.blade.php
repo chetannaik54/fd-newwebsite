@@ -169,7 +169,7 @@
                   <div class="workflow__item-4">
                     <img src="assets/imgs/thumb/2.png" alt="Work Image">
                     <h4 class="workflow__title-4">AMS</h4>
-                    <p>Fidelis Asset Management (FidelisAM) is a comprehensive solution designed to help organizations manage, control, and track their assets</p>
+                    <p>Fidelis Asset Management (AMS) is a comprehensive solution designed to help organizations manage, control, and track their assets</p>
                   </div>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
@@ -249,7 +249,7 @@
                 </div>
                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6">
                   <div class="feature__content-right">
-                    <h4 class="feature__title-6">Fidelis Asset Management (FidelisAM) is a comprehensive solution designed to help organizations manage, control, and track their assets</h4>
+                    <h4 class="feature__title-6">Fidelis Asset Management (AMS) is a comprehensive solution designed to help organizations manage, control, and track their assets</h4>
                     <div class="row grid">
                       <div class="col-md-6 float-start"><p class="p-0">+ Asset Tracking: Real-time info and lifecycle management</p></div>
                       <div class="col-md-6 float-start"><p class="p-0">+ Cost Optimization: Informed decision-making, maximizing utilization</p></div>

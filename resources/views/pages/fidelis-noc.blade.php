@@ -15,8 +15,8 @@
                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                     <div class="development__wrapper">
                         <div class="development__content">
-                            <p>Fidelis Technology Services is a provider of NOC aka Network Operations Center
-                                solutions that help organizations monitor and manage their infrastructure support to ensure its
+                            <p>Fidelis Technology Services has introduced NOC aka Network Operations Center.
+                                Solutions that help organizations monitor and manage their infrastructure support to ensure its
                                 stability and performance.</p>
                             <p>Whether you need to optimize an existing NOC or want to establish a new NOC, Fidelis
                                 is ideally positioned to be your partner of choice.</p>

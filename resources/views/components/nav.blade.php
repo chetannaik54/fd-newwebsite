@@ -12,7 +12,7 @@
             <ul class="main-dropdown">
               <li><a href="#">Managed Services</a>
                 <ul class="sub-dropdown">
-                  <li><a href="#">Cloud Service</a>
+                  <li><a href="#">Cloud Services</a>
                     <ul class="sub-dropdown">
                       <li><a href="{{ route('noc') }}">NOC</a></li>
                       <li><a href="{{ route('soc') }}">SOC</a></li>
@@ -121,7 +121,7 @@
                     <ul>
                       <li><a href="#">Managed Services</a>
                         <ul class="sub-dropdown">
-                          <li><a href="#">Cloud Service</a>
+                          <li><a href="#">Cloud Services</a>
                             <ul class="sub-dropdown">
                               <li><a href="{{ route('noc') }}">NOC</a></li>
                               <li><a href="{{ route('soc') }}">SOC</a></li>

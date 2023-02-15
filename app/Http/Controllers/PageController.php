@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+
+use App\Models\blog;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 use App\Models\case_studie;
@@ -237,11 +239,13 @@ class PageController extends Controller
     }
 
     public function journal(){
-        return view('pages.blog');
+        $blogs = blog::all();
+        return view('pages.blog', compact('blogs'));
     }
 
-    public function article(){
-        return view('pages.article');
+    public function article($articleid){
+        $blog = blog::where('name', $articleid)->get();
+        return view('pages.article', compact('blog'));
     }
 
     public function retail_ecommerce(){

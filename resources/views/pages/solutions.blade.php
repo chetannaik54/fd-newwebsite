@@ -63,7 +63,7 @@
                             <li>+ <strong>Cloud Technologies</strong>  – AWS, Azure, GCP & Private Cloud</li>
                             <li>+ <strong>RPA Solutions </strong>– UiPath</li>
                             <li>+ <strong>Service Desk Analyst program</strong></li>
-                            <li>+ <strong>Customized technical trainings </strong>– based on client needs.</li>
+                            <li>+ <strong>Customized technical trainings </strong>– Based on client needs.</li>
                         </ul>
                         @else
                             <h2 class="sec-title title-anim" style="max-width:100%;">Choosing Fidelis solutions for unparalleled infrastructure support, maximizing uptime, and enhancing the quality of your IT operations.</h2>

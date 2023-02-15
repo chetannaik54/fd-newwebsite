@@ -53,7 +53,7 @@
                         <div class="row">
                             <div class="col-xxl-12">
                                 <div class="hero__content animation__hero_one">
-                                    <a href="{{ route('solutions') }}">Strategy, Design and Solution Development <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                                    <a href="{{ route('solutions') }}">Strategy, Design and <br> Solution Development <span><i class="fa-solid fa-arrow-right"></i></span></a>
                                     <div class="hero__title-wrapper">
                                         <h1 class="hero__title">Affordable IT solutions <br> for Businesses</h1>
                                         <p class="hero__sub-title">At Fidelis Group, we converge highly customisable IT
@@ -217,7 +217,7 @@
                                                     <h4 class="service__title">Cost Reduction</h4>
                                                 </div>
                                                 <div class="service__text">
-                                                    <p>We strategically implement <strong>Affordable and customised solution</strong> to engage and align the right process and resources to meet specific demands.
+                                                    <p>We strategically implement <strong>affordable and customised solution</strong> to engage and align the right process and resources to meet specific demands.
                                                     </p>
                                                 </div>
                                                 <div class="service__link">
@@ -233,7 +233,7 @@
                                                     <h4 class="service__title">Accuracy</h4>
                                                 </div>
                                                 <div class="service__text">
-                                                    <p>All round assistanc with open source implementation.</p>
+                                                    <p>All round assistance with open source implementation.</p>
                                                 </div>
                                                 <div class="service__link">
                                                     <p><i class="fa-solid fa-arrow-right"></i></p>

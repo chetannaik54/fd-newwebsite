@@ -165,7 +165,7 @@
     <!-- Team area end -->
 
 <!--offer section area-->
-<section class="offer-area section d-none">
+<section class="offer-area section">
   <div class="offer-tabs tab-content">
       <div class="offerslide tab-pane fade active show" id="SOLUTIONS">
 
@@ -300,7 +300,7 @@
                         <div class="swiper testimonial__slider">
                             <div class="swiper-wrapper">
 
-                                <div class="swiper-slide testimonial__slide">
+                                {{-- <div class="swiper-slide testimonial__slide">
                                     <div class="testimonial__inner-2">
                                         <h2 class="testimonial__title-2">Awesome Atmosphere</h2>
                                         <p class="testimonial__text-2">Fidelis has been a wonderful company starting out.
@@ -309,7 +309,7 @@
                                             everyone get acquainted with the overall job feel.</p>
                                         <h3 class="testimonial__author">Priyanka MR</h3>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="swiper-slide testimonial__slide">
                                     <div class="testimonial__inner-2">
@@ -329,6 +329,14 @@
                                             worth for me, A Wonderful experience was all the help i got from the management.
                                             Encouraging the employees to upscale the skills which will be beneficial for
                                             one's individual for their career growth.</p>
+                                        <h3 class="testimonial__author">Pradeep Raghavendra</h3>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide testimonial__slide">
+                                    <div class="testimonial__inner-2">
+                                        <h2 class="testimonial__title-2">Awesome Atmosphere</h2>
+                                        <p class="testimonial__text-2"></p>
                                         <h3 class="testimonial__author">Pradeep Raghavendra</h3>
                                     </div>
                                 </div>

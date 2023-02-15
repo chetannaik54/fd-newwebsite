@@ -16,7 +16,7 @@
                     <div class="development__wrapper">
                         <div class="development__content">
                             <p>AMS is a comprehensive solution designed to help organizations
-                                manage, control, and track their assets. FidelisAM delivers cloud-based services that monitor all
+                                manage, control, and track their assets. AMS delivers cloud-based services that monitor all
                                 assets in real-time, providing organizations with real-time information about every asset. We help you
                                 track and manage your hardware, software, and licenses to ensure that your IT environment is running
                                 efficiently and effectively. </p>
@@ -56,7 +56,7 @@
             <div class="row">
                 <div class="col-xxl-12">
                     <div class="sec-title-wrapper">
-                        <h2 class="sec-title title-anim">Choose FidelisAM for effective and efficient asset management, real-time monitoring and
+                        <h2 class="sec-title title-anim">Choose AMS for effective and efficient asset management, real-time monitoring and
                             comprehensive organizational-level services across industries.</h2>
                     </div>
                 </div>
@@ -71,14 +71,14 @@
                         <img src="/assets/imgs/icon/shape-6.png" alt="Service shape image" class="sd-shape">
                     </div>
                     <div class="service__detail-content">
-                        <p><strong>Healthcare:</strong> FidelisAM helps healthcare organizations manage their medical equipment, ensuring that
+                        <p><strong>Healthcare:</strong> AMS helps healthcare organizations manage their medical equipment, ensuring that
                             all assets are in good condition and ready for use. The software helps healthcare organizations to
                             keep track of their assets, reducing the risk of equipment failures and increasing patient safety.</p>
-                        <p><strong>Retail:</strong> FidelisAM helps retail organizations to manage their inventory and keep track of their assets,
+                        <p><strong>Retail:</strong> AMS helps retail organizations to manage their inventory and keep track of their assets,
                             reducing the risk of stock shortages and increasing customer satisfaction. The software provides
                             real-time information about stock levels, enabling retail organizations to respond quickly to changes in
                             demand.</p>
-                        <p><strong>Manufacturing:</strong> FidelisAM helps manufacturing organizations to manage their production assets,
+                        <p><strong>Manufacturing:</strong> AMS helps manufacturing organizations to manage their production assets,
                             ensuring that all assets are operating effectively and efficiently. The software provides real-time
                             information about the performance of production assets, enabling organizations to respond quickly to
                             any changes in production demand.</p>
