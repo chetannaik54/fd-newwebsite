@@ -1,6 +1,27 @@
+@php  $exclude = array('free-demo', 'contact-us'); @endphp
+@php $sourcing = array('contingent-staffing', 'msp-partnership', 'short-term-engagement', 'life-fidelis'); @endphp
 
-@if(Request::route()->getName() == "contact-us" || Request::route()->getName() == "free-demo")
+@if(in_array(Request::route()->getName(), $exclude))
 
+@elseif(in_array(Request::route()->getName(), $sourcing))
+    <!-- CTA area start -->
+    <section class="cta__area">
+        <div class="container line pb-110">
+            <div class="line-3"></div>
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="cta__content">
+                        <p class="cta__sub-title">Work with us</p>
+                        <h2 class="cta__title title-anim">We are growing, Grow with us</h2>
+                        <div class="btn_wrapper">
+                            <a href="{{ route('careers') }}" class="wc-btn-primary btn-item btn-hover"><span></span>Explore job openings <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA area end -->
 @else
     <!-- CTA area start -->
         <section class="cta__area">
@@ -78,15 +99,14 @@
                                 <div class="footer__widget-4">
                                     <h2 class="project-title">Have a project in your mind?</h2>
                                     <div class="btn_wrapper">
-                                        <a href="{{ route('contact-us') }}" class="wc-btn-primary btn-hover btn-item"><span></span>
-                                            contact us <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="{{ route('contact-us') }}" class="wc-btn-primary btn-hover btn-item"><span></span>contact us <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                     {{-- <h3 class="contact-time">09 : 30 AM - 6 : 30 PM</h3> --}}
                                     {{-- <h4 class="contact-day">Monday - Friday</h4> --}}
                                 </div>
 
                                 <div class="footer__copyright">
-                                    <p>© 2022 - 2025 | Alrights reserved by <a href="https://fidelisgroup.in/" target="_blank">Fidelis Group</a>
+                                    <p>© 2022 - 2023 | Alrights reserved by <a href="https://fidelisgroup.in/" target="_blank">Fidelis Group</a>
                                     </p>
                                 </div>
 

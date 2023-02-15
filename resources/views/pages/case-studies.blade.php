@@ -28,7 +28,7 @@
             <div class="portfolio__list-1">
                 @foreach ($casestudy as $item)
                 <div class="portfolio__item">
-                    <a href="{{ route('case-details', str_replace(' ', '-', $item->name) ) }}"><img class="mover" src="{{ $item->img }}" alt="Portfolio Image"></a>
+                    <a href="{{ route('case-details', str_replace(' ', '-', $item->name) ) }}"><img class="mover" src="{{ asset('assets/imgs/case-studies/'.$item->img) }}" alt="Portfolio Image"></a>
                     <div class="portfolio__info">
                         <h3 class="portfolio__title">{{ $item->name }}</h3>
                         {{-- <p>02 May 2021</p> --}}

@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">
                 <div class="blog__detail-top">
-                    <h2 class="blog__detail-date animation__word_come"><span>July 2021</span></h2>
+                    <h2 class="blog__detail-date animation__word_come"><span>15 July 2021</span></h2>
                     <h3 class="blog__detail-title animation__word_come">Deep Rooted Thoughts from the CEO of Fidelis Group</h3>
                     <div class="blog__detail-metalist">
                         {{-- <div class="blog__detail-meta">
@@ -32,7 +32,7 @@
             </div>
             <div class="col-xxl-12">
                 <div class="blog__detail-thumb">
-                    <img src="{{ asset('assets/imgs/blog/From-Fidelis-CEO.png') }}" alt="Blog Thumbnail" data-speed="0.5" />
+                    <img src="{{ asset('assets/imgs/blog/From-Fidelis-CEO.png') }}" alt="Blog Thumbnail"/>
                 </div>
             </div>
             <div class="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">

@@ -17,11 +17,7 @@
                 font-size: 12px !important;
             }
         }
-
-        .main-menu-3>li>a {
-            color: var(--white);
-        }
-
+        
         .header__area-3.sticky-3 .main-menu-3>li>a {
             color: var(--black-2);
         }
@@ -89,8 +85,8 @@
                 <li>Community</li>
                 <li>Honor</li>
              </ul>
-             <p>Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind css html page.</p>
-             <p>It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. This might also explain why one can now find slightly different versions.</p>
+             <p>Enjoy the various benefits in both your life and job environment. At Fidelis, we work as a flexible team who prioritizes both personal and professional space of our employees. Delve into the wide range of perks and benefits provided by us. #LifeAtFidelis.</p>
+             <p>Employees are the most prominent capital in every company. At Fidelis, we show how and why it is so. So listen, read, and get inspired by our very own Fidelers as they share their thoughts on an extraordinary journey.</p>
           </div>
        </div>
  
@@ -224,8 +220,8 @@
        <div class="col-xxl-12">
          <div class="testimonial__sec-title text-anim">
            <h2 class="sec-subtile-6">Testimonials</h2>
-           <h3 class="sec-title-6 title-anim">Clients feedback</h3>
-           <p>We are Trusted by 1,000+ global customers teams</p>
+           <h3 class="sec-title-6 title-anim">Employees feedback</h3>
+           <p>We are Trusted by 300+ global employees</p>
          </div>
        </div>
        <div class="swiper testimonial__slider-4">
@@ -268,27 +264,23 @@
  </section>
  <!-- Testimonial area end -->
  
-@endsection
+    <!-- CTA area start -->
+    <section class="cta__area">
+      <div class="container line pb-110">
+          <div class="line-3"></div>
+          <div class="row">
+              <div class="col-xxl-12">
+                  <div class="cta__content">
+                      <p class="cta__sub-title">Work with us</p>
+                      <h2 class="cta__title title-anim">We are growing, Grow with us</h2>
+                      <div class="btn_wrapper">
+                          <a href="{{ route('careers') }}" class="wc-btn-primary btn-item btn-hover"><span></span>Explore job openings <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- CTA area end -->
 
-@section('customcss')
-<style>
-  
-   @media (min-width: 1200px)  and (max-width: 1366px) { 
-     .main-menu-3>li>a{
-         font-size: 12px !important;
-     }
-  }
- 
-  .main-menu-3>li>a{
-     color: var(--white);
-  }
- 
-  .header__area-3.sticky-3 .main-menu-3>li>a{
-     color: var(--black-2);
-  }
- 
-  #open_offcanvas, .search-icon{ color:var(--white); }
-  .header__area-3.sticky-3  #open_offcanvas, .header__area-3.sticky-3  .search-icon{ color:var(--black-2); }
- </style>
- 
 @endsection

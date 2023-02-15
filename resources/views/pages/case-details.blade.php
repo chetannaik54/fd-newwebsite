@@ -31,7 +31,7 @@
       </div>
 
       <div class="portfolio__detail-thumb">
-          <img src="{{ $item->img }}" alt="Portfolio Thumbnail" data-speed="auto">
+          <img src="{{ asset('assets/imgs/case-studies/'.$item->img) }}" alt="Portfolio Thumbnail" data-speed="auto">
       </div>
 
       <div class="portfolio__detail-content">

@@ -10,6 +10,8 @@
             padding: 15px;
             border-radius: 30%;
         }
+
+        .showcase4__thumb img{  object-position: right; width: 100%; height: 100%;  }
     </style>
 @endsection
 
@@ -27,7 +29,7 @@
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="sec-title-wrapper">
-                        <h2 class="sec-title title-anim">Our Solutions <br> to the Universe</h2>
+                        <h2 class="sec-title title-anim">Our Offerings <br> to the Universe</h2>
                     </div>
                 </div>
             </div>
@@ -38,7 +40,7 @@
                 <div class="row">
 
                     @foreach ($competencies as $item)
-                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 ">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 ">
                         <div class="showcase4 wc-tilt-2 fade_bottom_3">
                             <a href="{{ route( strtolower(str_replace(' ','-', $item->name))) }}">
                                 <div class="showcase4__thumb">

@@ -4854,7 +4854,7 @@ p {
     }
 
     .hero__about-video {
-        height: 650px
+        height: 500px
     }
 
     .hero__about-row {
@@ -6275,7 +6275,8 @@ p {
 
 .service__area-6 .mid-content .service__image img {
     width: auto;
-    height: 100vh
+    height: 100vh;
+    width: 100%;
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
@@ -7377,8 +7378,8 @@ p {
 .counter__wrapper-2 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[4];
-    grid-template-columns: repeat(4, 1fr)
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr)
 }
 
 .counter__wrapper-3 {
@@ -9787,7 +9788,7 @@ p {
 }
 
 .portfolio__detail-top .sec-title {
-    font-size: 120px
+    font-size: 100px
 }
 
 .portfolio__detail-info {
@@ -11211,7 +11212,7 @@ p {
     bottom: 0;
     -o-object-fit: cover;
     object-fit: cover;
-    height: 120%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     width: 100%
@@ -11658,7 +11659,7 @@ p {
     }
 
     .portfolio__detail-top .sec-title {
-        font-size: 90px
+        font-size: 80px
     }
 
     .portfolio__detail-thumb {
@@ -26330,3 +26331,5 @@ p {
         padding-bottom: 30px;
     }
 }
+
+#clientLogo .swiper{padding-bottom:60px!important;height:250px}#clientLogo .swiper .swiper-wrapper{align-items:center}#clientLogo .swiper .swiper-slide{border-radius:5px;height:180px!important;background-color:#000;border:1px solid #fff;transition:.2s}#clientLogo .swiper .swiper-slide.active{height:230px!important}#clientLogo .swiper .next,#clientLogo .swiper .prev{cursor:pointer;z-index:100;position:absolute;top:50%;transform:translateY(-50%);opacity:.65;transition:.2s}#clientLogo .swiper .next:hover,#clientLogo .swiper .prev:hover{opacity:1}#clientLogo .swiper .next svg,#clientLogo .swiper .prev svg{width:20px;height:20px}#clientLogo .swiper .next svg path,#clientLogo .swiper .prev svg path{fill:#fff}#clientLogo .swiper .prev{left:25px}#clientLogo .swiper .next{right:25px}#clientLogo .swiper .pagination{margin-left:8px!important;display:flex;align-items:center;justify-content:center;margin-top:40px;z-index:100}#clientLogo .swiper .pagination span{font-size:0;opacity:1;margin:0 6px!important;border:1px solid #fff}#clientLogo .swiper .pagination span.swiper-pagination-bullet-active{background-color:transparent;transform:scale(1.5)}

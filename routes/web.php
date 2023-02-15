@@ -24,6 +24,7 @@ Route::prefix('solutions')->group(function () {
         Route::get('/noc', [PageController::class, 'noc'])->name('noc');
         Route::get('/soc', [PageController::class, 'soc'])->name('soc');
         Route::get('/ams', [PageController::class, 'ams'])->name('ams');
+        Route::get('/talent-kloud', [PageController::class, 'solution_processor'])->name('talent.kloud');
     });
 
     Route::prefix('business-processes')->group(function () {
@@ -56,7 +57,6 @@ Route::prefix('solutions')->group(function () {
         Route::get('/contingent-staffing', [PageController::class, 'solution_processor'])->name('contingent-staffing');
         Route::get('/msp-partnership', [PageController::class, 'solution_processor'])->name('msp-partnership');
         Route::get('/short-term-engagement', [PageController::class, 'solution_processor'])->name('short-term-engagement');
-        Route::get('/talent-kloud', [PageController::class, 'solution_processor'])->name('talent.kloud');
         Route::get('/compliance', [PageController::class, 'solution_processor'])->name('compliance');
     });
 

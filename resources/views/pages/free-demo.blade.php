@@ -220,59 +220,57 @@
                     <img class="feature__img-3" src="assets/imgs/feature/4/3.png" alt="Icon">
                   </div>
                 </div>
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                  <div class="feature__content">
-                    <img src="assets/imgs/feature/4/feature.jpg" alt="Features Image">
-                  </div>
-                </div>
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                  <div class="feature__content-btm">
-                    <div class="feature__content-item fade_bottom_4">
-                      <h3>SOC <br>Benefits of Fidelis SOC Solutions are</h3>
-                      <div class="row pt-3">
-                        <div class="col-md-6"><p class="p-2">+ AI Threat Detection for Early Prevention</p></div>
-                        <div class="col-md-6"><p class="p-2">+ Real-Time Monitoring & Automated Response</p></div>
-                        <div class="col-md-6"><p class="p-2">+ Integrated Security Tools for Consolidation</p></div>
-                        <div class="col-md-6"><p class="p-2">+ Enhanced Visibility for Proactive Measures</p></div>
-                        <div class="col-md-6"><p class="p-2">+ 24/7 IT Environment Monitoring for Security</p></div>
-                      </div>
+
+                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6">
+                  <div class="feature__content-right">
+                    <h4 class="feature__title-6">Features of Fidelis SOC Solutions</h4>
+                    <div class="row grid">
+                      <div class="col-md-6 float-start"><p class="p-0">+ AI Threat Detection for Early Prevention</p></div>
+                      <div class="col-md-6 float-start"><p class="p-0">+ Real-Time Monitoring & Automated Response</p></div>
+                      <div class="col-md-6 float-start pt-3"><p class="p-0">+ Integrated Security Tools for Consolidation</p></div>
+                      <div class="col-md-6 float-start pt-3"><p class="p-0">+ Enhanced Visibility for Proactive Measures</p></div>
+                      <div class="col-md-6 float-start pt-3"><p class="p-0">+ 24/7 IT Environment Monitoring for Security</p></div>
                     </div>
+
+                    <img class="feature__img-2" src="assets/imgs/feature/4/2.png" alt="Icon">
+                    <img class="feature__img-3" src="assets/imgs/feature/4/3.png" alt="Icon">
                   </div>
                 </div>
+
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6">
+                  <div class="feature__content-left">
+                    <h2 class="sec-subtile-6">SOC</h2>
+                    <h3 class="sec-title-6 title-anim">Security Operation Center</h3>
+                  </div>
+                </div>
+
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6">
+                  <div class="feature__content-left">
+                    <h2 class="sec-subtile-6">AMS</h2>
+                    <h3 class="sec-title-6 title-anim">Asset Management Solutions</h3>
+                  </div>
+                </div>
+                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6">
+                  <div class="feature__content-right">
+                    <h4 class="feature__title-6">Fidelis Asset Management (FidelisAM) is a comprehensive solution designed to help organizations manage, control, and track their assets</h4>
+                    <div class="row grid">
+                      <div class="col-md-6 float-start"><p class="p-0">+ Asset Tracking: Real-time info and lifecycle management</p></div>
+                      <div class="col-md-6 float-start"><p class="p-0">+ Cost Optimization: Informed decision-making, maximizing utilization</p></div>
+                      <div class="col-md-6 float-start pt-2"><p class="p-0">+ Vendor Performance: Measuring and improving service delivery</p></div>
+                      <div class="col-md-6 float-start pt-2"><p class="p-0">+ IT Asset Management: Secure and effective operations</p></div>
+                      <div class="col-md-6 float-start pt-2"><p class="p-0">+ Data Security: Best-in-class security, performance, and availability</p></div>
+                      <div class="col-md-6 float-start pt-2"><p class="p-0">+ Real-time Monitoring: Quick response and mobile-friendly asset tracking</p></div>
+                    </div>
+
+                    <img class="feature__img-2" src="assets/imgs/feature/4/2.png" alt="Icon">
+                    <img class="feature__img-3" src="assets/imgs/feature/4/3.png" alt="Icon">
+                  </div>
+                </div>
+
               </div>
             </div>
           </section>
           <!-- Feature area end -->
-
-          <section class="development__area">
-            <div class="container g-0 line pt-130">
-              <div class="line-3"></div>
-              <div class="row">
-                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                  <div class="sec-title-wrapper">
-                    <h2 class="sec-title animation__char_come">AMS</h2>
-                    <h3>Asset Management Solutions</h3>
-                  </div>
-                </div>
-                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
-                  <div class="development__wrapper">
-                    <div class="development__contents w-100 pb-4 border-bottom">
-                      <p>Fidelis Asset Management (FidelisAM) is a comprehensive solution designed to help organizations manage, control, and track their assets</p>
-                    </div>
-                    <ul class="pt-3">
-                      <li><p> + Asset Tracking: Real-time info and lifecycle management</p></li>
-                      <li><p> +Cost Optimization: Informed decision-making, maximizing utilization</p></li>
-                      <li><p>+Vendor Performance: Measuring and improving service delivery</p></li>
-                      <li><p>+IT Asset Management: Secure and effective operations</p></li>
-                      <li><p>+Data Security: Best-in-class security, performance, and availability</p></li>
-                      <li><p>+Real-time Monitoring: Quick response and mobile-friendly asset tracking</p></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- Development area end -->
 
                           <!-- Brand area start -->
                           <section class="brand__area">
@@ -319,8 +317,8 @@
                           <div class="col-xxl-12">
                               <div class="testimonial__sec-title text-anim">
                                   <h2 class="sec-subtile-6">Testimonials</h2>
-                                  <h3 class="sec-title-6 title-anim">What our customer speaks</h3>
-                                  <p>We are Trusted by 100+ global customers teams</p>
+                                  <h3 class="sec-title-6 title-anim">Client feedback</h3>
+                                  <p>We are Trusted by 100+ global customers</p>
                               </div>
                           </div>
                           <div class="swiper testimonial__slider-4">
@@ -450,7 +448,7 @@
           slideActiveClass: "active",
           autoplay: {
               enabled: true,
-              delay: 5000
+              delay: 3000
           },
           // Media
           breakpoints: {

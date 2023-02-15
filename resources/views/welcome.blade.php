@@ -398,36 +398,7 @@
                 </section> --}}
                 <!-- Workflow area end -->
 
-                <!-- Brand area start -->
-                <section class="brand__area">
-                    <div class="container g-0 line pt-140 pb-40">
-                        <span class="line-3"></span>
-                        <div class="row">
-                            <div class="col-xxl-12">
-                                <div class="sec-title-wrapper">
-                                    {{-- <h2 class="sec-sub-title title-anim">International Brands</h2> --}}
-                                    <h3 class="sec-title title-anim">We are delighted to have collaborated with <br>
-                                        the world’s most prestigious brands.</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Brand area end -->
-                <section class="pb-130">
-                    <div class="swiper" id="clientLogo">
-                        <div class="swiper-wrapper">
-                            @for ($i = 2; $i < 20; $i++)
-                            @if($i == 5 || $i == 13|| $i == 16)@else 
-                                <div class="swiper-slide">
-                                    <img src="https://fidelisgroup.in/wp-content/uploads/2020/10/Picture{{ $i }}.png"
-                                        class="w-75" alt="Brand Logo" style="max-width: 200px;">
-                                </div>
-                                @endif
-                            @endfor
-                        </div>
-                    </div>
-                </section>
+                @include('components.clients-slider')
 
                 <!-- Testimonial area start -->
                 <section class="testimonial__area-4 ">
@@ -602,40 +573,8 @@
     <script src="assets/js/main.js"></script>
 
     <style type="text/css">
-        @media (min-width:1200px) and (max-width:1366px){.main-menu-3>li>a{font-size:12px!important}}#open_offcanvas,.search-icon{color:var(--white)}.header__area-3.sticky-3 #open_offcanvas,.header__area-3.sticky-3 .main-menu-3>li>a,.header__area-3.sticky-3 .search-icon{color:var(--black-2)}#clientLogo .swiper{padding-bottom:60px!important;height:250px}#clientLogo .swiper .swiper-wrapper{align-items:center}#clientLogo .swiper .swiper-slide{border-radius:5px;height:180px!important;background-color:#000;border:1px solid #fff;transition:.2s}#clientLogo .swiper .swiper-slide.active{height:230px!important}#clientLogo .swiper .next,#clientLogo .swiper .prev{cursor:pointer;z-index:100;position:absolute;top:50%;transform:translateY(-50%);opacity:.65;transition:.2s}#clientLogo .swiper .next:hover,#clientLogo .swiper .prev:hover{opacity:1}#clientLogo .swiper .next svg,#clientLogo .swiper .prev svg{width:20px;height:20px}#clientLogo .swiper .next svg path,#clientLogo .swiper .prev svg path{fill:#fff}#clientLogo .swiper .prev{left:25px}#clientLogo .swiper .next{right:25px}#clientLogo .swiper .pagination{margin-left:8px!important;display:flex;align-items:center;justify-content:center;margin-top:40px;z-index:100}#clientLogo .swiper .pagination span{font-size:0;opacity:1;margin:0 6px!important;border:1px solid #fff}#clientLogo .swiper .pagination span.swiper-pagination-bullet-active{background-color:transparent;transform:scale(1.5)}
+        @media (min-width:1200px) and (max-width:1366px){.main-menu-3>li>a{font-size:12px!important}}#open_offcanvas,.search-icon{color:var(--white)}.header__area-3.sticky-3 #open_offcanvas,.header__area-3.sticky-3 .main-menu-3>li>a,.header__area-3.sticky-3 .search-icon{color:var(--black-2)}
     </style>
-    <script>
-        const swiper = new Swiper("#clientLogo", {
-            slidesPerView: 8,
-            spaceBetween: 70,
-            loop: true,
-            grabCursor: true,
-            centeredSlides: true,
-            slideActiveClass: "active",
-            autoplay: {
-                enabled: true,
-                delay: 5000
-            },
-            // Media
-            breakpoints: {
-              // when window width is >= 320px
-              320: {
-                slidesPerView: 2,
-                spaceBetween: 20
-              },
-              // when window width is >= 480px
-              480: {
-                slidesPerView: 4,
-                spaceBetween: 30
-              },
-              997: {
-                slidesPerView: 8,
-                spaceBetween: 60
-              },
-            }
-        });
-    </script>
-
 </body class="dir-rtl">
 
 </html>

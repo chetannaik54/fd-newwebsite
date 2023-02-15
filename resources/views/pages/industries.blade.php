@@ -8,10 +8,10 @@
         <div class="solution__wrapper">
             <div class="solution__left">
                 <div class="solution__img-1">
-                    <img src="{{ asset('assets/imgs/industries/pixabay-257700.jpg') }}" alt="Solution Image" style="border-bottom-left-radius: 205px; border-bottom-right-radius: 200px;">
+                    <img src="{{ asset('assets/imgs/industries/pixabay-257700.jpg') }}" alt="Solution Image" style="border-bottom-left-radius: 205px; border-bottom-right-radius: 200px; max-width: 440px;">
                 </div>
                 <div class="solution__img-2">
-                    <img src="{{ asset('assets/imgs/industries/chanaka-906494.jpg') }}" alt="Solution Image" style="border-radius: 48%; max-width:300px;">
+                    <img src="{{ asset('assets/imgs/industries/chanaka-906494.jpg') }}" alt="Solution Image" style="border-radius: 48%; max-width:300px;  max-width: 290px;">
                 </div>
             </div>
 
@@ -24,7 +24,7 @@
 
             <div class="solution__right">
                 <div class="solution__img-3">
-                    <img src="{{ asset('assets/imgs/industries/anamul-rezwan-1216589.jpg') }}" alt="Solution Image" style="border-bottom-left-radius: 200px; border-top-left-radius: 200px;">
+                    <img src="{{ asset('assets/imgs/industries/anamul-rezwan-1216589.jpg') }}" alt="Solution Image" style="border-bottom-left-radius: 200px; border-top-left-radius: 200px; max-width: 350px;">
                 </div>
             </div>
         </div>
@@ -102,12 +102,11 @@
                                             Service (IMPS) has seen the most development among the world&#39;s 25 digital payment
                                             systems, while the Unified Payments Interface (UPI) has expanded its worldwide reach and
                                             revolutionised real-time payments.</p>
-                                        <p>In addition to cooperative credit institutions, The Indian banking system includes 12 public
+                                        {{-- <p>In addition to cooperative credit institutions, The Indian banking system includes 12 public
                                             sector banks, 22 private sector banks, 46 foreign banks, 56 regional rural banks, 1485 urban
                                             cooperative banks, and 96,000 rural cooperative banks. Credit growth is expected to reach
-                                            10% in 2022-2023.</p>
-                                        <ul style="grid-template-columns: 310px;
-">
+                                            10% in 2022-2023.</p> --}}
+                                        <ul style="grid-template-columns: 310px;">
                                             <li>+ Security Operations Center</li>
                                             <li>+ Network Operations Center</li>
                                             <li>+ Application Management Advisory</li>

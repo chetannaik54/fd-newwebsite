@@ -12,6 +12,7 @@
 @section('content')
 
     <section class="mt-5">
+        <h1 class="mt-5 pt-5 text-center">We are located globally</h1>
         <iframe src="{{ route('map') }}" frameborder="0" style="width: 100%;"></iframe>
     </section>
 
@@ -29,14 +30,13 @@
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="contact__text">
                         <p>Great! We're excited to hear from you and let's start
-                            something special togerter. call us for any inquery.</p>
+                            something special together. call us for any inquiry.</p>
                     </div>
                 </div>
             </div>
             <div class="row contact__btm">
                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                     <div class="contact__info">
-                        <h3 class="sub-title-anim-top animation__word_come">Don't be afraid man ! <br>say hello</h3>
                         <ul>
                             <li><a href="tel:08041502234">080 4150 2234</a></li>
                             <li><a href="mailto:info@fidelisgroup.in">info@fidelisgroup.in</a></li>

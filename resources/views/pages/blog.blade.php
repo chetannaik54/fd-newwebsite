@@ -13,9 +13,7 @@
                     </div>
                     <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-6">
                         <div class="blog__text">
-                            <p>Crafting new bright brands, unique visual systems and digital experience focused on a
-                                wide range of
-                                original collabs. </p>
+                            <p>We use an agile approach to solve issues and connect with the needs of your audience early and often. </p>
                         </div>
                     </div>
                 </div>
@@ -32,7 +30,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <h4 class="blog__meta">15 March 2019</h4>
+                            <h4 class="blog__meta">15 July 2021</h4>
                             <h5><a href="{{ route('article', 'deep-rooted-msg-from-ceo') }}" class="blog__title">Deep Rooted Thoughts from the CEO of Fidelis Group.</a></h5>
                             <a href="{{ route('article', 'deep-rooted-msg-from-ceo') }}" class="blog__btn">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
                         </article>

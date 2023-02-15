@@ -17,11 +17,12 @@
                       <li><a href="{{ route('noc') }}">NOC</a></li>
                       <li><a href="{{ route('soc') }}">SOC</a></li>
                       <li><a href="{{ route('ams') }}">AMS</a></li>
+                      <li><a href="{{ route('talent.kloud') }}">Talent.Kloud</a></li>
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li><a href="#">Applications</a>
+              <li><a href="#">Bespoke Applications</a>
                 <ul class="sub-dropdown">
                   <li><a href="{{ route('application-development') }}">Application Development</a></li>
                   <li><a href="{{ route('erp-application-development-services') }}">ERP Application Management Services</a></li>
@@ -35,8 +36,7 @@
                   <li><a href="{{ route('contingent-staffing') }}">Contigent Staffing</a></li>
                   <li><a href="{{ route('msp-partnership') }}">MSP Partnerships</a></li>
                   <li><a href="{{ route('short-term-engagement') }}">Short term engagement</a></li>
-                  <li><a href="{{ route('talent.kloud') }}">Talent.Kloud</a></li>
-                  <li><a href="{{ route('compliance') }}">Compliance</a></li>
+                  {{-- <li><a href="{{ route('compliance') }}">Compliance</a></li> --}}
                 </ul>
               </li>
               <li><a href="#">Platform & Infrastructure</a>
@@ -103,6 +103,8 @@
               <ul>
                 <li><a target="_blank" href="https://www.linkedin.com/company/fidelis-technology-services/mycompany/?viewAsMember=true">Linkedin</a></li>
                 <li><a target="_blank" href="https://www.facebook.com/FidelisGroup.Inc">Facebook</a></li>
+                <li><a target="_blank" href="https://twitter.com/fidelis_inc">Twitter</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/fidelisinc/">Instagram</a></li>
               </ul>
             </div>
             <div class="offcanvas__links">
@@ -124,11 +126,12 @@
                               <li><a href="{{ route('noc') }}">NOC</a></li>
                               <li><a href="{{ route('soc') }}">SOC</a></li>
                               <li><a href="{{ route('ams') }}">AMS</a></li>
+                              <li><a href="{{ route('talent.kloud') }}">Talent.Kloud</a></li>
                             </ul>
                           </li>
                         </ul>
                       </li>
-                      <li><a href="#">Applications</a>
+                      <li><a href="#">Bespoke Applications</a>
                         <ul class="sub-dropdown">
                           <li><a href="{{ route('application-development') }}">Application Development</a></li>
                           <li><a href="{{ route('erp-application-development-services') }}">ERP Application Management Services</a></li>
@@ -142,8 +145,7 @@
                           <li><a href="{{ route('contingent-staffing') }}">Contigent Staffing</a></li>
                           <li><a href="{{ route('msp-partnership') }}">MSP Partnerships</a></li>
                           <li><a href="{{ route('short-term-engagement') }}">Short term engagement</a></li>
-                          <li><a href="{{ route('talent.kloud') }}">Talent.Kloud</a></li>
-                          <li><a href="{{ route('compliance') }}">Compliance</a></li>
+                          {{-- <li><a href="{{ route('compliance') }}">Compliance</a></li> --}}
                         </ul>
                       </li>
                       <li><a href="#">Platform & Infrastructure</a>
@@ -183,12 +185,12 @@
             </div>
           </div>
           <div class="offcanvas__right">
-            <div class="offcanvas__search">
+            {{-- <div class="offcanvas__search">
               <form action="#">
                 <input type="text" name="search" placeholder="Search keyword">
                 <button><i class="fa-solid fa-magnifying-glass"></i></button>
               </form>
-            </div>
+            </div> --}}
             <div class="offcanvas__contact">
               <h3>Get in touch</h3>
               <ul>
