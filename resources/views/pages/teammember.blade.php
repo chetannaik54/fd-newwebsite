@@ -29,7 +29,7 @@
             <div class="team__member-social">
               <h4 class="work-title">Follow :</h4>
               <ul>
-                <li><a href="{{ $team->linkedin }}"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                <li><a href="{{ $team->linkedin }}" target="_blank"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
               </ul>
             </div>
           </div>
