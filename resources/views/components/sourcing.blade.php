@@ -20,36 +20,42 @@
                     <div class="swiper-slide testimonial__slide-4">
                         <img class="testimonial__img-4" src="/assets/imgs/testimonial/4/1.jpg" alt="Testimonial Image">
                         <div class="testimonial__info-4">
-                            <p>Our philosophy is built on people who are addicted on creating, learning, and growing
-                                together, which allows us to discover better others miss.</p>
-                            <h5 class="testimonial__name-4">Jessica Sherlock</h5>
-                            <h6 class="testimonial__role-4">Manager, Oitaka </h6>
+                            <p>Fidelis has been a wonderful company starting out. Several things worth pointing out are within the overall atmosphere. Since Fidelis is in it's growth phase, it allows the management team to easily help everyone get acquainted with the overall job feel.</p>
+                            <h5 class="testimonial__name-4">Priyanka MR</h5>
                         </div>
                     </div>
                     <div class="swiper-slide testimonial__slide-4">
                         <img class="testimonial__img-4" src="/assets/imgs/testimonial/4/2.jpg"
                             alt="Testimonial Image">
                         <div class="testimonial__info-4">
-                            <h4 class="testimonial__feedback-4">Clean Code</h4>
-                            <p>I am very glod happy with this theme, the website loads much faster than any other theme
-                                I
-                                have used so far clean code and responsive layout.</p>
-                            <h5 class="testimonial__name-4">Sharoon Kavin</h5>
-                            <h6 class="testimonial__role-4">CEO, Sharoon</h6>
+                            <p>Fidelis is a great place to work and build up the
+                                career in right path to make a challenging and innovative skills , Good
+                                collaboration with the clients like service based and product based which can
+                                help to build up longer career.</p>
+                            <h5 class="testimonial__name-4">Sivaramireddy Vemannagari</h5>
                         </div>
                     </div>
                     <div class="swiper-slide testimonial__slide-4">
                         <img class="testimonial__img-4" src="/assets/imgs/testimonial/4/3.jpg"
                             alt="Testimonial Image">
                         <div class="testimonial__info-4">
-                            <h4 class="testimonial__feedback-4">Instant Support</h4>
-                            <p>In the next time I hire Axtra as they helping innovators and brands through cultural
-                                insight,
-                                strategiccal vision, and innovation and look too beyond.</p>
-                            <h5 class="testimonial__name-4">Sharly Mehroon</h5>
-                            <h6 class="testimonial__role-4">Manager, Kavitan</h6>
+                            <p>I think working at Fidelis Technology Services is
+                                worth for me, A Wonderful experience was all the help i got from the management.
+                                Encouraging the employees to upscale the skills which will be beneficial for
+                                one's individual for their career growth.</p>
+                            <h5 class="testimonial__name-4">Pradeep Raghavendra</h5>
                         </div>
                     </div>
+
+                    <div class="swiper-slide testimonial__slide-4">
+                        <img class="testimonial__img-4" src="/assets/imgs/testimonial/4/3.jpg"
+                            alt="Testimonial Image">
+                        <div class="testimonial__info-4">
+                            <p>Fidelis as given me an opportunity to start my career into this corporate world. Work culture and work environment over here in Fidelis is amazing.</p>
+                            <h5 class="testimonial__name-4">Alisondefnal Dsouza</h5>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="testimonial__btn-4">
                     <div class="next-button swipper-btn"><i class="fa-solid fa-arrow-left"></i></div>

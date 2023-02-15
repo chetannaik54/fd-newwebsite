@@ -173,9 +173,9 @@
         @php $array = array(
           '2007' => 'Fidelis started its journey in the name of Paylink Financial services as a payroll and accounts partner', 
           '2010' => 'Captured 1st retail giant with 25 resources',
-          '2011'  => 'Fidelis Retail India Pvt Ltd</em> &#8211; a group company of fidelis group was formed to spread our wings towards Retail trade and business',
+          '2011'  => 'Fidelis Retail India Pvt Ltd - a group company of fidelis group was formed to spread our wings towards Retail trade and business',
           '2012'  => 'Fidelis started its journey in the name of Paylink Financial services as a payroll and accounts partner',
-          '2013'  => 'Our first import of Antipasti from Italy &#8211; <em>a rare food collection in India',
+          '2013'  => 'Our first import of Antipasti from Italy - a rare food collection in India',
           '2014'  => 'Reached a milestone of 500 resources <br>Started Skill Development Programme By Collaborating With NSDC',
           '2015'  => 'In 2015 after an extensive market study, we decided to foray into into the IT Space and build on our competencies for a wide industry coverage',
           '2016'  => 'Fidelis was awarded a skill development project by name DDUGKY to set up training centers in rural places of Karnataka',
