@@ -39,8 +39,7 @@
                             <div class="hero__about-text title-anim">
                                 <p>We have experienced and understood the growing part that solving real world problems
                                     plays in everyday life as we are spontaneously building on our heritage and business
-                                    culture and reinventing ourselves just as the legendary phoenix bird always takes a new
-                                    birth from its ashes to assume a new life.</p>
+                                    culture and reinventing ourselves.</p>
                             </div>
                             <div class="hero__about-award">
                                 <img src="/assets/imgs/awards/msp-alliance.png" alt="Best Studio Award" class="bestaward">
@@ -128,8 +127,8 @@
                             <span class="counter__border"></span>
                         </div>
                         <div class="counter__item counter__anim">
-                            <h2 class="counter__number">100+</h2>
-                            <p>Satisfied <br>Clients</p>
+                            <h2 class="counter__number">2000+</h2>
+                            <p>Projects <br>executed</p>
                             <span class="counter__border"></span>
                         </div>
                     </div>
@@ -216,21 +215,21 @@
             <h2 class="text-center py-5">Core Values</h2>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="col-md-3 col-sm-12 py-3 float-start">
+                    <div class="col-md-3 col-sm-12 p-3 float-start">
                         <h4>Commitment</h4>
                         <p>Be accountable, work together as a team, and communicate clearly. </p>
                     </div>
-                    <div class="col-md-3 py-3 float-start">
+                    <div class="col-md-3 p-3 float-start">
                         <h3>Innovation</h3>
                         <p> Think outside the box, challenge constructively</p>
                     </div>
-                    <div class="col-md-3 py-3 float-start">
+                    <div class="col-md-3 p-3 float-start">
                         <h3>Excellence</h3>
-                        <p>Always deliver exceptional value, <br> accomplish goals </p>
+                        <p>Always accomplish goals and deliver <br> exception values </p>
                     </div>
-                    <div class="col-md-3 py-3 float-start">
+                    <div class="col-md-3 p-3 float-start">
                         <h3>Community</h3>
-                        <p> Creating a positive place to work and supportin </p>
+                        <p> Creating a positive place to work and supporting ethical initiatives</p>
                     </div>
                 </div>
             </div>
@@ -238,6 +237,16 @@
             <div class="row pt-140">
                 <div class="col-xxl-12">
                     <div class="service__list-2 animation__service-2">
+                        <div class="service__item-2">
+                            <div>
+                                <img src="{{ asset('assets/imgs/about/vision.png') }}" alt="Service Icon" class="w-50">
+                                <h3 class="service__title-2 ">Our <br>Vision</h3>
+                                <p>Transform Fidelis into the premiere performance organization by creating benchmarks in
+                                    execution, leadership.</p>
+                                <p>Becoming an industry leader by running key - business processes for our clients.while
+                                    they focus on their core operations.</p>
+                            </div>
+                        </div>
                         <div class="service__item-2">
                             <div>
                                 <img src="{{ asset('assets/imgs/about/mission.png') }}" alt="Service Icon"
@@ -248,16 +257,6 @@
                                 <p> But in life and to be recognized as the industry leader in all facets by nurturing
                                     customer engagement through accelerated solutions and processes, better return on
                                     investment and proven delivery models.</p>
-                            </div>
-                        </div>
-                        <div class="service__item-2">
-                            <div>
-                                <img src="{{ asset('assets/imgs/about/vision.png') }}" alt="Service Icon" class="w-50">
-                                <h3 class="service__title-2 ">Our <br>Vision</h3>
-                                <p>Transform Fidelis into the premiere performance organization by creating benchmarks in
-                                    execution, leadership.</p>
-                                <p>Becoming an industry leader by running key - business processes for our clients.while
-                                    they focus on their core operations.</p>
                             </div>
                         </div>
                         <div class="service__item-2">

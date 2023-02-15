@@ -12,7 +12,7 @@
                 <div class="col-xxl-12">
                     <div class="cta__content">
                         <p class="cta__sub-title">Work with us</p>
-                        <h2 class="cta__title title-anim">We are growing, Grow with us</h2>
+                        <h2 class="cta__title title-anim">We are growing, Grow with us.</h2>
                         <div class="btn_wrapper">
                             <a href="{{ route('careers') }}" class="wc-btn-primary btn-item btn-hover"><span></span>Explore job openings <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
@@ -31,7 +31,7 @@
                     <div class="col-xxl-12">
                         <div class="cta__content">
                             <p class="cta__sub-title">Work with us</p>
-                            <h2 class="cta__title title-anim">We would love to hear more about your project</h2>
+                            <h2 class="cta__title title-anim">We would love to hear more from you.</h2>
                             <div class="btn_wrapper">
                                 <a href="{{ route('free-demo') }}" class="wc-btn-primary btn-item btn-hover"><span></span>Get in Touch <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
@@ -90,6 +90,7 @@
                                     <h2 class="footer__widget-title">Contact Us</h2>
                                     <ul class="footer__contact">
                                         <li>Fidelis Technology Services Pvt. Ltd.</li>
+                                        <li><strong>Head Quarter (HQ)</strong></li>
                                         <li>No. 357, 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka 560034</li>
                                         <li><a href="tel:02574328301" class="phone">080 4150 2234 </a></li>
                                         <li><a href="mailto:info@fidelisgroup.in">info@fidelisgroup.in</a></li>

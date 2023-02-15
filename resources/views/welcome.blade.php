@@ -53,10 +53,9 @@
                         <div class="row">
                             <div class="col-xxl-12">
                                 <div class="hero__content animation__hero_one">
-                                    <a href="{{ route('solutions') }}">Strategy, Design, Solution Development <span><i
-                                                class="fa-solid fa-arrow-right"></i></span></a>
+                                    <a href="{{ route('solutions') }}">Strategy, Design and Solution Development <span><i class="fa-solid fa-arrow-right"></i></span></a>
                                     <div class="hero__title-wrapper">
-                                        <h1 class="hero__title">Affordable IT solutions <br> for innovators</h1>
+                                        <h1 class="hero__title">Affordable IT solutions <br> for Businesses</h1>
                                         <p class="hero__sub-title">At Fidelis Group, we converge highly customisable IT
                                             solutions, revolutionary opportunities,
                                             value-based governance, the creation of business processes, and an interface
@@ -139,8 +138,7 @@
                             </div>
                             <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                                 <div class="service__top-text text-anim">
-                                    <p>We bring improved and <span>affordable solutions</span> to build
-                                        businessses which are future ready.</p>
+                                    <p>We bring improved and <span>affordable solutions</span> to build businessses future ready.</p>
                                 </div>
                             </div>
                             <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
@@ -186,7 +184,7 @@
                                                 <div class="service__text">
                                                     <p>Fidelis Group security services includes real time risk
                                                         management, Security process
-                                                        implementations, brand reputation management, threat mapping and
+                                                        implementations, threat mapping and
                                                         mitigation.</p>
                                                 </div>
                                                 <div class="service__link">
@@ -204,8 +202,7 @@
                                                 <div class="service__text">
                                                     <p>Fidelis Group provides 24X7 coverage,
                                                         custom coverage, tiered support levels, administration,
-                                                        troubleshooting, alerts
-                                                        management, real-time reporting.</p>
+                                                        troubleshooting, incident management, real-time reporting.</p>
                                                 </div>
                                                 <div class="service__link">
                                                     <p><i class="fa-solid fa-arrow-right"></i></p>
@@ -220,7 +217,7 @@
                                                     <h4 class="service__title">Cost Reduction</h4>
                                                 </div>
                                                 <div class="service__text">
-                                                    <p>We strategically implement <strong>affordable customised consultancy</strong> and solutions to engage and align the right process and resources to meet specific demands.
+                                                    <p>We strategically implement <strong>Affordable and customised solution</strong> to engage and align the right process and resources to meet specific demands.
                                                     </p>
                                                 </div>
                                                 <div class="service__link">
@@ -236,7 +233,7 @@
                                                     <h4 class="service__title">Accuracy</h4>
                                                 </div>
                                                 <div class="service__text">
-                                                    <p>We build products, brands, apps & websites for the companies all around the world class digital products</p>
+                                                    <p>All round assistanc with open source implementation.</p>
                                                 </div>
                                                 <div class="service__link">
                                                     <p><i class="fa-solid fa-arrow-right"></i></p>
@@ -281,7 +278,7 @@
                                     <div class="about__content text-anim">
                                         <p>At Fidelis Group, our IT Infrastructure Management Services are designed to
                                             reinvent and change enterprises by using transformational and digital-ready IT
-                                            infrastructure and proactively leveraging next-generation technology, information, and data.</p>
+                                            infrastructure and proactively leveraging next-generation technology and data.</p>
 
                                         <p>We offer systems management, virtual and remote assets management, maintenance and upgrades,
                                             data center solutions, native cloud solutions, security, integrations and
@@ -321,8 +318,8 @@
                                         <span class="counter__border"></span>
                                     </div>
                                     <div class="counter__item counter__anim">
-                                        <h2 class="counter__number">100+</h2>
-                                        <p>Satisfied <br>Clients</p>
+                                        <h2 class="counter__number">2000+</h2>
+                                        <p>Projects <br>executed</p>
                                         <span class="counter__border"></span>
                                     </div>
                                 </div>

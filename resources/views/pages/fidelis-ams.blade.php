@@ -9,13 +9,13 @@
                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                     <div class="sec-title-wrapper">
                         <h2 class="sec-title animation__char_come">AMS</h2>
-                        <h2 style="">Asset Management Services</h2>
+                        <h2 style="">Asset Management Solutions</h2>
                     </div>
                 </div>
                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                     <div class="development__wrapper">
                         <div class="development__content">
-                            <p>Fidelis Asset Management (FidelisAM) is a comprehensive solution designed to help organizations
+                            <p>AMS is a comprehensive solution designed to help organizations
                                 manage, control, and track their assets. FidelisAM delivers cloud-based services that monitor all
                                 assets in real-time, providing organizations with real-time information about every asset. We help you
                                 track and manage your hardware, software, and licenses to ensure that your IT environment is running
@@ -57,7 +57,7 @@
                 <div class="col-xxl-12">
                     <div class="sec-title-wrapper">
                         <h2 class="sec-title title-anim">Choose FidelisAM for effective and efficient asset management, real-time monitoring and
-                            comprehensive organizational-level services across various industries.</h2>
+                            comprehensive organizational-level services across industries.</h2>
                     </div>
                 </div>
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">

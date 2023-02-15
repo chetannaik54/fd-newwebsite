@@ -269,7 +269,7 @@
           </section>
           <!-- Feature area end -->
 
-          @include('components.clients-slider');
+          {{-- @include('components.clients-slider'); --}}
 
           @include('components.testimonial')
 

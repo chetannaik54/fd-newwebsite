@@ -9,7 +9,7 @@
                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                     <div class="sec-title-wrapper">
                         <h2 class="sec-title animation__char_come">SOC</h2>
-                        <h2 style="">Security Operating Center</h2>
+                        <h2 style="">Security Operations Center</h2>
                     </div>
                 </div>
                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
@@ -17,9 +17,9 @@
                         <div class="development__content">
                             <p> Cybersecurity is a major concern for any business and Fidelis SOC aka Security Operating Center
                             solution provides a comprehensive approach to securing your IT environment. Our team of security
-                            experts monitors your network for potential threats and responds quickly to prevent data breaches.</p>
-                            <p> Fidelis SOC solutions provide real-time threat detection, prevention, and response services to
-                            organizations. With its advanced technology, Fidelis SOC enables organizations to identify and
+                            experts monitor your network for potential threats and respond quickly to prevent data breaches.</p>
+                            <p> Fidelis SOC solutions provide real-time threat detection, prevention and response services to
+                            organizations, with its advanced technology, Fidelis SOC enables organizations to identify and
                             mitigate cybersecurity threats proactively and effectively.</p>
                         </div>
                         <ul>
@@ -28,7 +28,7 @@
                             <li>+ Security tools</li>
                             <li>+ Enhanced visibility</li>
                             <li>+ 24/7 monitoring</li>
-                            <li>+ Secure all times.</li>
+                            <li>+ Secure all time.</li>
                         </ul>
                     </div>
                 </div>

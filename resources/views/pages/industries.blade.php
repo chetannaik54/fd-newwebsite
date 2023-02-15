@@ -17,7 +17,7 @@
 
             <div class="solution__mid">
                 <h1 class="solution__title animation__char_come">Industries</h1>
-                <p>Fidelis aims at delivering a comprehensive and accurate suite of tools that enables organisations to converge all of their IT operations efficiently under a single pane of utilising genuine workflow integrations all over the world.</p>
+                <p>Fidelis aims at delivering a comprehensive suite of tools that enables organisations to converge all of their IT operations efficiently under a single pane of utilising genuine workflow integrations across globe.</p>
             </div>
 
             <div class="solution__right">
@@ -47,7 +47,7 @@
     <!-- Hero area end -->
 
     <!-- Service area start -->
-    <section class="service__area-6">
+    <section class="service__area-6 mb-5">
         <div class="container">
             <div class="row inherit-row">
                 <div class="col-xxl-12">
@@ -257,7 +257,7 @@
     <!-- Service area end -->
 
     <!-- Brand area start -->
-    @include('components.clients-slider');
+    {{-- @include('components.clients-slider'); --}}
     <!-- Brand area end -->
 
     @endsection

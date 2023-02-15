@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-xxl-12">
                         <div class="choose-title-wrapper">
-                            <h2 class="choose-title title-anim">why <br> choose us</h2>
+                            <h2 class="choose-title title-anim">why <br> choose fidelis</h2>
                         </div>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                 <div class="row">
                     <div class="col-xxl-12 col-xl-12 col-lg-12">
                         <div class="sec-title-wrapper">
-                            <h2 class="sec-sub-title">why <br>choose us</h2>
+                            <h2 class="sec-sub-title">why <br>choose fidelis</h2>
                             <h3 class="sec-title">Highly customisable IT solutions,</h3>
                             <p class="mw-100">At Fidelis Group, we converge highly customisable IT solutions,
                                 revolutionary opportunities,
@@ -28,7 +28,7 @@
                                 endeavoured
                                 creating improved innovative systems, executions, and sustainable development for our
                                 customers augmented by expertise, knowledge, intelligence, seamless solutions, research,
-                                collaboration, talent, the industry, and stakeholders.
+                                collaboration, talent, the industry and stakeholders.
                             </p>
                         </div>
                     </div>
@@ -80,13 +80,12 @@
                 <div class="row">
                     <div class="col-xxl-12">
                         <div class="cta__content-3">
-                            <p class="cta__sub-title-2">Have you project in mind?</p>
+                            <p class="cta__sub-title-2">Let’s build together.</p>
                             <h2 class="cta__title-2">Let’s make something great together!</h2>
                             <div class="btn_wrapper">
                                 <a href="{{ route('contact-us') }}"
                                     class="wc-btn-black btn-hover btn-item"><span></span>Contact
-                                    <br>with
-                                    us <i class="fa-solid fa-arrow-right"></i></a>
+                                    <br>us <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -122,7 +121,7 @@
             <div class="row">
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4">
                     <div class="award__left-7">
-                        <h2 class="sec-title title-anim">Projects <br> awards</h2>
+                        <h2 class="sec-title title-anim">Awards &<br> recognition</h2>
                     </div>
                 </div>
                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-8">

@@ -6609,7 +6609,8 @@ p {
     flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center
+    justify-content: center;
+    padding-left: 15px;
 }
 
 .hero__area-10 .swiper-button-next:after, .hero__area-10 .swiper-button-prev:after, .hero__area-10 .swiper-rtl .swiper-button-next:after, .hero__area-10 .swiper-rtl .swiper-button-prev:after, .service__item-6 .image-tab {
@@ -12898,7 +12899,7 @@ p {
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
-    height: 102%;
+    height: 96%;
     margin-left: auto;
     margin-right: auto
 }

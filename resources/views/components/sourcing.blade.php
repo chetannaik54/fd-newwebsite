@@ -17,13 +17,13 @@
             </div>
             <div class="swiper testimonial__slider-4">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide testimonial__slide-4">
+                    {{-- <div class="swiper-slide testimonial__slide-4">
                         <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=Priyanka+MR" alt="Testimonial Image">
                         <div class="testimonial__info-4">
                             <p>Fidelis has been a wonderful company starting out. Several things worth pointing out are within the overall atmosphere. Since Fidelis is in it's growth phase, it allows the management team to easily help everyone get acquainted with the overall job feel.</p>
                             <h5 class="testimonial__name-4">Priyanka MR</h5>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="swiper-slide testimonial__slide-4">
                         <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=Sivaramireddy+Vemannagari"
                             alt="Testimonial Image">

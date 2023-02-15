@@ -53,14 +53,16 @@
             <div class="row">
                 <div class="col-xxl-12">
                     <div class="sec-title-wrapper">
-                        @php $sourcing = array('contingent-staffing', 'msp-partnership', 'short-term-engagement', 'talent.kloud'); @endphp
+                        @php $sourcing = array('contingent-staffing', 'msp-partnership', 'short-term-engagement'); @endphp
                         @if(in_array(Request::route()->getName(), $sourcing))
                             <h2 class="sec-title title-anim" style="max-width:100%;">How we add value to our partners</h2>
+                        @elseif(Request::route()->getName() == "talent.kloud")
                         @elseif(Request::route()->getName() == "learning-academy")
                         <ul style="font-size: 20px;">
                             <li>+ <strong>Security Solutions</strong> – PAM, IAM, MFA, SIEM, SAST & DAST, EDR.</li>
-                            <li>+ <strong>Cloud Technologies</strong>  – Amazon AWS, Microsoft Azure.</li>
-                            <li>+ <strong>RPA Solutions </strong>– UiPath, Service Desk Analyst program.</li>
+                            <li>+ <strong>Cloud Technologies</strong>  – AWS, Azure, GCP & Private Cloud</li>
+                            <li>+ <strong>RPA Solutions </strong>– UiPath</li>
+                            <li>+ <strong>Service Desk Analyst program</strong></li>
                             <li>+ <strong>Customized technical trainings </strong>– based on client needs.</li>
                         </ul>
                         @else
@@ -98,6 +100,7 @@
     <!-- Service detail area end -->
 
     @include('components.why-chooseus')
+
     @php $exclude = array('contingent-staffing', 'msp-partnership', 'short-term-engagement'); @endphp
     @if(in_array(Request::route()->getName(), $exclude))
         @include('components.sourcing')
