@@ -139,11 +139,11 @@
                             </div>
                             <div class="award__item-7 zoom_in">
                                 <img src="{{ asset('assets/imgs/awards/msp-alliance.png') }}" alt="Image">
-                                <h3 class="title">ISO Certified</h3>
+                                <h3 class="title">MSP Alliance</h3>
                             </div>
                             <div class="award__item-7 zoom_in">
                                 <img src="{{ asset('assets/imgs/awards/award2.png') }}" alt="Image">
-                                <h3 class="title">MSP Alliance</h3>
+                                <h3 class="title">ISO Certified</h3>
                             </div>
                         </div>
                     </div>
