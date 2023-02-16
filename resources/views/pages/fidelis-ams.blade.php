@@ -21,7 +21,7 @@
                                 track and manage your hardware, software, and licenses to ensure that your IT environment is running
                                 efficiently and effectively. </p>
                             <p>Our AM solution also helps you make informed decisions about technology
-                                investments by providing real-time information about your assets. With Fidelis AM solution, you can
+                                investments by providing real-time information about your assets. With Fidelis asset management solution, you can
                                 be confident that your IT assets are well-managed and up-to-date.</p>
                         </div>
                         <ul>
