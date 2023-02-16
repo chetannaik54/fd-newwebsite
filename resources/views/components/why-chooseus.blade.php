@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                         <div class="counter__wrapper-3">
                             <div class="counter__item-3">
                                 <h2 class="counter__number">2000+</h2>
@@ -66,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                         <div class="counter__img-3">
                             <video preload="auto" playsinline controls="off" src="{{ asset('assets/video/videoplayback.mp4') }}" style="max-width:130%; border-radius: 2%;"></video>
                         </div>
