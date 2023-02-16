@@ -31,7 +31,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <h4 class="blog__meta">15 July 2022</h4>
+                                <h4 class="blog__meta">{{ $item->created_at->format('d-m-Y') }}</h4>
                                 <h5><a href="{{ route('article', $item->name) }}" class="blog__title">{{ $item->name }}</a></h5>
                                 <a href="{{ route('article', $item->name) }}" class="blog__btn">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
                             </article>

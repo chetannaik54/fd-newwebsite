@@ -88,18 +88,18 @@
             <div class="row">
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
                     <div class="story__img-wrapper">
-                        <img src="assets/imgs/story/1.jpg" alt="Story Thumbnail" class="w-100">
+                        <img src="assets/imgs/about/3.jpg" alt="Story Thumbnail" class="w-100">
                     </div>
                 </div>
                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                     <div class="story__img-wrapper img-anim">
-                        <img src="assets/imgs/story/2.jpg" alt="Story Thumbnail" data-speed="auto">
+                        <img src="assets/imgs/about/2.jpg" alt="Story Thumbnail" data-speed="auto">
                     </div>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                     <div class="story__img-wrapper">
                         <img src="assets/imgs/story/3.jpg" alt="Story Thumbnail">
-                        <img src="assets/imgs/story/4.jpg" alt="Story Thumbnail">
+                        <img src="assets/imgs/about/1.jpg" alt="Story Thumbnail" >
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
     <!-- Team area end -->
 
 <!--offer section area-->
-<section class="offer-area section">
+<section class="offer-area section d-none">
   <div class="offer-tabs tab-content">
       <div class="offerslide tab-pane fade active show" id="SOLUTIONS">
 
