@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">
                 <div class="blog__detail-top">
-                    <h2 class="blog__detail-date animation__word_come"><span>{{ $item->created_at->format('d-m-Y') }}</span></h2>
+                    <h2 class="blog__detail-date animation__word_come"><span>{{ $blog->created_at->format('d-m-Y') }}</span></h2>
                     <h3 class="blog__detail-title animation__word_come">{{ $blog->name }}</h3>
                     <div class="blog__detail-metalist">
                         {{-- <div class="blog__detail-meta">
