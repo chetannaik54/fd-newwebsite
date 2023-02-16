@@ -7217,7 +7217,11 @@ p {
 }
 
 .service__detail-img img {
-    width: 100%
+    width: 100%;
+    border-bottom-right-radius: 55%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .service__detail-img img.sd-shape {
@@ -7379,8 +7383,8 @@ p {
 .counter__wrapper-2 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
-    grid-template-columns: repeat(3, 1fr)
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr)
 }
 
 .counter__wrapper-3 {
@@ -7395,8 +7399,8 @@ p {
 }
 
 .counter__item {
-    width: 485px;
-    height: 440px;
+    width: 380px;
+    height: 380px;
     border: 1px solid var(--white-2);
     border-radius: 100%;
     margin-left: -67px;

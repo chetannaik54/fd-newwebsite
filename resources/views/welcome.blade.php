@@ -157,7 +157,7 @@
                                     <div class="service__img-wrapper">
                                         <img src="assets/imgs/service/1/1.jpg" alt="Service Image"
                                             class="service__img img-1 active">
-                                        <img src="assets/imgs/service/1/2.png" alt="Service Image"
+                                        <img src="assets/imgs/service/jesho-914701.jpg" alt="Service Image"
                                             class="service__img img-2">
                                         <img src="assets/imgs/service/1/3.png" alt="Service Image"
                                             class="service__img img-3">
@@ -320,6 +320,11 @@
                                     <div class="counter__item counter__anim">
                                         <h2 class="counter__number">2000+</h2>
                                         <p>Projects <br>executed</p>
+                                        <span class="counter__border"></span>
+                                    </div>
+                                    <div class="counter__item counter__anim">
+                                        <h2 class="counter__number">2500+</h2>
+                                        <p>fulltime <br>employees</p>
                                         <span class="counter__border"></span>
                                     </div>
                                 </div>

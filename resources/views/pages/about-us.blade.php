@@ -131,6 +131,11 @@
                             <p>Projects <br>executed</p>
                             <span class="counter__border"></span>
                         </div>
+                        <div class="counter__item counter__anim">
+                            <h2 class="counter__number">2500+</h2>
+                            <p>Fulltime <br>employees</p>
+                            <span class="counter__border"></span>
+                        </div>
                     </div>
                 </div>
             </div>

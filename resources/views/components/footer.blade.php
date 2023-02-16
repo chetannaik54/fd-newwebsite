@@ -81,8 +81,8 @@
                                         <li><a href="{{ route('about-us') }}">About Company</a></li>
                                         <li><a href="{{ route('case-studies') }}">Case Study</a></li>
                                         <li><a href="{{ route('life-fidelis') }}">Career</a></li>
-                                        <li><a href="{{ route('blogs') }}">blog</a></li>
-                                        <li><a href="{{ route('contact-us') }}">contact</a></li>
+                                        <li><a href="{{ route('blogs') }}">Blog</a></li>
+                                        <li><a href="{{ route('contact-us') }}">Contact</a></li>
                                     </ul>
                                 </div>
 
@@ -128,7 +128,7 @@
         <div class="footer d-block d-sm-none" style="position: fixed;bottom: 0px;z-index: 99999999;width: 100%;">
             <div class="btn-group w-100" role="group" aria-label="Basic example">
                 <a style="width: 33%;" class="btn btn-secondary" target="_blank" href="tel:+918041502234"><img src="{{ asset('assets/imgs/icon/phone-call.png') }}" alt="Phone"></a>
-                <a style="width: 33%;" class="btn btn-secondary" target="_blank" href="https://wa.me/+918041502234?text=� Hi, i wanted to know more about NOC. SOC software"><img src="{{ asset('assets/imgs/icon/whatsapp.png') }}" alt="whatsapp"></a>
+                <a style="width: 33%;" class="btn btn-secondary" target="_blank" href="https://wa.me/+919513656006?text=� Hi, i wanted to know more about NOC. SOC software"><img src="{{ asset('assets/imgs/icon/whatsapp.png') }}" alt="whatsapp"></a>
                 <a style="width: 33%;" class="btn btn-secondary" target="_blank" href="mailto:info@fidelisgroup.in"><img src="{{ asset('assets/imgs/icon/email.png') }}" alt="Email"></a>
               </div>
         </div>

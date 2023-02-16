@@ -99,6 +99,32 @@
  </section>
  <!-- Career gallery end -->
 
+        <!-- Team area start -->
+        <section class="team__area-6">
+
+         @php
+            $path = public_path('assets/imgs/instagram');
+            $files = File::allFiles($path);
+         @endphp
+
+         <div class="swiper team__slider">
+           <div class="swiper-wrapper">
+
+            @foreach ($files as $item)
+             <div class="swiper-slide team__slide">
+                 <img src="{{ asset(str_replace(public_path('/'),'', $item)) }}" alt="">
+             </div>
+             @endforeach
+
+           </div>
+         </div>
+
+         <div class="container line pt-150">
+           <div class="line-3"></div>
+         </div>
+       </section>
+       <!-- Team area end -->
+
         <!-- Service area start -->
         <section class="service__area-7 pt-130" style="background-size: contain;background-repeat: no-repeat;background-position: right;">
          <div class="container">

@@ -17,7 +17,7 @@
         <div class="row">
           <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-8 offset-lg-0 offset-md-2">
             <div class="team__member-img">
-              <img src="{{ asset('assets/imgs/team/'.$team->img) }}" alt="Team Member Picture" data-speed="0.5">
+              <img src="{{ asset('assets/imgs/team/'.$team->img) }}" alt="{{ $team->name }}" data-speed="0.9">
             </div>
           </div>
           <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">

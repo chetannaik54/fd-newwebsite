@@ -47,6 +47,7 @@
     <!-- Development area end -->
 
     <!-- Service detail area start -->
+    @if(Request::route()->getName() != "talent.kloud")
     <section class="service__detail">
         <div class="container g-0 line pb-140">
             <div class="line-3"></div>
@@ -77,7 +78,8 @@
                 </div>
                 <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9">
                     <div class="service__detail-img">
-                        <img src="/assets/imgs/thumb/service-detail.png" alt="Service detail image">
+                        {{-- <img src="/assets/imgs/thumb/service-detail.png" alt="Service detail image"> --}}
+                        <img src="/assets/imgs/service/alt/{{ $solutions->alternate_img }}" alt="Service detail image">
                         <img src="/assets/imgs/icon/shape-6.png" alt="Service shape image" class="sd-shape">
                     </div>
                     <div class="service__detail-content">
@@ -97,6 +99,7 @@
             </div>
         </div>
     </section>
+    @endif
     <!-- Service detail area end -->
 
     @include('components.why-chooseus')

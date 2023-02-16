@@ -102,8 +102,8 @@
                             <input type="tel" name="phone" placeholder="Phone">
                           </div>
                           <div class="col-xxl-6 col-xl-6 col-12">
-                            <label for="">Select</label>
                             <select name="subject" id="Subject" class="form-control">
+                              <option value="">Select</option>
                               <option value="NOC">NOC</option>
                               <option value="SOC">SOC</option>
                               <option value="AMS">AMS</option>
@@ -113,6 +113,11 @@
                         <div class="row g-3">
                           <div class="col-12">
                             <textarea name="message" placeholder="Messages *"></textarea>
+                          </div>
+                        </div>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div id="result"></div>
                           </div>
                         </div>
                         <div class="row g-3">
@@ -324,9 +329,11 @@
               success:function(response)
               {
                   $(form).trigger("reset");
+                  $("#result").html('<span style="color:green;">Thank you for contacting us. we will get in touch with you shortly.</span>');
                   $('.wc-btn-primary').html("Thank You... <i class='fa fa-thumbs-o-up' aria-hidden='true'></i>");
               },
               error: function(response) {
+                  $("#result").html('<span style="color:red;">Issue while sending message. All fields must be filled.</span>');
                   $('.wc-btn-primary').html("Oops... <i class='fa fa-thumbs-o-down' aria-hidden='true'></i>");
                   $('#error').html(response);
               }
