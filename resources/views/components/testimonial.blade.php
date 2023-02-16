@@ -42,7 +42,7 @@
                     <div class="swiper-slide testimonial__slide-4">
                         <img class="testimonial__img-4" src="https://ui-avatars.com/api/?name=Ashish+Godalu" alt="Testimonial Image">
                         <div class="testimonial__info-4">
-                            <p>Fidelis Partners stands out among the other firms we researched because they've got a reputation for getting the job done, and they do it quickly. From strategic initiatives to Network Securities restructuring, their approach is oriented toward achieving results that matter. And if you want a more detailed breakdown of each point in this review, click on one of the links above. But if you simply want the bottom line: Fidelis Partners is worth working with. As one customer told us, "Fidelis partners is a caring organization that has worked very hard in recent years to be at the cutting edge of modern marketing techniques."</p>
+                            <p>Fidelis stands out among the other firms we researched because they've got a reputation for getting the job done, and they do it quickly. From strategic initiatives to Network Securities restructuring, their approach is oriented toward achieving results that matter. And if you want a more detailed breakdown of each point in this review, click on one of the links above. But if you simply want the bottom line: Fidelis is worth working with. As one customer told us, "Fidelis is a caring organization that has worked very hard in recent years to be at the cutting edge of modern marketing techniques."</p>
                             <h5 class="testimonial__name-4">Ashish Godalu</h5>
                         </div>
                     </div>
