@@ -92,7 +92,7 @@
                                         <li>Fidelis Technology Services Pvt. Ltd.</li>
                                         <li><strong>Head Quarter (HQ)</strong></li>
                                         <li>No. 357, 1st & 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka 560034</li>
-                                        <li><a href="tel:02574328301" class="phone">+91 080 4150 2234 / 36 </a></li>
+                                        <li><a href="tel:+9108041502234" class="phone">+91 080 4150 2234 / 36 </a></li>
                                         <li><a href="mailto:info@fidelisgroup.in">info@fidelisgroup.in</a></li>
                                     </ul>
                                 </div>
