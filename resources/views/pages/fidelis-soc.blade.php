@@ -15,7 +15,7 @@
                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                     <div class="development__wrapper">
                         <div class="development__content">
-                            <p> Cybersecurity is a major concern for any business and Fidelis SOC aka Security Operating Center
+                            <p> Cybersecurity is a major concern for any business and Fidelis SOC aka Security Operations Center
                             solution provides a comprehensive approach to securing your IT environment. Our team of security
                             experts monitor your network for potential threats and respond quickly to prevent data breaches.</p>
                             <p> Fidelis SOC solutions provide real-time threat detection, prevention and response services to
