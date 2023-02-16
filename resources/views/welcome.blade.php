@@ -308,6 +308,11 @@
                             <div class="col-xxl-12">
                                 <div class="counter__wrapper counter_animation">
                                     <div class="counter__item counter__anim">
+                                        <h2 class="counter__number">2000+</h2>
+                                        <p>Projects <br>executed</p>
+                                        <span class="counter__border"></span>
+                                    </div>
+                                    <div class="counter__item counter__anim">
                                         <h2 class="counter__number">10+</h2>
                                         <p>Global <br>Offices</p>
                                         <span class="counter__border"></span>
@@ -318,13 +323,8 @@
                                         <span class="counter__border"></span>
                                     </div>
                                     <div class="counter__item counter__anim">
-                                        <h2 class="counter__number">2000+</h2>
-                                        <p>Projects <br>executed</p>
-                                        <span class="counter__border"></span>
-                                    </div>
-                                    <div class="counter__item counter__anim">
                                         <h2 class="counter__number">2500+</h2>
-                                        <p>fulltime <br>employees</p>
+                                        <p>Fulltime <br>employees</p>
                                         <span class="counter__border"></span>
                                     </div>
                                 </div>

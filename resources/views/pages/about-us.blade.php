@@ -180,12 +180,13 @@
           '2011'  => 'Fidelis Retail India Pvt Ltd - a group company of fidelis group was formed to spread our wings towards Retail trade and business',
           '2012'  => 'Fidelis started its journey in the name of Paylink Financial services as a payroll and accounts partner',
           '2013'  => 'Our first import of Antipasti from Italy - a rare food collection in India',
-          '2014'  => 'Reached a milestone of 500 resources <br>Started Skill Development Programme By Collaborating With NSDC',
+          '2014'  => 'Reached a milestone of 500 resources Started Skill Development Programme By Collaborating With NSDC',
           '2015'  => 'In 2015 after an extensive market study, we decided to foray into into the IT Space and build on our competencies for a wide industry coverage',
           '2016'  => 'Fidelis was awarded a skill development project by name DDUGKY to set up training centers in rural places of Karnataka',
           '2017'  => 'Reached a milestone of 1000 employees',
           '2019'  => 'In the year 2019 we set benchmarks and emerged as a powerful workforce as we reached a milestone of 2000 Employees',
           '2020' => 'We spontaneously keep innovating and improve on our service delivery models as we at Fidelis reached a record of handling',
+          '2022' => 'We have transformed ourselves to a tech based company and changed the name to Fidelis Technology Services Pvt Ltd.  Inauguration of our Dubai Office'
           ); @endphp
 
             @foreach ($array as $key => $item)

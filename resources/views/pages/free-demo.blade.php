@@ -8,7 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Axtra HTML5 Template">
 
-  <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
+  <link rel="icon" type="image/x-icon" href="{{ asset('assets/imgs/logo/favicon.ico') }}">
+  <link rel="shortcut icon" href="{{ asset('assets/imgs/logo/favicon.ico') }}" type="image/x-icon">
+  <link rel="icon" href="{{ asset('assets/imgs/logo/favicon.ico') }}" type="image/x-icon">
 
   <title>Free Demo - FidelisGroup</title>
 

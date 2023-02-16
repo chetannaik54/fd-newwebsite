@@ -82,19 +82,28 @@
                         <img src="/assets/imgs/service/alt/{{ $solutions->alternate_img }}" alt="Service detail image">
                         <img src="/assets/imgs/icon/shape-6.png" alt="Service shape image" class="sd-shape">
                     </div>
+                    @php $sourcing = array('contingent-staffing', 'msp-partnership', 'short-term-engagement'); @endphp
+                    @if(in_array(Request::route()->getName(), $sourcing))
                     <div class="service__detail-content">
-                        {{-- <p><strong>Healthcare:</strong> In the healthcare industry, NOC solutions are critical for ensuring
-                            that patient data is
-                            protected and that medical equipment is functioning properly. Fidelis NOC solutions can help
-                            healthcare organizations monitor and manage their infrastructure, ensuring that any issues are
-                            detected and resolved quickly.</p>
-                        <p><strong>Retail:</strong> In the retail industry, NOC solutions are essential for ensuring that
-                            point-of-sale (POS) systems
-                            are functioning properly and that customer data is protected. Fidelis NOC solutions can help
-                            retailers
-                            monitor and manage their infrastructure, ensuring that any issues are detected and resolved
-                            quickly.</p> --}}
+                        <div>
+                            <ul>
+                                <li><strong>Quality Fulfilment:</strong> </li>
+                                <li>+ Our recruiting process & metrics are designed to complement client scorecards to improve coverage, quality, & cost.</li>
+                                <li>+ Recruiting engine to ensure the best talent - opportunity match.</li>
+                                <li>+ Our talent quality and consultant care has consistently resulted in above industry average redeployment & FT conversion rates.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><strong>Collaboration:</strong> </li>
+                                <li>+ We help clients minimize spend & increase market share by sharing insights & market intelligence.</li>
+                                <li>+ Ensuring consistent & transparent communication from program managers.</li>
+                                <li>+ Our talent quality and consultant care has consistently resulted in above industry average redeployment & FT conversion rates.</li>
+                            </ul>
+                        </div>
+                        <h3 style="grid-column: span 2">Our goal is to become a trusted partner of choice for clients by focusing on creating value and enabling their success.</h3>
                     </div>
+                    @endif
                 </div>
             </div>
         </div>

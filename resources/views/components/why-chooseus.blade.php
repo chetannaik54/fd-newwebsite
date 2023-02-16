@@ -50,7 +50,7 @@
                         <div class="counter__wrapper-3">
                             <div class="counter__item-3">
                                 <h2 class="counter__number">2000+</h2>
-                                <p>projects <br>completed</p>
+                                <p>Projects <br>completed</p>
                             </div>
                             <div class="counter__item-3">
                                 <h2 class="counter__number">10+</h2>
@@ -62,7 +62,7 @@
                             </div>
                             <div class="counter__item-3">
                                 <h2 class="counter__number">2500+</h2>
-                                <p>fulltime <br>employees</p>
+                                <p>Fulltime <br>employees</p>
                             </div>
                         </div>
                     </div>
@@ -106,8 +106,8 @@
             <div class="col-xxl-12">
                 <div class="award__top-7">
                     <div class="award__counter fade_bottom_2">
-                        <h2 class="counter__number">100+</h2>
-                        <p>Happy Clientele</p>
+                        <h2 class="counter__number">2000+</h2>
+                        <p>Projects executed</p>
                     </div>
                     <div class="award-video-7">
                         <video loop muted autoplay playsinline style="width: 50%; left: 30%;">
