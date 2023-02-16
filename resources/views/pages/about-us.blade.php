@@ -116,6 +116,11 @@
                 <div class="col-xxl-12">
                     <div class="counter__wrapper-2 counter_animation">
                         <div class="counter__item counter__anim">
+                            <h2 class="counter__number">2000+</h2>
+                            <p>Projects <br>executed</p>
+                            <span class="counter__border"></span>
+                        </div>
+                        <div class="counter__item counter__anim">
                             <h2 class="counter__number">10+</h2>
                             <p>Global <br>Offices</p>
                             <span class="counter__border"></span>
@@ -123,11 +128,6 @@
                         <div class="counter__item counter__anim">
                             <h2 class="counter__number">15+</h2>
                             <p>Years <br>experiences</p>
-                            <span class="counter__border"></span>
-                        </div>
-                        <div class="counter__item counter__anim">
-                            <h2 class="counter__number">2000+</h2>
-                            <p>Projects <br>executed</p>
                             <span class="counter__border"></span>
                         </div>
                         <div class="counter__item counter__anim">
@@ -171,8 +171,8 @@
     @php $array = array(
         '2007' => 'Fidelis started its journey in the name of Paylink Financial services as a payroll and accounts partner', 
         '2010' => 'Captured 1st retail giant with 25 resources',
-        '2011'  => 'Fidelis Retail India Pvt Ltd - a group company of fidelis group was formed to spread our wings towards Retail trade and business',
-        '2012'  => 'Fidelis started its journey in the name of Paylink Financial services as a payroll and accounts partner',
+        '2011'  => 'In the year 2011 we forayed into large scale operations and captured our first retail client with staffing solutions',
+        '2012'  => 'Fidelis Retail India Pvt Ltd - a group company of fidelis group was formed to spread our wings towards Retail trade and business',
         '2013'  => 'Our first import of Antipasti from Italy - a rare food collection in India',
         '2014'  => 'Reached a milestone of 500 resources Started Skill Development Programme By Collaborating With NSDC',
         '2015'  => 'In 2015 after an extensive market study, we decided to foray into into the IT Space and build on our competencies for a wide industry coverage',
