@@ -194,9 +194,9 @@
             <div class="offcanvas__contact">
               <h3>Get in touch</h3>
               <ul>
-                <li><a href="tel: 08041502234">08041502234</a></li>
+                <li><a href="tel: +918041502234">+918041502234 / 36</a></li>
                 <li><a href="mailto:info@fidelisgroup.com">info@fidelisgroup.com</a></li>
-                <li>No. 357, 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka 560034</li>
+                <li>No. 357, 1st & 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka - 560034</li>
               </ul>
             </div>
             <img src="{{ asset('assets/imgs/shape/11.png') }}" alt="shape" class="shape-1">

@@ -130,7 +130,7 @@ class PageController extends Controller
             array(
                 'company' => 'Fidelis Technology Services Pvt. Ltd.',
                 'city' => 'Bengaluru',
-                'address' => 'No. 357, 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka 560034, INDIA'
+                'address' => 'No. 357, 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka - 560034, INDIA'
             ),
             array(
                 'company' => 'Fidelis Technology Services Pvt. Ltd.',
@@ -140,7 +140,7 @@ class PageController extends Controller
             array(
                 'company' => 'Fidelis Technology Services Pvt. Ltd.',
                 'city' => 'Jammu & Kashmir',
-                'address' => '#72, Naikpora, Padshahi Bagh Srinagar, Kashmir-190008, INDIA'
+                'address' => '#72, Naikpora, Padshahi Bagh Srinagar, Kashmir -190008, INDIA'
             ),
             array(
                 'company' => 'Fidelis Technology Services Pvt. Ltd.',
@@ -282,7 +282,7 @@ class PageController extends Controller
             array(
                 'company' => 'Fidelis Technology Services Pvt. Ltd.',
                 'city' => 'Bengaluru',
-                'address' => 'No. 357, 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka 560034, INDIA'
+                'address' => 'No. 357, 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka - 560034, INDIA'
             ),
             array(
                 'company' => 'Fidelis Technology Services Pvt. Ltd.',

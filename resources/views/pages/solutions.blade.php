@@ -60,11 +60,9 @@
                         @elseif(Request::route()->getName() == "talent.kloud")
                         @elseif(Request::route()->getName() == "learning-academy")
                         <ul style="font-size: 20px;">
-                            <li>+ <strong>Security Solutions</strong> – PAM, IAM, MFA, SIEM, SAST & DAST, EDR.</li>
-                            <li>+ <strong>Cloud Technologies</strong>  – AWS, Azure, GCP & Private Cloud</li>
-                            <li>+ <strong>RPA Solutions </strong>– UiPath</li>
-                            <li>+ <strong>Service Desk Analyst program</strong></li>
-                            <li>+ <strong>Customized technical trainings </strong>– Based on client needs.</li>
+                            <li>+ Skill Development Services</li>
+                            <li>+ Industry Placements</li>
+                            <li>+ Government Collaboration</li>
                         </ul>
                         @else
                             <h2 class="sec-title title-anim" style="max-width:100%;">Choosing Fidelis solutions for unparalleled infrastructure support, maximizing uptime, and enhancing the quality of your IT operations.</h2>

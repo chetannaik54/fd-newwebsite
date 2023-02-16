@@ -38,9 +38,9 @@
                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                     <div class="contact__info">
                         <ul>
-                            <li><a href="tel:08041502234">080 4150 2234</a></li>
+                            <li><a href="tel:+91 804150 2234">+91 804150 2234 / 36</a></li>
                             <li><a href="mailto:info@fidelisgroup.in">info@fidelisgroup.in</a></li>
-                            <li><span>No. 357, 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka 560034</span></li>
+                            <li><span>No. 357,1st & 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka - 560034</span></li>
                         </ul>
                     </div>
                 </div>

@@ -24,10 +24,8 @@
                     title="<b>Fidelis Technologies Services Pvt. Ltd.</b><br>IBMR, Co-working &amp; Startups, 3rd floor, Akshay Plaza, Akshay colony, Vidyanagar, Hubli - 580021">
                 </div>
             </a>
-            <a href="https://www.google.com/maps?q=No. 357, 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka 560034, INDIA"
-                target="_blank">
-                <div class="point Bengaluru tippy"
-                    title="<b>Fidelis Technology Services Pvt. Ltd.</b><br>No. 357, 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka 560034, INDIA">
+            <a href="https://www.google.com/maps?q=No. 357, 1st Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka - 560034, INDIA" target="_blank">
+                <div class="point Bengaluru tippy" title="<b>Fidelis Technology Services Pvt. Ltd.</b><br>No. 357, 1st & 2nd Floor, San Diego, 6th Main Rd, 1st Block Koramangala, Koramangala Extension, Bengaluru, Karnataka 560034, INDIA">
                 </div>
             </a>
             <a href="https://www.google.com/maps?q=Suprabhat, Bldg No. 46, Office No: 2250 Gandhinagar, Bandra (East), Near MIG Cricket Club, Bandra Kalanagar Complex, Opp MHADA Office, Mumbai – 400051, INDIA"
