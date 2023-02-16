@@ -102,6 +102,8 @@
         <!-- Team area start -->
         <section class="team__area-6">
 
+         <h3 class="service__title-7 m-auto text-center" style="font-size: 44px;">Life@Fidelis</h3>
+
          @php
             $path = public_path('assets/imgs/instagram');
             $files = File::allFiles($path);

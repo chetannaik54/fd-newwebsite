@@ -107,7 +107,7 @@
                                 </div>
 
                                 <div class="footer__copyright">
-                                    <p>© 2022 - 2023 | Alrights reserved by <a href="https://fidelisgroup.in/" target="_blank">Fidelis Group</a>
+                                    <p>© 2023 - 2024 | All rights reserved by <a href="https://fidelisgroup.in/" target="_blank">Fidelis Technologies Service Pvt. Ltd.</a>
                                     </p>
                                 </div>
 
