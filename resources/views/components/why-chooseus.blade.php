@@ -54,7 +54,7 @@
                             </div>
                             <div class="counter__item-3">
                                 <h2 class="counter__number">10+</h2>
-                                <p>Global <br> in the world</p>
+                                <p>Global <br> offices</p>
                             </div>
                             <div class="counter__item-3">
                                 <h2 class="counter__number">15+</h2>
