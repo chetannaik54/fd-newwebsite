@@ -105,3 +105,5 @@ Route::post('subscription', [PageController::class, 'subscription'])->name('subs
 Route::get('/map', function () { return view('pages.map'); })->name('map');
 
 Route::post('contactRequest', [PageController::class, 'contactRequestPost'])->name('contactRequestPost');
+
+Route::post('brochure-download', [PageController::class, 'brochuredownload'])->name('brochure-download');

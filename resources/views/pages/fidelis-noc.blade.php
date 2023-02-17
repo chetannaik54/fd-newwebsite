@@ -1,15 +1,20 @@
 @extends('layouts.pages')
 
 @section('content')
+
     <!-- Development area start -->
     <section class="development__area">
         <div class="container g-0 line pt-130 pb-150">
             <div class="line-3"></div>
             <div class="row">
-                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 cs-modalarea">
                     <div class="sec-title-wrapper">
                         <h2 class="sec-title animation__char_come">NOC</h2>
                         <h2 style="">Network Operations Center</h2>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary mt-5 cta__sub-title text-white color-white modal-trigger">Download brochure</button>
+
                     </div>
                 </div>
                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
@@ -90,6 +95,9 @@
     @include('components.why-chooseus')
     @include('components.testimonial')
 
+  </section>
+      
+  
 @endsection
 
 @section('script')

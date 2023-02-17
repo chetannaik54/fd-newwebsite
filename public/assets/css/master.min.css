@@ -2398,8 +2398,6 @@ p {
     transform: translate(-50%, -50%);
     background-color: var(--white);
     border-radius: 5px;
-    width: 760px;
-    height: 500px
 }
 
 .modal__close, .modal__close-2 {
@@ -2926,7 +2924,7 @@ p {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 9999;
+    z-index: 999;
     background-color: white;
 }
 
@@ -3255,11 +3253,6 @@ p {
 
     .offcanvas__menu-wrapper.mean-container .mean-nav ul li li li a {
         padding-left: 30px
-    }
-
-    .modal__testimonial-content {
-        width: 700px;
-        height: 480px
     }
 
     .modal__apply {

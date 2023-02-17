@@ -118,6 +118,26 @@
     </div>
   </div>
 
+    <!-- Modal 1 -->
+    <div class="modal__testimonial" id="modal_testimonial">
+      <div class="modal__testimonial-content">
+        <span class="modal__close" id="modal_close"><i class="fa-solid fa-xmark"></i></span>
+        <div class="col-md-12 px-5 py-4 text-center" id="getcourse">
+          <h2 class="text-center">Download <span class="text-bold">the managed services brochure.</span></h2>
+          <div class="float-left w-100">&nbsp;</div>
+          <div class="row pb-4">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <label class="font-weight-bold" style="position: relative;font-size: 12px;right: 142px;top: 10px;background: white;">E-MAIL ADDRESS</label>
+              <input type="email" name="outline-email" id="outline-email" class="form-control rounded-0" placeholder="" required="true" value="">
+              <div id="valid-email"></div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <button type="button" id="subscribebtn" onclick="capturesubscriber()" class="btn btn-primary uppercase" style="font-weight:600; font-weight: 700;background:#48308c;color: white;border: 1px solid white; box-shadow: 0 6.5px 25px 0 rgba(72, 48, 140, 0.32); padding: 9px 49px;font-size: 15px;border-radius: 0px;">DOWNLOAD NOW!!</button>
+        </div>
+      </div>
+    </div>
 
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"> 
 

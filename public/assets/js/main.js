@@ -294,6 +294,20 @@
   }
   ////////////////////////////////////////////////
 
+  var modalarea = document.querySelector(".cs-modalarea");
+  if (modalarea) {
+
+  var modal_testimonial = document.querySelector("#modal_testimonial");
+  var modal_trigger = document.querySelector(".modal-trigger");
+  var modal_close = document.querySelector("#modal_close");
+
+  modal_trigger.addEventListener("click", function () {
+    modal_testimonial.classList.add("modal-show");
+  });
+  modal_close.addEventListener("click", function () {
+    modal_testimonial.classList.remove("modal-show");
+  });
+}
 
 
   /////////////////////////////////////////////////////
@@ -3498,3 +3512,59 @@ $("#newsletterBtn").click(function(e) {
           });
       }
   });  
+
+  function validateEmail(a) {
+    return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(String(a).toLowerCase());
+}
+function capturesubscriber() {
+    var a = $("#outline-email").val();
+    let b = $("#valid-email");
+    return a.length > 0
+        ? validateEmail(a)
+            ? void $.ajax({
+                  headers: { "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content") },
+                  type: "POST",
+                  url: location.protocol + "//" + location.host + "/brochure-download",
+                  data: { email: a },
+                  xhr: function () {
+                    $( "#subscribebtn" ).html( 'Downloading <i class="fa fa-spinner fa-spin" style="font-size:24px"></i>' );
+
+                      var a = new XMLHttpRequest();
+                      return (
+                          (a.onreadystatechange = function () {
+                              2 == a.readyState && (200 == a.status ? (a.responseType = "blob") : (a.responseType = "text"));
+                          }),
+                          a
+                      );
+                  },
+                  success: function (b) {
+                      var c = new Blob([b]),
+                          a = document.createElement("a");
+                      (a.href = window.URL.createObjectURL(c)), (a.download = "Fidelis-managed-services.pdf"), a.click();
+                      $( "#subscribebtn" ).html( 'Downloaded' );
+                  },
+                  error: function (a) {
+                      var c = a.responseJSON;
+                      return (
+                          b.text(c.errors),
+                          b.css("color", "red"),
+                          setTimeout(function () {
+                              b.text("");
+                          }, 5e3),
+                          !1
+                      );
+                  },
+              })
+            : (b.text(a + " is not valid :("),
+              b.css("color", "red"),
+              setTimeout(function () {
+                  b.text("");
+              }, 5e3),
+              !1)
+        : (b.text("Email address is required :("),
+          b.css("color", "red"),
+          setTimeout(function () {
+              b.text("");
+          }, 5e3),
+          !1);
+}

@@ -7,11 +7,36 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 use App\Models\case_studie;
 use App\Models\soltions;
+use App\Models\subscriber;
 use App\Models\team;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Validator;
 
 class PageController extends Controller
 {
+
+    public function brochuredownload(Request $request){
+        $validator = Validator::make($request->all(), [
+            'email'=>'required|email'
+        ]);
+    
+        $file = public_path()."/assets/pdf/sample.pdf";
+        $headers = [
+            'Content-Type' => 'application/pdf',
+        ];
+
+        $client = new subscriber();
+        $client->email = $request->email;
+        $client->save();
+
+        Mail::raw($request->email.' has downloaded brochure', function($message) use ($request) {
+            $message->to('info@fidelisgroup.in', 'Fidelis new subscriber')->subject('New Subscription from website');
+            $message->from($request->email, '');
+         });
+
+        return response()->download($file, 'managedservice.pdf',$headers);
+    }
+
     public function contactRequestPost(Request $request){
         $validated = $request->validate([
             'name' => 'required',
